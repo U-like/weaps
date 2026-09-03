@@ -1,0 +1,70 @@
+name: Android Build
+
+on:
+  push:
+    branches: ["**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  debug-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Read pinned versions
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat versions.env >> "$GITHUB_ENV"
+
+      - name: Install pinned Android SDK packages
+        shell: bash
+        run: |
+          set -euo pipefail
+          yes | sdkmanager --licenses >/dev/null 2>&1 || true
+          sdkmanager \
+            "platform-tools" \
+            "platforms;android-${ANDROID_COMPILE_SDK}" \
+            "build-tools;${ANDROID_BUILD_TOOLS}"
+          printf 'sdk.dir=%s\n' "$ANDROID_SDK_ROOT" > local.properties
+
+      - name: Generate and verify Gradle Wrapper
+        shell: bash
+        run: bash scripts/ensure_gradle_wrapper.sh
+
+      - name: Verify environment
+        shell: bash
+        run: bash scripts/check_environment.sh
+
+      - name: Build debug APK
+        shell: bash
+        run: bash scripts/build_debug.sh
+
+      - name: Verify APK exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s app/build/outputs/apk/debug/app-debug.apk
+          sha256sum app/build/outputs/apk/debug/app-debug.apk | tee app-debug.apk.sha256
+
+      - name: Upload debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: videomosaic-debug-apk
+          path: |
+            app/build/outputs/apk/debug/app-debug.apk
+            app-debug.apk.sha256
+          if-no-files-found: error
+          retention-days: 14
