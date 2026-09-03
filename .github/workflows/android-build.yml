@@ -3,6 +3,16 @@ name: Android Build
 on:
   push:
     branches: ["**"]
+    paths:
+      - "app/**"
+      - "build.gradle.kts"
+      - "settings.gradle.kts"
+      - "gradle.properties"
+      - "versions.env"
+      - "scripts/ensure_gradle_wrapper.sh"
+      - "scripts/check_environment.sh"
+      - "scripts/build_debug.sh"
+      - ".github/workflows/android-build.yml"
   workflow_dispatch:
 
 permissions:
