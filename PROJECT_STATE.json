@@ -15,8 +15,8 @@
   "sourceVerifiedLocally": true,
   "ciBuildWorkflow": ".github/workflows/android-build.yml",
   "lastLocalBuildAttempt": "blocked before SDK install: sandbox DNS/outbound network disabled for dl.google.com",
-  "ciBuildRunId": 33809185671,
-  "ciBuildCommit": "78e41877b5a097199afd6463d2e58a081ca1a92b",
-  "debugApkSha256": "e914efe13489c7893b58344f336a496e8fa5a0da13f05ca6937e1e270d3b0d30",
+  "ciBuildRunId": 33809759072,
+  "ciBuildCommit": "43b283efcc927a0787e6ac62166d4dfac538e95d",
+  "debugApkSha256": "7a1e0b84b09e7fd22883dcee56722ce05414d7a7980ab99f09baea80cbb15fcc",
   "debugApkSizeBytes": 873210
 }
