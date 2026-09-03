@@ -1,5 +1,13 @@
 package dev.videomosaic.app.model
 
+data class ToneEvent(
+    val startMs: Long,
+    val durationMs: Long,
+    val pitchHz: Double? = null,
+    val midiNote: Double? = null,
+    val confidence: Double = 0.0
+)
+
 data class AudioAnalysis(
     val sampleRate: Int,
     val channelCount: Int,
@@ -9,7 +17,8 @@ data class AudioAnalysis(
     val onsetTimesMs: List<Long>,
     val pitchHz: Double? = null,
     val midiNote: Double? = null,
-    val pitchConfidence: Double? = null
+    val pitchConfidence: Double? = null,
+    val toneEvents: List<ToneEvent> = emptyList()
 )
 
 data class MediaAsset(
@@ -26,7 +35,7 @@ data class MediaAsset(
 )
 
 data class VideoMosaicProject(
-    val schemaVersion: Int = 1,
+    val schemaVersion: Int = 2,
     val targetAudio: MediaAsset? = null,
     val samples: List<MediaAsset> = emptyList(),
     val updatedAtEpochMs: Long = System.currentTimeMillis()

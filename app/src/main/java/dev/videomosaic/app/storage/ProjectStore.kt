@@ -3,6 +3,7 @@ package dev.videomosaic.app.storage
 import android.content.Context
 import dev.videomosaic.app.model.AudioAnalysis
 import dev.videomosaic.app.model.MediaAsset
+import dev.videomosaic.app.model.ToneEvent
 import dev.videomosaic.app.model.VideoMosaicProject
 import org.json.JSONArray
 import org.json.JSONObject
@@ -54,6 +55,15 @@ class ProjectStore(context: Context) {
         put("pitchHz", analysis.pitchHz ?: JSONObject.NULL)
         put("midiNote", analysis.midiNote ?: JSONObject.NULL)
         put("pitchConfidence", analysis.pitchConfidence ?: JSONObject.NULL)
+        put("toneEvents", JSONArray().apply { analysis.toneEvents.forEach { put(toneEventToJson(it)) } })
+    }
+
+    private fun toneEventToJson(event: ToneEvent): JSONObject = JSONObject().apply {
+        put("startMs", event.startMs)
+        put("durationMs", event.durationMs)
+        put("pitchHz", event.pitchHz ?: JSONObject.NULL)
+        put("midiNote", event.midiNote ?: JSONObject.NULL)
+        put("confidence", event.confidence)
     }
 
     private fun projectFromJson(json: JSONObject): VideoMosaicProject {
@@ -89,6 +99,22 @@ class ProjectStore(context: Context) {
         val onsets = buildList {
             for (i in 0 until onsetsJson.length()) add(onsetsJson.optLong(i))
         }
+        val eventsJson = json.optJSONArray("toneEvents") ?: JSONArray()
+        val events = buildList {
+            for (i in 0 until eventsJson.length()) {
+                eventsJson.optJSONObject(i)?.let { eventJson ->
+                    add(
+                        ToneEvent(
+                            startMs = eventJson.optLong("startMs"),
+                            durationMs = eventJson.optLong("durationMs"),
+                            pitchHz = eventJson.nullableDouble("pitchHz"),
+                            midiNote = eventJson.nullableDouble("midiNote"),
+                            confidence = eventJson.optDouble("confidence", 0.0)
+                        )
+                    )
+                }
+            }
+        }
         return AudioAnalysis(
             sampleRate = json.optInt("sampleRate"),
             channelCount = json.optInt("channelCount"),
@@ -98,7 +124,8 @@ class ProjectStore(context: Context) {
             onsetTimesMs = onsets,
             pitchHz = json.nullableDouble("pitchHz"),
             midiNote = json.nullableDouble("midiNote"),
-            pitchConfidence = json.nullableDouble("pitchConfidence")
+            pitchConfidence = json.nullableDouble("pitchConfidence"),
+            toneEvents = events
         )
     }
 

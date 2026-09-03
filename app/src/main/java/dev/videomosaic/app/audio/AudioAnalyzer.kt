@@ -7,6 +7,7 @@ import android.media.MediaExtractor
 import android.media.MediaFormat
 import android.net.Uri
 import dev.videomosaic.app.model.AudioAnalysis
+import dev.videomosaic.app.model.ToneEvent
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import kotlin.math.abs
@@ -40,7 +41,7 @@ object AudioAnalyzer {
             var sampleRate = inputFormat.getIntegerOrDefault(MediaFormat.KEY_SAMPLE_RATE, 44_100)
             var channels = inputFormat.getIntegerOrDefault(MediaFormat.KEY_CHANNEL_COUNT, 1)
             var pcmEncoding = AudioFormat.ENCODING_PCM_16BIT
-            var accumulator = PcmAccumulator(sampleRate, channels, expectedDurationUs)
+            var accumulator = PcmAccumulator(sampleRate, channels)
 
             val info = MediaCodec.BufferInfo()
             var inputDone = false
@@ -88,7 +89,7 @@ object AudioAnalyzer {
                         if (newRate != sampleRate || newChannels != channels) {
                             sampleRate = newRate
                             channels = newChannels
-                            accumulator = PcmAccumulator(sampleRate, channels, expectedDurationUs)
+                            accumulator = PcmAccumulator(sampleRate, channels)
                         }
                     }
                     else -> if (outputIndex >= 0) {
@@ -106,7 +107,7 @@ object AudioAnalyzer {
                 }
             }
 
-            return accumulator.finish()
+            return accumulator.finish(expectedDurationUs)
         } finally {
             runCatching { codec?.stop() }
             runCatching { codec?.release() }
@@ -132,32 +133,16 @@ object AudioAnalyzer {
 
     private class PcmAccumulator(
         private val sampleRate: Int,
-        private val channels: Int,
-        expectedDurationUs: Long
+        private val channels: Int
     ) {
         private val windowFrames = max(1, sampleRate / 50) // ~20 ms
         private val windowRms = ArrayList<Double>()
+        private val pcm = ChunkedPcm()
         private var totalSquares = 0.0
         private var totalFrames = 0L
         private var peak = 0.0
         private var currentWindowSquares = 0.0
         private var currentWindowFrames = 0
-
-        private val pitchWindowSize = 2048
-        private val pitchBuffer = FloatArray(pitchWindowSize)
-        private var pitchFill = 0
-        private var nextPitchStartFrame = 0L
-        private val pitchEstimates = ArrayList<PitchEstimate>()
-        private val pitchHopFrames: Long
-
-        init {
-            val expectedFrames = if (expectedDurationUs > 0L) {
-                expectedDurationUs * sampleRate / 1_000_000L
-            } else {
-                sampleRate * 30L
-            }
-            pitchHopFrames = max(sampleRate / 5L, expectedFrames / 120L).coerceAtLeast(1L)
-        }
 
         fun consume(buffer: ByteBuffer, pcmEncoding: Int) {
             buffer.order(ByteOrder.LITTLE_ENDIAN)
@@ -190,16 +175,7 @@ object AudioAnalyzer {
         }
 
         private fun consumeFrame(sample: Double) {
-            val frameIndex = totalFrames
-            if (frameIndex >= nextPitchStartFrame && pitchFill < pitchWindowSize) {
-                pitchBuffer[pitchFill++] = sample.toFloat()
-                if (pitchFill == pitchWindowSize) {
-                    analyzePitchWindow()
-                    pitchFill = 0
-                    nextPitchStartFrame = frameIndex + pitchHopFrames
-                }
-            }
-
+            pcm.add(sample)
             val square = sample * sample
             totalSquares += square
             totalFrames++
@@ -209,14 +185,6 @@ object AudioAnalyzer {
             if (currentWindowFrames >= windowFrames) flushWindow()
         }
 
-        private fun analyzePitchWindow() {
-            var squares = 0.0
-            for (sample in pitchBuffer) squares += sample * sample
-            val blockRms = sqrt(squares / pitchBuffer.size)
-            if (blockRms < 0.015) return
-            YinPitchDetector.estimate(pitchBuffer, sampleRate)?.let(pitchEstimates::add)
-        }
-
         private fun flushWindow() {
             if (currentWindowFrames == 0) return
             windowRms += sqrt(currentWindowSquares / currentWindowFrames)
@@ -224,22 +192,83 @@ object AudioAnalyzer {
             currentWindowFrames = 0
         }
 
-        fun finish(): AudioAnalysis {
+        fun finish(expectedDurationUs: Long): AudioAnalysis {
             flushWindow()
             val rms = if (totalFrames > 0) sqrt(totalSquares / totalFrames) else 0.0
-            val durationMs = if (sampleRate > 0) totalFrames * 1000L / sampleRate else 0L
-            val pitch = summarizePitch(pitchEstimates)
+            val decodedDurationMs = if (sampleRate > 0) totalFrames * 1000L / sampleRate else 0L
+            val expectedMs = expectedDurationUs.takeIf { it > 0 }?.div(1000L) ?: 0L
+            val durationMs = max(decodedDurationMs, expectedMs).coerceAtLeast(1L)
+            val onsets = detectOnsets(windowRms).filter { it < durationMs }
+            val events = buildToneEvents(durationMs, onsets)
+            val globalPitch = summarizePitch(
+                events.mapNotNull { event ->
+                    event.pitchHz?.let { PitchEstimate(it, event.confidence) }
+                }
+            )
             return AudioAnalysis(
                 sampleRate = sampleRate,
                 channelCount = channels,
                 durationMs = durationMs,
                 rms = rms,
                 peak = peak,
-                onsetTimesMs = detectOnsets(windowRms),
-                pitchHz = pitch?.hz,
-                midiNote = pitch?.let { hzToMidi(it.hz) },
-                pitchConfidence = pitch?.confidence
+                onsetTimesMs = onsets,
+                pitchHz = globalPitch?.hz,
+                midiNote = globalPitch?.let { hzToMidi(it.hz) },
+                pitchConfidence = globalPitch?.confidence,
+                toneEvents = events
             )
+        }
+
+        private fun buildToneEvents(durationMs: Long, onsets: List<Long>): List<ToneEvent> {
+            val starts = ArrayList<Long>()
+            starts += 0L
+            onsets.asSequence()
+                .filter { it >= 40L && it <= durationMs - 40L }
+                .distinct()
+                .sorted()
+                .forEach(starts::add)
+
+            val result = ArrayList<ToneEvent>()
+            for (i in starts.indices) {
+                val startMs = starts[i]
+                val endMs = if (i + 1 < starts.size) starts[i + 1] else durationMs
+                val eventDuration = endMs - startMs
+                if (eventDuration < 35L) continue
+                val pitch = estimatePitchForRange(startMs, endMs)
+                result += ToneEvent(
+                    startMs = startMs,
+                    durationMs = eventDuration,
+                    pitchHz = pitch?.hz,
+                    midiNote = pitch?.let { hzToMidi(it.hz) },
+                    confidence = pitch?.confidence ?: 0.0
+                )
+            }
+            return result
+        }
+
+        private fun estimatePitchForRange(startMs: Long, endMs: Long): PitchEstimate? {
+            val startFrame = (startMs * sampleRate / 1000L).coerceAtLeast(0L)
+            val endFrame = min(totalFrames, endMs * sampleRate / 1000L)
+            val available = endFrame - startFrame
+            if (available < 512L) return null
+
+            val windowSize = min(2048L, available).toInt()
+            val maxStart = endFrame - windowSize
+            val candidateStarts = linkedSetOf<Long>()
+            candidateStarts += startFrame
+            candidateStarts += ((startFrame + maxStart) / 2L)
+            candidateStarts += maxStart
+
+            val estimates = ArrayList<PitchEstimate>()
+            for (candidate in candidateStarts) {
+                val frame = pcm.window(candidate, windowSize) ?: continue
+                var squares = 0.0
+                for (sample in frame) squares += sample * sample
+                val blockRms = sqrt(squares / frame.size)
+                if (blockRms < 0.012) continue
+                YinPitchDetector.estimate(frame, sampleRate)?.let(estimates::add)
+            }
+            return summarizePitch(estimates)
         }
 
         private fun detectOnsets(windows: List<Double>): List<Long> {
@@ -255,8 +284,8 @@ object AudioAnalyzer {
                 val current = windows[i]
 
                 val strongEnough = current >= 0.018
-                val transient = current > history * 1.75 && current - history > 0.008
-                val separated = i - lastOnset >= 4
+                val transient = current > history * 1.65 && current - history > 0.006
+                val separated = i - lastOnset >= 3
                 if (strongEnough && transient && separated) {
                     result += i * 20L
                     lastOnset = i
@@ -269,7 +298,7 @@ object AudioAnalyzer {
             if (estimates.isEmpty()) return null
             val midiSorted = estimates.map { hzToMidi(it.hz) }.sorted()
             val medianMidi = median(midiSorted)
-            val inliers = estimates.filter { abs(hzToMidi(it.hz) - medianMidi) <= 1.0 }
+            val inliers = estimates.filter { abs(hzToMidi(it.hz) - medianMidi) <= 1.25 }
             if (inliers.isEmpty()) return null
 
             val inlierMidis = inliers.map { hzToMidi(it.hz) }.sorted()
@@ -290,6 +319,34 @@ object AudioAnalyzer {
         }
 
         private fun hzToMidi(hz: Double): Double = 69.0 + 12.0 * (ln(hz / 440.0) / ln(2.0))
+    }
+
+    private class ChunkedPcm {
+        companion object {
+            private const val CHUNK_SIZE = 65_536
+        }
+
+        private val chunks = ArrayList<ShortArray>()
+        private var size = 0L
+
+        fun add(sample: Double) {
+            val chunkIndex = (size / CHUNK_SIZE).toInt()
+            val offset = (size % CHUNK_SIZE).toInt()
+            if (chunkIndex == chunks.size) chunks += ShortArray(CHUNK_SIZE)
+            val scaled = (sample.coerceIn(-1.0, 1.0) * 32767.0).toInt()
+            chunks[chunkIndex][offset] = scaled.toShort()
+            size++
+        }
+
+        fun window(startFrame: Long, length: Int): FloatArray? {
+            if (startFrame < 0 || length <= 0 || startFrame + length > size) return null
+            return FloatArray(length) { index ->
+                val absolute = startFrame + index
+                val chunkIndex = (absolute / CHUNK_SIZE).toInt()
+                val offset = (absolute % CHUNK_SIZE).toInt()
+                chunks[chunkIndex][offset] / 32768f
+            }
+        }
     }
 
     private object YinPitchDetector {
@@ -334,7 +391,7 @@ object AudioAnalyzer {
             if (!found) return null
 
             val confidence = (1.0 - cmnd[tau]).coerceIn(0.0, 1.0)
-            if (confidence < 0.65) return null
+            if (confidence < 0.58) return null
 
             val refinedTau = parabolicTau(cmnd, tau)
             if (refinedTau <= 0.0) return null
