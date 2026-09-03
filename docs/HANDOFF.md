@@ -2,54 +2,66 @@
 
 ## Current state
 
-VideoMosaic Android is now a functional media-analysis MVP rather than a build scaffold.
+VideoMosaic Android has reached the first real mosaic-generation MVP.
 
 Implemented:
 
 - reproducible Android SDK/Gradle bootstrap and GitHub Actions build;
 - persistent JSON project model;
-- system audio picker;
-- multi-select video picker;
+- system audio picker and multi-select video picker;
 - persistable content URI permissions;
-- media metadata inspection (name, size, duration, video dimensions);
+- media metadata inspection;
 - PCM decode through Android `MediaExtractor` + `MediaCodec`;
-- RMS and peak measurement;
-- onset detection;
-- batch audio analysis for imported video samples;
-- YIN fundamental pitch estimation;
-- conversion of detected pitch to MIDI note metadata and confidence.
+- RMS/peak and onset detection;
+- per-event YIN pitch estimation instead of only whole-file pitch;
+- tone-event timeline containing start time, duration, pitch, MIDI note and confidence;
+- automatic target-note to source-video-segment matching;
+- repetition and duration penalties in the matcher;
+- exact source interval clipping with Media3 `ClippingConfiguration`;
+- source clip speed fitting to target-event duration with `EditedMediaItem.setSpeed()`;
+- hard-cut sequential video/audio composition;
+- internal Media3 `CompositionPlayer` preview with playback controls;
+- MP4 export with Media3 `Transformer`.
 
-No external DSP dependency is required for the current analysis layer.
+Media3 is pinned to `1.11.0`.
 
 ## Current sandbox limitation
 
-The current ChatGPT sandbox shell cannot resolve public download hosts such as `dl.google.com`, so a local SDK install remains blocked. Development and APK verification use GitHub Actions, where the pinned Android toolchain is installed successfully.
+The ChatGPT sandbox shell cannot resolve public download hosts such as `dl.google.com`, so local Android SDK installation remains blocked. Development and APK verification use GitHub Actions.
 
 ## Latest verified build
 
-GitHub Actions run `33811946698` completed successfully from commit `8a8a1abcb3700226ad72b654d1a4d89cb9c54658`.
+GitHub Actions run `33815388830` completed successfully from commit `e8f0abb27e0d0e504102b9e23934da18e07a8c5c`.
 
-Application version: `0.4.0`
+Application version: `0.5.0-mosaic`
+Test application id: `dev.videomosaic.app.v050`
 
 Verified debug APK:
 
-- size: 915564 bytes
-- SHA-256: `55d67cb65aac529f8cd923c4f7156256d9555e3b66e9ae28312b33a048775af5`
+- size: 5860700 bytes
+- SHA-256: `b6a56691ac364c037891d3e65f8440717b3c2f40665a7caeb895e50958dbf163`
 
-## What the app can do now
+The test application id is intentionally separate so it installs alongside the earlier control build and avoids debug-signature conflicts between ephemeral GitHub runners.
 
-1. Pick a target audio file with Android Storage Access Framework.
-2. Pick multiple source videos.
-3. Keep access to those files across app restarts.
-4. Persist the project in app storage.
-5. Inspect media metadata.
-6. Decode the target song or source-video audio to PCM.
-7. Detect approximate transient/onset positions.
-8. Measure RMS and peak level.
-9. Estimate a dominant fundamental frequency with a bounded-cost YIN implementation.
-10. Display approximate note, frequency, and pitch confidence for analyzed media.
+## Runtime workflow
 
-The current pitch value is a whole-media summary. It is intentionally not yet treated as a final note label for long or polyphonic recordings.
+1. Pick target music.
+2. Analyze target music. It is split at detected attacks and pitch is estimated for each event.
+3. Import source videos.
+4. Analyze the video library. Each video's audio is split into tone events with timestamps and pitch metadata.
+5. Tap `Подобрать ноты и запустить предпросмотр`.
+6. The matcher selects the closest source event for every target event.
+7. Each source video is clipped to a timestamp range and speed-fitted so its output duration equals the target event duration.
+8. `CompositionPlayer` previews the sequential hard-cut composition. Audio comes from the selected video fragments, not from the original target song.
+9. Tap `Экспортировать MP4` to render the same `Composition` with `Transformer`.
+
+## Important current limitations
+
+- Melody/onset extraction is still heuristic, especially for dense/polyphonic mastered songs.
+- Pitch is matched but not yet pitch-corrected. A source fragment may therefore be near the target note rather than exact.
+- Duration is fitted by playback speed; future versions should combine trimming, looping/freeze strategies and time-stretching to avoid extreme speed changes.
+- There is no manual per-note replacement editor yet.
+- Export/runtime behavior must be tested on physical devices and with varied source codecs/resolutions.
 
 ## Resume procedure in a fresh sandbox with outbound internet
 
@@ -71,4 +83,4 @@ bash scripts/install_native_toolchain.sh
 
 ## Next application milestone
 
-Segment each source video around detected onsets, estimate pitch per segment instead of per whole file, then create the first note-to-sample matching score. After that the project can generate a real automatic sample timeline rather than merely analyze imported media.
+Runtime-test 0.5.0 on a physical Android device. Then add pitch correction/time-stretching and a manual timeline editor where a user can replace an automatically chosen fragment for an individual target note.
