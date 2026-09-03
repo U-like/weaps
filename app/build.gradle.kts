@@ -7,11 +7,11 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "dev.videomosaic.app"
+        applicationId = "dev.videomosaic.app.v041"
         minSdk = 26
         targetSdk = 36
-        versionCode = 4
-        versionName = "0.4.0"
+        versionCode = 41
+        versionName = "0.4.1-control"
     }
 
     buildTypes {
