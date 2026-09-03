@@ -37,6 +37,7 @@ class MainActivity : Activity() {
     private lateinit var samplesContainer: LinearLayout
     private lateinit var statusText: TextView
     private lateinit var analyzeButton: Button
+    private lateinit var analyzeSamplesButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,7 +62,7 @@ class MainActivity : Activity() {
             setTextColor(Color.rgb(25, 25, 28))
         })
         content.addView(TextView(this).apply {
-            text = "Песня → события → видеосэмплы. Первый рабочий MVP."
+            text = "Песня → события → видеосэмплы. Рабочий MVP анализатора."
             textSize = 15f
             setTextColor(Color.rgb(80, 80, 86))
             setPadding(0, dp(4), 0, dp(18))
@@ -85,6 +86,8 @@ class MainActivity : Activity() {
         }
         content.addView(sampleSummary)
         content.addView(actionButton("Добавить видео") { pickSampleVideos() })
+        analyzeSamplesButton = actionButton("Анализировать видео-библиотеку") { analyzeSampleLibrary() }
+        content.addView(analyzeSamplesButton)
         samplesContainer = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
         }
@@ -236,6 +239,40 @@ class MainActivity : Activity() {
         }
     }
 
+    private fun analyzeSampleLibrary() {
+        val queue = project.samples.toList()
+        if (queue.isEmpty()) return
+        analyzeSamplesButton.isEnabled = false
+        thread(name = "sample-audio-analysis") {
+            var successCount = 0
+            var failedCount = 0
+            queue.forEachIndexed { index, asset ->
+                runOnUiThread {
+                    setStatus("Анализ видео ${index + 1}/${queue.size}: ${asset.displayName}")
+                }
+                runCatching { AudioAnalyzer.analyze(applicationContext, Uri.parse(asset.uri)) }
+                    .onSuccess { analysis ->
+                        successCount++
+                        runOnUiThread {
+                            project = project.copy(
+                                samples = project.samples.map {
+                                    if (it.id == asset.id) it.copy(analysis = analysis) else it
+                                },
+                                updatedAtEpochMs = System.currentTimeMillis()
+                            )
+                            projectStore.save(project)
+                            renderProject()
+                        }
+                    }
+                    .onFailure { failedCount++ }
+            }
+            runOnUiThread {
+                analyzeSamplesButton.isEnabled = project.samples.isNotEmpty()
+                setStatus("Видео проанализированы: $successCount, без аудио/ошибка: $failedCount")
+            }
+        }
+    }
+
     private fun removeSample(asset: MediaAsset) {
         project = project.copy(
             samples = project.samples.filterNot { it.id == asset.id },
@@ -290,7 +327,9 @@ class MainActivity : Activity() {
             }
         } ?: "Анализ ещё не запускался"
 
-        sampleSummary.text = "Видео в библиотеке: ${project.samples.size}"
+        val analyzedCount = project.samples.count { it.analysis != null }
+        sampleSummary.text = "Видео: ${project.samples.size} · проанализировано: $analyzedCount"
+        analyzeSamplesButton.isEnabled = project.samples.isNotEmpty()
         samplesContainer.removeAllViews()
         project.samples.forEachIndexed { index, asset ->
             samplesContainer.addView(sampleRow(index, asset))
@@ -329,6 +368,10 @@ class MainActivity : Activity() {
                 asset.sizeBytes?.let {
                     if (isNotEmpty()) append(" · ")
                     append(formatBytes(it))
+                }
+                asset.analysis?.let { analysis ->
+                    append("\nАудио: ${analysis.sampleRate} Hz · ${analysis.onsetTimesMs.size} атак")
+                    append(" · RMS ${formatDb(amplitudeDb(analysis.rms))} dBFS")
                 }
             }.ifBlank { asset.mimeType ?: "video" }
         })
