@@ -1,6 +1,6 @@
 {
   "project": "VideoMosaic Android",
-  "phase": "environment-verified",
+  "phase": "media-analysis-mvp",
   "portable": true,
   "buildVerified": true,
   "buildBlockedBy": null,
@@ -11,12 +11,24 @@
   "gradle": "9.6.0",
   "androidBuildTools": "36.0.0",
   "optionalNdk": "28.2.13676358",
-  "nextTask": "build the real VideoMosaic application shell and media import workflow",
+  "appVersion": "0.3.0",
+  "implemented": [
+    "persistent project model",
+    "system audio picker",
+    "multi-select video picker",
+    "persistable content URI permissions",
+    "media metadata inspection",
+    "PCM decode with MediaExtractor and MediaCodec",
+    "RMS and peak measurement",
+    "onset detection",
+    "batch audio analysis for imported video samples"
+  ],
+  "nextTask": "add fundamental pitch estimation (YIN) and note metadata for sample matching",
   "sourceVerifiedLocally": true,
   "ciBuildWorkflow": ".github/workflows/android-build.yml",
   "lastLocalBuildAttempt": "blocked before SDK install: sandbox DNS/outbound network disabled for dl.google.com",
-  "ciBuildRunId": 33809759072,
-  "ciBuildCommit": "43b283efcc927a0787e6ac62166d4dfac538e95d",
-  "debugApkSha256": "7a1e0b84b09e7fd22883dcee56722ce05414d7a7980ab99f09baea80cbb15fcc",
-  "debugApkSizeBytes": 873210
+  "ciBuildRunId": 33811292515,
+  "ciBuildCommit": "acd7d3e45bef6d331fcf7e10d401ad020b6f55d0",
+  "debugApkSha256": "99fa9ad3efe5a750b4a2685bf01d650a0608269c6aed21698bd9bc2718cd3ff2",
+  "debugApkSizeBytes": 909096
 }
