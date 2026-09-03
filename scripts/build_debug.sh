@@ -6,7 +6,7 @@ source "$PROJECT_ROOT/versions.env"
 cd "$PROJECT_ROOT"
 
 if [[ ! -f local.properties || ! -f gradle/wrapper/gradle-wrapper.jar ]]; then
-  ./scripts/bootstrap_android.sh
+  bash ./scripts/bootstrap_android.sh
 fi
 
 CACHE_GRADLE="${XDG_CACHE_HOME:-$HOME/.cache}/videomosaic-bootstrap/gradle-${GRADLE_VERSION}/bin/gradle"
