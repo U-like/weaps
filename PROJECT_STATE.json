@@ -1,6 +1,6 @@
 {
   "project": "VideoMosaic Android",
-  "phase": "pitch-analysis-mvp",
+  "phase": "mosaic-preview-export-mvp",
   "portable": true,
   "buildVerified": true,
   "buildBlockedBy": null,
@@ -10,8 +10,9 @@
   "agp": "9.4.0",
   "gradle": "9.6.0",
   "androidBuildTools": "36.0.0",
+  "media3": "1.11.0",
   "optionalNdk": "28.2.13676358",
-  "appVersion": "0.4.0",
+  "appVersion": "0.5.0-mosaic",
   "implemented": [
     "persistent project model",
     "system audio picker",
@@ -21,16 +22,22 @@
     "PCM decode with MediaExtractor and MediaCodec",
     "RMS and peak measurement",
     "onset detection",
-    "batch audio analysis for imported video samples",
-    "YIN fundamental pitch estimation",
-    "MIDI note and pitch confidence metadata"
+    "per-event YIN pitch estimation",
+    "tone event timeline with start and duration",
+    "automatic note-to-video-segment matcher",
+    "source clip trimming with Media3 ClippingConfiguration",
+    "duration fitting with EditedMediaItem speed control",
+    "in-app CompositionPlayer preview",
+    "hard-cut video switching at target note boundaries",
+    "MP4 export with Media3 Transformer"
   ],
-  "nextTask": "segment source videos around detected onsets, estimate pitch per segment, and build the first automatic note-to-sample matcher",
+  "currentTestApplicationId": "dev.videomosaic.app.v050",
+  "nextTask": "runtime-test preview/export on a physical phone, then add pitch correction and better melody segmentation",
   "sourceVerifiedLocally": true,
   "ciBuildWorkflow": ".github/workflows/android-build.yml",
   "lastLocalBuildAttempt": "blocked before SDK install: sandbox DNS/outbound network disabled for dl.google.com",
-  "ciBuildRunId": 33811946698,
-  "ciBuildCommit": "8a8a1abcb3700226ad72b654d1a4d89cb9c54658",
-  "debugApkSha256": "55d67cb65aac529f8cd923c4f7156256d9555e3b66e9ae28312b33a048775af5",
-  "debugApkSizeBytes": 915564
+  "ciBuildRunId": 33815388830,
+  "ciBuildCommit": "e8f0abb27e0d0e504102b9e23934da18e07a8c5c",
+  "debugApkSha256": "b6a56691ac364c037891d3e65f8440717b3c2f40665a7caeb895e50958dbf163",
+  "debugApkSizeBytes": 5860700
 }
