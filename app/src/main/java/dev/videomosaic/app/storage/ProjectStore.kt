@@ -51,6 +51,9 @@ class ProjectStore(context: Context) {
         put("rms", analysis.rms)
         put("peak", analysis.peak)
         put("onsetTimesMs", JSONArray().apply { analysis.onsetTimesMs.forEach { put(it) } })
+        put("pitchHz", analysis.pitchHz ?: JSONObject.NULL)
+        put("midiNote", analysis.midiNote ?: JSONObject.NULL)
+        put("pitchConfidence", analysis.pitchConfidence ?: JSONObject.NULL)
     }
 
     private fun projectFromJson(json: JSONObject): VideoMosaicProject {
@@ -92,7 +95,10 @@ class ProjectStore(context: Context) {
             durationMs = json.optLong("durationMs"),
             rms = json.optDouble("rms"),
             peak = json.optDouble("peak"),
-            onsetTimesMs = onsets
+            onsetTimesMs = onsets,
+            pitchHz = json.nullableDouble("pitchHz"),
+            midiNote = json.nullableDouble("midiNote"),
+            pitchConfidence = json.nullableDouble("pitchConfidence")
         )
     }
 
@@ -104,4 +110,7 @@ class ProjectStore(context: Context) {
 
     private fun JSONObject.nullableInt(key: String): Int? =
         if (!has(key) || isNull(key)) null else optInt(key)
+
+    private fun JSONObject.nullableDouble(key: String): Double? =
+        if (!has(key) || isNull(key)) null else optDouble(key)
 }

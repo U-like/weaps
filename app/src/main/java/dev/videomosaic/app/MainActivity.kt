@@ -15,17 +15,20 @@ import android.widget.TextView
 import android.widget.Toast
 import dev.videomosaic.app.audio.AudioAnalyzer
 import dev.videomosaic.app.media.MediaInspector
+import dev.videomosaic.app.model.AudioAnalysis
 import dev.videomosaic.app.model.MediaAsset
 import dev.videomosaic.app.model.VideoMosaicProject
 import dev.videomosaic.app.storage.ProjectStore
 import java.util.Locale
 import kotlin.concurrent.thread
 import kotlin.math.log10
+import kotlin.math.roundToInt
 
 class MainActivity : Activity() {
     companion object {
         private const val REQUEST_TARGET_AUDIO = 1001
         private const val REQUEST_SAMPLE_VIDEOS = 1002
+        private val NOTE_NAMES = arrayOf("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B")
     }
 
     private lateinit var projectStore: ProjectStore
@@ -62,7 +65,7 @@ class MainActivity : Activity() {
             setTextColor(Color.rgb(25, 25, 28))
         })
         content.addView(TextView(this).apply {
-            text = "Песня → события → видеосэмплы. Рабочий MVP анализатора."
+            text = "Песня → ноты/атаки → видеосэмплы. Анализ выполняется локально."
             textSize = 15f
             setTextColor(Color.rgb(80, 80, 86))
             setPadding(0, dp(4), 0, dp(18))
@@ -215,7 +218,7 @@ class MainActivity : Activity() {
     private fun analyzeTargetAudio() {
         val target = project.targetAudio ?: return
         analyzeButton.isEnabled = false
-        setStatus("Декодирую PCM и ищу атаки…")
+        setStatus("Декодирую PCM, ищу атаки и высоту тона…")
         thread(name = "audio-analysis") {
             runCatching { AudioAnalyzer.analyze(applicationContext, Uri.parse(target.uri)) }
                 .onSuccess { analysis ->
@@ -323,12 +326,14 @@ class MainActivity : Activity() {
                 append("PCM: ${analysis.sampleRate} Hz, ${analysis.channelCount} ch")
                 append("\nRMS: ${formatDb(rmsDb)} dBFS   Peak: ${formatDb(peakDb)} dBFS")
                 append("\nНайдено атак: ${analysis.onsetTimesMs.size}")
-                if (preview.isNotBlank()) append("\nПервые: $preview")
+                pitchSummary(analysis)?.let { append("\nДоминирующий тон: $it") }
+                if (preview.isNotBlank()) append("\nПервые атаки: $preview")
             }
         } ?: "Анализ ещё не запускался"
 
         val analyzedCount = project.samples.count { it.analysis != null }
-        sampleSummary.text = "Видео: ${project.samples.size} · проанализировано: $analyzedCount"
+        val pitchedCount = project.samples.count { it.analysis?.pitchHz != null }
+        sampleSummary.text = "Видео: ${project.samples.size} · анализ: $analyzedCount · тон найден: $pitchedCount"
         analyzeSamplesButton.isEnabled = project.samples.isNotEmpty()
         samplesContainer.removeAllViews()
         project.samples.forEachIndexed { index, asset ->
@@ -372,6 +377,7 @@ class MainActivity : Activity() {
                 asset.analysis?.let { analysis ->
                     append("\nАудио: ${analysis.sampleRate} Hz · ${analysis.onsetTimesMs.size} атак")
                     append(" · RMS ${formatDb(amplitudeDb(analysis.rms))} dBFS")
+                    pitchSummary(analysis)?.let { append("\nТон: $it") }
                 }
             }.ifBlank { asset.mimeType ?: "video" }
         })
@@ -382,6 +388,23 @@ class MainActivity : Activity() {
             setOnClickListener { removeSample(asset) }
         })
         return row
+    }
+
+    private fun pitchSummary(analysis: AudioAnalysis): String? {
+        val hz = analysis.pitchHz ?: return null
+        val midi = analysis.midiNote ?: return null
+        val roundedMidi = midi.roundToInt()
+        val pitchClass = ((roundedMidi % 12) + 12) % 12
+        val octave = roundedMidi / 12 - 1
+        val confidence = ((analysis.pitchConfidence ?: 0.0) * 100.0).roundToInt()
+        return String.format(
+            Locale.US,
+            "%s%d · %.1f Hz · confidence %d%%",
+            NOTE_NAMES[pitchClass],
+            octave,
+            hz,
+            confidence
+        )
     }
 
     private fun persistReadPermission(uri: Uri) {

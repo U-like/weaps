@@ -6,7 +6,10 @@ data class AudioAnalysis(
     val durationMs: Long,
     val rms: Double,
     val peak: Double,
-    val onsetTimesMs: List<Long>
+    val onsetTimesMs: List<Long>,
+    val pitchHz: Double? = null,
+    val midiNote: Double? = null,
+    val pitchConfidence: Double? = null
 )
 
 data class MediaAsset(
