@@ -1,6 +1,6 @@
 {
   "project": "VideoMosaic Android",
-  "phase": "media-analysis-mvp",
+  "phase": "pitch-analysis-mvp",
   "portable": true,
   "buildVerified": true,
   "buildBlockedBy": null,
@@ -11,7 +11,7 @@
   "gradle": "9.6.0",
   "androidBuildTools": "36.0.0",
   "optionalNdk": "28.2.13676358",
-  "appVersion": "0.3.0",
+  "appVersion": "0.4.0",
   "implemented": [
     "persistent project model",
     "system audio picker",
@@ -21,14 +21,16 @@
     "PCM decode with MediaExtractor and MediaCodec",
     "RMS and peak measurement",
     "onset detection",
-    "batch audio analysis for imported video samples"
+    "batch audio analysis for imported video samples",
+    "YIN fundamental pitch estimation",
+    "MIDI note and pitch confidence metadata"
   ],
-  "nextTask": "add fundamental pitch estimation (YIN) and note metadata for sample matching",
+  "nextTask": "segment source videos around detected onsets, estimate pitch per segment, and build the first automatic note-to-sample matcher",
   "sourceVerifiedLocally": true,
   "ciBuildWorkflow": ".github/workflows/android-build.yml",
   "lastLocalBuildAttempt": "blocked before SDK install: sandbox DNS/outbound network disabled for dl.google.com",
-  "ciBuildRunId": 33811292515,
-  "ciBuildCommit": "acd7d3e45bef6d331fcf7e10d401ad020b6f55d0",
-  "debugApkSha256": "99fa9ad3efe5a750b4a2685bf01d650a0608269c6aed21698bd9bc2718cd3ff2",
-  "debugApkSizeBytes": 909096
+  "ciBuildRunId": 33811946698,
+  "ciBuildCommit": "8a8a1abcb3700226ad72b654d1a4d89cb9c54658",
+  "debugApkSha256": "55d67cb65aac529f8cd923c4f7156256d9555e3b66e9ae28312b33a048775af5",
+  "debugApkSizeBytes": 915564
 }
