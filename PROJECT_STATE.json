@@ -1,0 +1,22 @@
+{
+  "project": "VideoMosaic Android",
+  "phase": "environment-verified",
+  "portable": true,
+  "buildVerified": true,
+  "buildBlockedBy": null,
+  "compileSdk": 36,
+  "targetSdk": 36,
+  "minSdk": 26,
+  "agp": "9.4.0",
+  "gradle": "9.6.0",
+  "androidBuildTools": "36.0.0",
+  "optionalNdk": "28.2.13676358",
+  "nextTask": "build the real VideoMosaic application shell and media import workflow",
+  "sourceVerifiedLocally": true,
+  "ciBuildWorkflow": ".github/workflows/android-build.yml",
+  "lastLocalBuildAttempt": "blocked before SDK install: sandbox DNS/outbound network disabled for dl.google.com",
+  "ciBuildRunId": 33809185671,
+  "ciBuildCommit": "78e41877b5a097199afd6463d2e58a081ca1a92b",
+  "debugApkSha256": "e914efe13489c7893b58344f336a496e8fa5a0da13f05ca6937e1e270d3b0d30",
+  "debugApkSizeBytes": 873210
+}
