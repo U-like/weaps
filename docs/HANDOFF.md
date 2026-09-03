@@ -2,27 +2,54 @@
 
 ## Current state
 
-- Portable Android project scaffold created.
-- Linux x86_64 bootstrap pins the Android command-line tools archive and checksum.
-- SDK packages are installed outside the project and can be reconstructed.
-- Gradle version, distribution checksum, and wrapper JAR checksum are pinned.
-- Minimal Kotlin Android activity exists and has been built into a real APK.
-- Optional NDK/CMake installer is ready for the later FFmpeg/DSP layer.
+VideoMosaic Android is now a functional media-analysis MVP rather than a build scaffold.
+
+Implemented:
+
+- reproducible Android SDK/Gradle bootstrap and GitHub Actions build;
+- persistent JSON project model;
+- system audio picker;
+- multi-select video picker;
+- persistable content URI permissions;
+- media metadata inspection (name, size, duration, video dimensions);
+- PCM decode through Android `MediaExtractor` + `MediaCodec`;
+- RMS and peak measurement;
+- onset detection;
+- batch audio analysis for imported video samples;
+- YIN fundamental pitch estimation;
+- conversion of detected pitch to MIDI note metadata and confidence.
+
+No external DSP dependency is required for the current analysis layer.
 
 ## Current sandbox limitation
 
-The current ChatGPT sandbox shell cannot resolve public download hosts such as `dl.google.com`, so a local SDK install is blocked there. This does not block development because the same source tree has been verified on GitHub Actions.
+The current ChatGPT sandbox shell cannot resolve public download hosts such as `dl.google.com`, so a local SDK install remains blocked. Development and APK verification use GitHub Actions, where the pinned Android toolchain is installed successfully.
 
-## Verified build
+## Latest verified build
 
-GitHub Actions run `33809759072` completed successfully on Ubuntu 24.04 from commit `43b283efcc927a0787e6ac62166d4dfac538e95d`. The runner installed Android command-line tools, API 36, Build Tools 36.0.0, generated and verified Gradle Wrapper 9.6.0, passed environment checks, and completed `:app:assembleDebug`.
+GitHub Actions run `33811946698` completed successfully from commit `8a8a1abcb3700226ad72b654d1a4d89cb9c54658`.
+
+Application version: `0.4.0`
 
 Verified debug APK:
 
-- size: 873210 bytes
-- SHA-256: `7a1e0b84b09e7fd22883dcee56722ce05414d7a7980ab99f09baea80cbb15fcc`
+- size: 915564 bytes
+- SHA-256: `55d67cb65aac529f8cd923c4f7156256d9555e3b66e9ae28312b33a048775af5`
 
-`buildVerified=true` in `PROJECT_STATE.json` is therefore justified.
+## What the app can do now
+
+1. Pick a target audio file with Android Storage Access Framework.
+2. Pick multiple source videos.
+3. Keep access to those files across app restarts.
+4. Persist the project in app storage.
+5. Inspect media metadata.
+6. Decode the target song or source-video audio to PCM.
+7. Detect approximate transient/onset positions.
+8. Measure RMS and peak level.
+9. Estimate a dominant fundamental frequency with a bounded-cost YIN implementation.
+10. Display approximate note, frequency, and pitch confidence for analyzed media.
+
+The current pitch value is a whole-media summary. It is intentionally not yet treated as a final note label for long or polyphonic recordings.
 
 ## Resume procedure in a fresh sandbox with outbound internet
 
@@ -32,7 +59,7 @@ bash scripts/check_environment.sh
 bash scripts/build_debug.sh
 ```
 
-If native development is needed:
+For native work later:
 
 ```bash
 bash scripts/install_native_toolchain.sh
@@ -44,4 +71,4 @@ bash scripts/install_native_toolchain.sh
 
 ## Next application milestone
 
-Build the real VideoMosaic project shell: media picker, project model, sample library screen, and audio-analysis module. Keep FFmpeg/NDK isolated behind a native media module.
+Segment each source video around detected onsets, estimate pitch per segment instead of per whole file, then create the first note-to-sample matching score. After that the project can generate a real automatic sample timeline rather than merely analyze imported media.
