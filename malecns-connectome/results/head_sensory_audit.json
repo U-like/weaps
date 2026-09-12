@@ -1,0 +1,2712 @@
+{
+  "central_brain_sensory": {
+    "nerve_class_subclass_side_combinations": [
+      {
+        "class": "olfactory",
+        "count": 1248,
+        "entryNerve": "AN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "olfactory",
+        "count": 799,
+        "entryNerve": "AN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 501,
+        "entryNerve": "MxLbN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 416,
+        "entryNerve": "MxLbN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "olfactory",
+        "count": 408,
+        "entryNerve": "AN",
+        "rootSide": "unknown",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 247,
+        "entryNerve": "AN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "wind_gravity"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 228,
+        "entryNerve": "AN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "wind_gravity"
+      },
+      {
+        "class": "olfactory",
+        "count": 96,
+        "entryNerve": "MxLbN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "olfactory",
+        "count": 85,
+        "entryNerve": "MxLbN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "gustatory",
+        "count": 82,
+        "entryNerve": "MxLbN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "labellar bristle"
+      },
+      {
+        "class": "gustatory",
+        "count": 80,
+        "entryNerve": "MxLbN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "labellar bristle"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 62,
+        "entryNerve": "AN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "auditory"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 57,
+        "entryNerve": "AN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 52,
+        "entryNerve": "AN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "auditory"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 40,
+        "entryNerve": "AN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "grooming"
+      },
+      {
+        "class": "hygrosensory",
+        "count": 36,
+        "entryNerve": "AN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 33,
+        "entryNerve": "AN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "gustatory",
+        "count": 30,
+        "entryNerve": "MxLbN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "taste peg"
+      },
+      {
+        "class": "hygrosensory",
+        "count": 29,
+        "entryNerve": "AN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "gustatory",
+        "count": 29,
+        "entryNerve": "MxLbN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "taste peg"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 25,
+        "entryNerve": "AN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "grooming"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 25,
+        "entryNerve": "MxLbN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 21,
+        "entryNerve": "aPhN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 20,
+        "entryNerve": "MxLbN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 19,
+        "entryNerve": "AN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 19,
+        "entryNerve": "ON",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 19,
+        "entryNerve": "PhN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "gustatory",
+        "count": 18,
+        "entryNerve": "aPhN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum"
+      },
+      {
+        "class": "gustatory",
+        "count": 18,
+        "entryNerve": "aPhN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 18,
+        "entryNerve": "aPhN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum"
+      },
+      {
+        "class": "mechanosensory",
+        "count": 14,
+        "entryNerve": "ON",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 14,
+        "entryNerve": "PhN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "thermosensory",
+        "count": 13,
+        "entryNerve": "AN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "thermosensory",
+        "count": 12,
+        "entryNerve": "AN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "<null>",
+        "count": 7,
+        "entryNerve": "MxLbN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "<null>",
+        "count": 7,
+        "entryNerve": "MxLbN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory_tbc",
+        "count": 6,
+        "entryNerve": "MxLbN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "gustatory",
+        "count": 6,
+        "entryNerve": "PhN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum"
+      },
+      {
+        "class": "gustatory",
+        "count": 6,
+        "entryNerve": "PhN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum"
+      },
+      {
+        "class": "<null>",
+        "count": 4,
+        "entryNerve": "AN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "olfactory",
+        "count": 3,
+        "entryNerve": "MxLbN",
+        "rootSide": "unknown",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "<null>",
+        "count": 2,
+        "entryNerve": "<null>",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "gustatory",
+        "count": 2,
+        "entryNerve": "<null>",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "gustatory",
+        "count": 2,
+        "entryNerve": "<null>",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory_tbc",
+        "count": 2,
+        "entryNerve": "aPhN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "gustatory",
+        "count": 1,
+        "entryNerve": "<null>",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "labellar bristle"
+      },
+      {
+        "class": "gustatory",
+        "count": 1,
+        "entryNerve": "<null>",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "taste peg"
+      },
+      {
+        "class": "mechanosensory_tbc",
+        "count": 1,
+        "entryNerve": "<null>",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "hygrosensory",
+        "count": 1,
+        "entryNerve": "AN",
+        "rootSide": "unknown",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory_tbc",
+        "count": 1,
+        "entryNerve": "AN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "entryNerve": "AN",
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "mechanosensory_tbc",
+        "count": 1,
+        "entryNerve": "PhN",
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "<null>"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "entryNerve": "aPhN",
+        "rootSide": "unknown",
+        "status": "Traced",
+        "subclass": "<null>"
+      }
+    ],
+    "profiles": {
+      "class": {
+        "non_null_count": 4848,
+        "null_count": 20,
+        "present": true,
+        "rows": 4868,
+        "top_values": [
+          {
+            "count": 2639,
+            "value": "olfactory"
+          },
+          {
+            "count": 1733,
+            "value": "mechanosensory"
+          },
+          {
+            "count": 275,
+            "value": "gustatory"
+          },
+          {
+            "count": 99,
+            "value": "unknown_sensory"
+          },
+          {
+            "count": 66,
+            "value": "hygrosensory"
+          },
+          {
+            "count": 25,
+            "value": "thermosensory"
+          },
+          {
+            "count": 11,
+            "value": "mechanosensory_tbc"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 7
+      },
+      "entryNerve": {
+        "non_null_count": 4859,
+        "null_count": 9,
+        "present": true,
+        "rows": 4868,
+        "top_values": [
+          {
+            "count": 3315,
+            "value": "AN"
+          },
+          {
+            "count": 1387,
+            "value": "MxLbN"
+          },
+          {
+            "count": 78,
+            "value": "aPhN"
+          },
+          {
+            "count": 46,
+            "value": "PhN"
+          },
+          {
+            "count": 33,
+            "value": "ON"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 5
+      },
+      "receptorType": {
+        "non_null_count": 0,
+        "null_count": 4868,
+        "present": true,
+        "rows": 4868,
+        "top_values": [],
+        "type": "string",
+        "unique_non_null": 0
+      },
+      "rootSide": {
+        "non_null_count": 4868,
+        "null_count": 0,
+        "present": true,
+        "rows": 4868,
+        "top_values": [
+          {
+            "count": 2494,
+            "value": "R"
+          },
+          {
+            "count": 1961,
+            "value": "L"
+          },
+          {
+            "count": 413,
+            "value": "unknown"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 3
+      },
+      "status": {
+        "non_null_count": 4868,
+        "null_count": 0,
+        "present": true,
+        "rows": 4868,
+        "top_values": [
+          {
+            "count": 4868,
+            "value": "Traced"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 1
+      },
+      "subclass": {
+        "non_null_count": 964,
+        "null_count": 3904,
+        "present": true,
+        "rows": 4868,
+        "top_values": [
+          {
+            "count": 475,
+            "value": "wind_gravity"
+          },
+          {
+            "count": 163,
+            "value": "labellar bristle"
+          },
+          {
+            "count": 114,
+            "value": "auditory"
+          },
+          {
+            "count": 87,
+            "value": "pharyngeal sensillum"
+          },
+          {
+            "count": 65,
+            "value": "grooming"
+          },
+          {
+            "count": 60,
+            "value": "taste peg"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 6
+      },
+      "type": {
+        "non_null_count": 4756,
+        "null_count": 112,
+        "present": true,
+        "rows": 4868,
+        "top_values": [
+          {
+            "count": 745,
+            "value": "BM_InOm"
+          },
+          {
+            "count": 204,
+            "value": "ORN_DA1"
+          },
+          {
+            "count": 132,
+            "value": "ORN_VA1d"
+          },
+          {
+            "count": 130,
+            "value": "ORN_VA1v"
+          },
+          {
+            "count": 103,
+            "value": "ORN_DL3"
+          },
+          {
+            "count": 102,
+            "value": "JO-unclear"
+          },
+          {
+            "count": 98,
+            "value": "ORN_VL2a"
+          },
+          {
+            "count": 84,
+            "value": "ORN_VM5d"
+          },
+          {
+            "count": 83,
+            "value": "ORN_DL1"
+          },
+          {
+            "count": 83,
+            "value": "ORN_VA2"
+          },
+          {
+            "count": 82,
+            "value": "ORN_VL1"
+          },
+          {
+            "count": 78,
+            "value": "ORN_VM4"
+          },
+          {
+            "count": 74,
+            "value": "ORN_DM1"
+          },
+          {
+            "count": 70,
+            "value": "JO-FV"
+          },
+          {
+            "count": 69,
+            "value": "BM"
+          },
+          {
+            "count": 63,
+            "value": "ORN_DM3"
+          },
+          {
+            "count": 63,
+            "value": "ORN_VA6"
+          },
+          {
+            "count": 62,
+            "value": "ORN_DL4"
+          },
+          {
+            "count": 58,
+            "value": "ORN_DM6"
+          },
+          {
+            "count": 55,
+            "value": "ORN_V"
+          },
+          {
+            "count": 54,
+            "value": "ORN_DM2"
+          },
+          {
+            "count": 50,
+            "value": "JO-EV1"
+          },
+          {
+            "count": 50,
+            "value": "claw_tpGRN"
+          },
+          {
+            "count": 48,
+            "value": "ORN_DA2"
+          },
+          {
+            "count": 48,
+            "value": "TPMN1"
+          },
+          {
+            "count": 45,
+            "value": "JO-EV3"
+          },
+          {
+            "count": 45,
+            "value": "ORN_VL2p"
+          },
+          {
+            "count": 43,
+            "value": "ORN_DL5"
+          },
+          {
+            "count": 43,
+            "value": "ORN_VM3"
+          },
+          {
+            "count": 41,
+            "value": "ORN_VM2"
+          },
+          {
+            "count": 40,
+            "value": "BM_Taste"
+          },
+          {
+            "count": 38,
+            "value": "JO-ED2_a"
+          },
+          {
+            "count": 38,
+            "value": "ORN_VC4"
+          },
+          {
+            "count": 36,
+            "value": "JO-EV2"
+          },
+          {
+            "count": 36,
+            "value": "ORN_VM7d"
+          },
+          {
+            "count": 35,
+            "value": "ORN_DA4m"
+          },
+          {
+            "count": 35,
+            "value": "ORN_DC3"
+          },
+          {
+            "count": 35,
+            "value": "ORN_DM5"
+          },
+          {
+            "count": 34,
+            "value": "ORN_DA3"
+          },
+          {
+            "count": 34,
+            "value": "ORN_VA4"
+          },
+          {
+            "count": 34,
+            "value": "ORN_VC3"
+          },
+          {
+            "count": 34,
+            "value": "ORN_VM5v"
+          },
+          {
+            "count": 34,
+            "value": "ORN_VM6v"
+          },
+          {
+            "count": 33,
+            "value": "ORN_DA4l"
+          },
+          {
+            "count": 33,
+            "value": "ORN_DP1l"
+          },
+          {
+            "count": 33,
+            "value": "ORN_VM1"
+          },
+          {
+            "count": 32,
+            "value": "ORN_DC1"
+          },
+          {
+            "count": 32,
+            "value": "ORN_DM4"
+          },
+          {
+            "count": 32,
+            "value": "ORN_VC2"
+          },
+          {
+            "count": 31,
+            "value": "ORN_DP1m"
+          },
+          {
+            "count": 31,
+            "value": "ORN_VC5"
+          },
+          {
+            "count": 30,
+            "value": "JO-CM"
+          },
+          {
+            "count": 30,
+            "value": "ORN_VA3"
+          },
+          {
+            "count": 29,
+            "value": "ORN_VA7l"
+          },
+          {
+            "count": 29,
+            "value": "ORN_VC1"
+          },
+          {
+            "count": 28,
+            "value": "HRN_VP4"
+          },
+          {
+            "count": 28,
+            "value": "ORN_D"
+          },
+          {
+            "count": 26,
+            "value": "BM_vOcci_vPoOr"
+          },
+          {
+            "count": 26,
+            "value": "LB3d"
+          },
+          {
+            "count": 25,
+            "value": "ORN_VM6m"
+          },
+          {
+            "count": 25,
+            "value": "ORN_VM7v"
+          },
+          {
+            "count": 24,
+            "value": "JO-A-unclear"
+          },
+          {
+            "count": 24,
+            "value": "ORN_VA7m"
+          },
+          {
+            "count": 23,
+            "value": "JO-EV5"
+          },
+          {
+            "count": 23,
+            "value": "LB3c"
+          },
+          {
+            "count": 23,
+            "value": "ORN_DC4"
+          },
+          {
+            "count": 23,
+            "value": "ORN_DL2v"
+          },
+          {
+            "count": 22,
+            "value": "BM_Vib"
+          },
+          {
+            "count": 22,
+            "value": "ORN_DC2"
+          },
+          {
+            "count": 21,
+            "value": "JO-ED2_b"
+          },
+          {
+            "count": 21,
+            "value": "JO-EV6"
+          },
+          {
+            "count": 21,
+            "value": "aPhM1"
+          },
+          {
+            "count": 19,
+            "value": "JO-CL"
+          },
+          {
+            "count": 19,
+            "value": "LB1e"
+          },
+          {
+            "count": 18,
+            "value": "GNG643"
+          },
+          {
+            "count": 18,
+            "value": "HRN_VP1d"
+          },
+          {
+            "count": 18,
+            "value": "JO-ED1"
+          },
+          {
+            "count": 17,
+            "value": "JO-B1_a"
+          },
+          {
+            "count": 17,
+            "value": "LB3a"
+          },
+          {
+            "count": 16,
+            "value": "LB1c"
+          },
+          {
+            "count": 16,
+            "value": "ORN_VA5"
+          },
+          {
+            "count": 15,
+            "value": "BM_MaPa"
+          },
+          {
+            "count": 15,
+            "value": "ORN_DL2d"
+          },
+          {
+            "count": 14,
+            "value": "JO-ED2_c"
+          },
+          {
+            "count": 14,
+            "value": "ORN_VM6l"
+          },
+          {
+            "count": 13,
+            "value": "JO-A2"
+          },
+          {
+            "count": 13,
+            "value": "JO-B-unclear"
+          },
+          {
+            "count": 12,
+            "value": "HRN_VP5"
+          },
+          {
+            "count": 12,
+            "value": "JO-B1_b"
+          },
+          {
+            "count": 12,
+            "value": "JO-B3"
+          },
+          {
+            "count": 12,
+            "value": "JO-B4_b"
+          },
+          {
+            "count": 12,
+            "value": "TPMN2"
+          },
+          {
+            "count": 11,
+            "value": "JO-mz"
+          },
+          {
+            "count": 11,
+            "value": "LB1a"
+          },
+          {
+            "count": 11,
+            "value": "LB3b"
+          },
+          {
+            "count": 11,
+            "value": "TRN_VP1m"
+          },
+          {
+            "count": 10,
+            "value": "JO-B1_c"
+          },
+          {
+            "count": 10,
+            "value": "JO-CA1"
+          },
+          {
+            "count": 10,
+            "value": "dorsal_tpGRN"
+          },
+          {
+            "count": 9,
+            "value": "JO-B2"
+          },
+          {
+            "count": 9,
+            "value": "JO-CA2"
+          },
+          {
+            "count": 8,
+            "value": "BM_Vt_PoOc"
+          },
+          {
+            "count": 8,
+            "value": "HRN_VP1l"
+          },
+          {
+            "count": 8,
+            "value": "JO-A1"
+          },
+          {
+            "count": 8,
+            "value": "LB4b"
+          },
+          {
+            "count": 7,
+            "value": "BM_Hau"
+          },
+          {
+            "count": 7,
+            "value": "TRN_VP2"
+          },
+          {
+            "count": 6,
+            "value": "ENS1"
+          },
+          {
+            "count": 6,
+            "value": "ENS5"
+          },
+          {
+            "count": 6,
+            "value": "LB1b"
+          },
+          {
+            "count": 6,
+            "value": "LB2c"
+          },
+          {
+            "count": 6,
+            "value": "TRN_VP3a"
+          },
+          {
+            "count": 5,
+            "value": "ENS3"
+          },
+          {
+            "count": 5,
+            "value": "ENS4"
+          },
+          {
+            "count": 5,
+            "value": "JO-DA"
+          },
+          {
+            "count": 5,
+            "value": "LB1d"
+          },
+          {
+            "count": 5,
+            "value": "LB2d"
+          },
+          {
+            "count": 5,
+            "value": "aPhM2a"
+          },
+          {
+            "count": 5,
+            "value": "aPhM3"
+          },
+          {
+            "count": 4,
+            "value": "ENS2"
+          },
+          {
+            "count": 4,
+            "value": "JO-FD1"
+          },
+          {
+            "count": 4,
+            "value": "JO-FD2"
+          },
+          {
+            "count": 4,
+            "value": "LB2a"
+          },
+          {
+            "count": 4,
+            "value": "LB4a"
+          },
+          {
+            "count": 4,
+            "value": "PhG1c"
+          },
+          {
+            "count": 4,
+            "value": "PhG2"
+          },
+          {
+            "count": 4,
+            "value": "PhG4"
+          },
+          {
+            "count": 4,
+            "value": "PhG7"
+          },
+          {
+            "count": 4,
+            "value": "PhG8"
+          },
+          {
+            "count": 4,
+            "value": "PhG9"
+          },
+          {
+            "count": 4,
+            "value": "aPhM5"
+          },
+          {
+            "count": 3,
+            "value": "JO-A4"
+          },
+          {
+            "count": 3,
+            "value": "JO-B4_a"
+          },
+          {
+            "count": 3,
+            "value": "JO-DP"
+          },
+          {
+            "count": 3,
+            "value": "LB2b"
+          },
+          {
+            "count": 2,
+            "value": "CB4246"
+          },
+          {
+            "count": 2,
+            "value": "GNG642"
+          },
+          {
+            "count": 2,
+            "value": "GNG644"
+          },
+          {
+            "count": 2,
+            "value": "GNG654"
+          },
+          {
+            "count": 2,
+            "value": "GNG655"
+          },
+          {
+            "count": 2,
+            "value": "JO-A3"
+          },
+          {
+            "count": 2,
+            "value": "PhG10"
+          },
+          {
+            "count": 2,
+            "value": "PhG11"
+          },
+          {
+            "count": 2,
+            "value": "PhG12"
+          },
+          {
+            "count": 2,
+            "value": "PhG13"
+          },
+          {
+            "count": 2,
+            "value": "PhG14"
+          },
+          {
+            "count": 2,
+            "value": "PhG15"
+          },
+          {
+            "count": 2,
+            "value": "PhG16"
+          },
+          {
+            "count": 2,
+            "value": "PhG1a"
+          },
+          {
+            "count": 2,
+            "value": "PhG1b"
+          },
+          {
+            "count": 2,
+            "value": "PhG3"
+          },
+          {
+            "count": 2,
+            "value": "PhG5"
+          },
+          {
+            "count": 2,
+            "value": "PhG6"
+          },
+          {
+            "count": 2,
+            "value": "aPhM2b"
+          },
+          {
+            "count": 2,
+            "value": "aPhM4"
+          },
+          {
+            "count": 1,
+            "value": "JO-EV4"
+          },
+          {
+            "count": 1,
+            "value": "LB3"
+          },
+          {
+            "count": 1,
+            "value": "TRN_VP3b"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 158
+      }
+    },
+    "rows": 4868,
+    "sample_rows": [
+      {
+        "bodyId": 10438,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM"
+      },
+      {
+        "bodyId": 11151,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_VA1v"
+      },
+      {
+        "bodyId": 13491,
+        "class": "gustatory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "PhG4"
+      },
+      {
+        "bodyId": 13670,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM"
+      },
+      {
+        "bodyId": 14742,
+        "class": "mechanosensory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "aPhM5"
+      },
+      {
+        "bodyId": 14844,
+        "class": "mechanosensory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "aPhM2a"
+      },
+      {
+        "bodyId": 15333,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM"
+      },
+      {
+        "bodyId": 15547,
+        "class": "thermosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "TRN_VP1m"
+      },
+      {
+        "bodyId": 15695,
+        "class": "gustatory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "PhG1b"
+      },
+      {
+        "bodyId": 16270,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM"
+      },
+      {
+        "bodyId": 17347,
+        "class": "mechanosensory",
+        "entryNerve": "ON",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM_Vt_PoOc"
+      },
+      {
+        "bodyId": 17362,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM"
+      },
+      {
+        "bodyId": 17406,
+        "class": "thermosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "TRN_VP3a"
+      },
+      {
+        "bodyId": 18147,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_VA2"
+      },
+      {
+        "bodyId": 20553,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM"
+      },
+      {
+        "bodyId": 21105,
+        "class": "gustatory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "PhG1a"
+      },
+      {
+        "bodyId": 22354,
+        "class": "mechanosensory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "aPhM2b"
+      },
+      {
+        "bodyId": 22603,
+        "class": "gustatory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "PhG10"
+      },
+      {
+        "bodyId": 23209,
+        "class": "gustatory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "PhG11"
+      },
+      {
+        "bodyId": 23690,
+        "class": "mechanosensory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "GNG642"
+      },
+      {
+        "bodyId": 25108,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "auditory",
+        "type": "JO-A2"
+      },
+      {
+        "bodyId": 25582,
+        "class": "mechanosensory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM_Taste"
+      },
+      {
+        "bodyId": 26144,
+        "class": "mechanosensory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM_Vib"
+      },
+      {
+        "bodyId": 26225,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_VM6v"
+      },
+      {
+        "bodyId": 26286,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_VM6v"
+      },
+      {
+        "bodyId": 26519,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "grooming",
+        "type": "JO-FV"
+      },
+      {
+        "bodyId": 27139,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "wind_gravity",
+        "type": "JO-ED2_a"
+      },
+      {
+        "bodyId": 27153,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_VA1v"
+      },
+      {
+        "bodyId": 29521,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_DP1m"
+      },
+      {
+        "bodyId": 29561,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "auditory",
+        "type": "JO-A2"
+      },
+      {
+        "bodyId": 31055,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "grooming",
+        "type": "JO-FV"
+      },
+      {
+        "bodyId": 31800,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_DP1m"
+      },
+      {
+        "bodyId": 32719,
+        "class": "mechanosensory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "aPhM3"
+      },
+      {
+        "bodyId": 32864,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_DP1m"
+      },
+      {
+        "bodyId": 32912,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "wind_gravity",
+        "type": "JO-EV6"
+      },
+      {
+        "bodyId": 33339,
+        "class": "gustatory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "labellar bristle",
+        "type": "LB3d"
+      },
+      {
+        "bodyId": 33970,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "wind_gravity",
+        "type": "JO-EV1"
+      },
+      {
+        "bodyId": 34388,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "wind_gravity",
+        "type": "JO-EV1"
+      },
+      {
+        "bodyId": 34843,
+        "class": "mechanosensory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "aPhM3"
+      },
+      {
+        "bodyId": 35051,
+        "class": "mechanosensory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM_Taste"
+      },
+      {
+        "bodyId": 35332,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "wind_gravity",
+        "type": "JO-EV2"
+      },
+      {
+        "bodyId": 35351,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "auditory",
+        "type": "JO-A1"
+      },
+      {
+        "bodyId": 35634,
+        "class": "thermosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "TRN_VP3a"
+      },
+      {
+        "bodyId": 36550,
+        "class": "olfactory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_VM7d"
+      },
+      {
+        "bodyId": 36948,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM"
+      },
+      {
+        "bodyId": 36952,
+        "class": "mechanosensory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM_Taste"
+      },
+      {
+        "bodyId": 37147,
+        "class": "thermosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "TRN_VP3a"
+      },
+      {
+        "bodyId": 37570,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_D"
+      },
+      {
+        "bodyId": 38160,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "grooming",
+        "type": "JO-FD1"
+      },
+      {
+        "bodyId": 38188,
+        "class": "olfactory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "ORN_DP1l"
+      },
+      {
+        "bodyId": 38419,
+        "class": "mechanosensory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM_Taste"
+      },
+      {
+        "bodyId": 38727,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "wind_gravity",
+        "type": "JO-EV3"
+      },
+      {
+        "bodyId": 38936,
+        "class": "mechanosensory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "TPMN2"
+      },
+      {
+        "bodyId": 39549,
+        "class": "mechanosensory",
+        "entryNerve": "ON",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": null,
+        "type": "BM_Vt_PoOc"
+      },
+      {
+        "bodyId": 40206,
+        "class": "gustatory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "PhG4"
+      },
+      {
+        "bodyId": 41796,
+        "class": "mechanosensory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "aPhM5"
+      },
+      {
+        "bodyId": 42028,
+        "class": "gustatory",
+        "entryNerve": "aPhN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "pharyngeal sensillum",
+        "type": "PhG15"
+      },
+      {
+        "bodyId": 42121,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "wind_gravity",
+        "type": "JO-ED2_c"
+      },
+      {
+        "bodyId": 42619,
+        "class": "mechanosensory",
+        "entryNerve": "AN",
+        "receptorType": null,
+        "rootSide": "L",
+        "status": "Traced",
+        "subclass": "auditory",
+        "type": "JO-B1_a"
+      },
+      {
+        "bodyId": 44816,
+        "class": "gustatory",
+        "entryNerve": "MxLbN",
+        "receptorType": null,
+        "rootSide": "R",
+        "status": "Traced",
+        "subclass": "labellar bristle",
+        "type": "LB1e"
+      }
+    ],
+    "superclass": "cb_sensory"
+  },
+  "notes": [
+    "assignedOlHex1/assignedOlHex2 are audited as official fields; no interpretation is imposed until their observed schema/values are known.",
+    "cb_sensory semantic channels should be derived from observed nerve/class/subclass combinations, not superclass alone.",
+    "Rows with null status remain visible because status completeness is separate from official superclass assignment."
+  ],
+  "optic_lobe_sensory": {
+    "profiles": {
+      "assignedOlHex1": {
+        "non_null_count": 0,
+        "null_count": 6098,
+        "present": true,
+        "rows": 6098,
+        "type": "double",
+        "unique_non_null": 0
+      },
+      "assignedOlHex2": {
+        "non_null_count": 0,
+        "null_count": 6098,
+        "present": true,
+        "rows": 6098,
+        "type": "double",
+        "unique_non_null": 0
+      },
+      "class": {
+        "non_null_count": 6091,
+        "null_count": 7,
+        "present": true,
+        "rows": 6098,
+        "top_values": [
+          {
+            "count": 6091,
+            "value": "visual"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 1
+      },
+      "receptorType": {
+        "non_null_count": 0,
+        "null_count": 6098,
+        "present": true,
+        "rows": 6098,
+        "top_values": [],
+        "type": "string",
+        "unique_non_null": 0
+      },
+      "rootSide": {
+        "non_null_count": 6091,
+        "null_count": 7,
+        "present": true,
+        "rows": 6098,
+        "top_values": [
+          {
+            "count": 3746,
+            "value": "R"
+          },
+          {
+            "count": 2345,
+            "value": "L"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 2
+      },
+      "somaSide": {
+        "non_null_count": 36,
+        "null_count": 6062,
+        "present": true,
+        "rows": 6098,
+        "top_values": [
+          {
+            "count": 23,
+            "value": "L"
+          },
+          {
+            "count": 13,
+            "value": "R"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 2
+      },
+      "status": {
+        "non_null_count": 4115,
+        "null_count": 1983,
+        "present": true,
+        "rows": 6098,
+        "top_values": [
+          {
+            "count": 4114,
+            "value": "Traced"
+          },
+          {
+            "count": 1,
+            "value": "Anchor"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 2
+      },
+      "type": {
+        "non_null_count": 6098,
+        "null_count": 0,
+        "present": true,
+        "rows": 6098,
+        "top_values": [
+          {
+            "count": 3377,
+            "value": "R1-R6"
+          },
+          {
+            "count": 482,
+            "value": "R7y"
+          },
+          {
+            "count": 481,
+            "value": "R8y"
+          },
+          {
+            "count": 442,
+            "value": "R8_unclear"
+          },
+          {
+            "count": 404,
+            "value": "R7_unclear"
+          },
+          {
+            "count": 332,
+            "value": "R7p"
+          },
+          {
+            "count": 330,
+            "value": "R8p"
+          },
+          {
+            "count": 85,
+            "value": "R7R8_unclear"
+          },
+          {
+            "count": 82,
+            "value": "R7d"
+          },
+          {
+            "count": 76,
+            "value": "R8d"
+          },
+          {
+            "count": 7,
+            "value": "HBeyelet"
+          }
+        ],
+        "type": "string",
+        "unique_non_null": 11
+      }
+    },
+    "rows": 6098,
+    "sample_rows": [
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 11139,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 14428,
+        "class": null,
+        "rootSide": null,
+        "status": "Traced",
+        "type": "HBeyelet"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 15479,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8p"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 15625,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8y"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 15983,
+        "class": "visual",
+        "rootSide": "L",
+        "status": null,
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 16357,
+        "class": "visual",
+        "rootSide": "L",
+        "status": null,
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 16394,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 16398,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 16681,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8d"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 16924,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 17721,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R7y"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 18040,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 18975,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 18979,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8d"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 19418,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 20107,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7p"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 20428,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8_unclear"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 21134,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 21622,
+        "class": "visual",
+        "rootSide": "L",
+        "status": null,
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 22842,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8d"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 24385,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 25245,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 25360,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7y"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 25573,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 25633,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 26388,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R8y"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 26406,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7_unclear"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 26455,
+        "class": null,
+        "rootSide": null,
+        "status": "Traced",
+        "type": "HBeyelet"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 26864,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R7y"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 27174,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7p"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 27224,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8_unclear"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 27769,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 28122,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 28592,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 28633,
+        "class": null,
+        "rootSide": null,
+        "status": "Traced",
+        "type": "HBeyelet"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 29911,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R8y"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 30038,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R8y"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 30266,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 30471,
+        "class": "visual",
+        "rootSide": "L",
+        "status": null,
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 30787,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 32018,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R7_unclear"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 32275,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 33421,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7y"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 34437,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 35034,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 35426,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8y"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 35629,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 35681,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 35739,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 36653,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 37067,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 37850,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 38099,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8_unclear"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 38801,
+        "class": "visual",
+        "rootSide": "L",
+        "status": null,
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 39029,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 39891,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 40159,
+        "class": "visual",
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7p"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 40328,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R8_unclear"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 40415,
+        "class": "visual",
+        "rootSide": "R",
+        "status": null,
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": null,
+        "assignedOlHex2": null,
+        "bodyId": 40431,
+        "class": "visual",
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      }
+    ],
+    "superclass": "ol_sensory",
+    "type_root_hex_combinations": [
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 1372,
+        "rootSide": "R",
+        "status": "<null>",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 893,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 611,
+        "rootSide": "L",
+        "status": "<null>",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 501,
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R1-R6"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 254,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R8_unclear"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 252,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R7y"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 251,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R8y"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 239,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R7_unclear"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 230,
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8y"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 229,
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7y"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 188,
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8_unclear"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 173,
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7p"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 172,
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8p"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 165,
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7_unclear"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 159,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R7p"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 158,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R8p"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 85,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R7R8_unclear"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 42,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R7d"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 41,
+        "rootSide": "R",
+        "status": "Traced",
+        "type": "R8d"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 40,
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R7d"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 35,
+        "rootSide": "L",
+        "status": "Traced",
+        "type": "R8d"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 7,
+        "rootSide": "<null>",
+        "status": "Traced",
+        "type": "HBeyelet"
+      },
+      {
+        "assignedOlHex1": "<null>",
+        "assignedOlHex2": "<null>",
+        "count": 1,
+        "rootSide": "L",
+        "status": "Anchor",
+        "type": "R7y"
+      }
+    ]
+  },
+  "source_file": "body-annotations-male-cns-v1.0-minconf-0.5.feather"
+}
