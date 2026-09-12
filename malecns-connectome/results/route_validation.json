@@ -28,6 +28,9 @@
         "reachable_productive_descending_count": 1,
         "reachable_productive_descending_fraction": 0.5,
         "runtime_body_count": 2,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment2.left.chemical": {
@@ -55,6 +58,9 @@
         "reachable_productive_descending_count": 2,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 2,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment2.left.unknown": {
@@ -82,6 +88,9 @@
         "reachable_productive_descending_count": 33,
         "reachable_productive_descending_fraction": 0.825,
         "runtime_body_count": 40,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment2.right.chemical": {
@@ -109,6 +118,9 @@
         "reachable_productive_descending_count": 2,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 2,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment2.right.unknown": {
@@ -136,6 +148,9 @@
         "reachable_productive_descending_count": 37,
         "reachable_productive_descending_fraction": 0.9736842105263158,
         "runtime_body_count": 38,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment3.left.chemical": {
@@ -163,6 +178,9 @@
         "reachable_productive_descending_count": 1,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 1,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment3.left.proprioception": {
@@ -190,6 +208,9 @@
         "reachable_productive_descending_count": 33,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 33,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment3.left.unknown": {
@@ -217,6 +238,9 @@
         "reachable_productive_descending_count": 96,
         "reachable_productive_descending_fraction": 0.9142857142857143,
         "runtime_body_count": 105,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment3.right.chemical": {
@@ -244,6 +268,9 @@
         "reachable_productive_descending_count": 2,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 2,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment3.right.proprioception": {
@@ -271,6 +298,9 @@
         "reachable_productive_descending_count": 33,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 33,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment3.right.unknown": {
@@ -298,6 +328,9 @@
         "reachable_productive_descending_count": 58,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 58,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment4.left.chemical": {
@@ -325,6 +358,9 @@
         "reachable_productive_descending_count": 11,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 11,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment4.left.unknown": {
@@ -352,6 +388,9 @@
         "reachable_productive_descending_count": 297,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 297,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment4.right.chemical": {
@@ -379,6 +418,9 @@
         "reachable_productive_descending_count": 10,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 10,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.segment4.right.unknown": {
@@ -406,6 +448,9 @@
         "reachable_productive_descending_count": 286,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 286,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.trunk.left.chemical": {
@@ -433,6 +478,9 @@
         "reachable_productive_descending_count": 4,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 4,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.trunk.left.unknown": {
@@ -460,6 +508,9 @@
         "reachable_productive_descending_count": 95,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 95,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.trunk.right.chemical": {
@@ -487,6 +538,9 @@
         "reachable_productive_descending_count": 5,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 5,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.abdomen.trunk.right.unknown": {
@@ -514,10 +568,13 @@
         "reachable_productive_descending_count": 104,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 104,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.haltere.left.proprioception": {
-        "best_direct_example_body_id": 805510,
+        "best_direct_example_body_id": 801205,
         "best_direct_example_hops": 1,
         "body_count": 42,
         "hops_to_productive_descending": {
@@ -541,6 +598,9 @@
         "reachable_productive_descending_count": 42,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 42,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.haltere.left.touch": {
@@ -568,6 +628,9 @@
         "reachable_productive_descending_count": 20,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 20,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.haltere.left.unknown": {
@@ -595,10 +658,13 @@
         "reachable_productive_descending_count": 1,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 1,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.haltere.right.proprioception": {
-        "best_direct_example_body_id": 813795,
+        "best_direct_example_body_id": 809889,
         "best_direct_example_hops": 1,
         "body_count": 38,
         "hops_to_productive_descending": {
@@ -622,6 +688,9 @@
         "reachable_productive_descending_count": 38,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 38,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.haltere.right.touch": {
@@ -649,6 +718,9 @@
         "reachable_productive_descending_count": 19,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 19,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.haltere.right.unknown": {
@@ -676,6 +748,1209 @@
         "reachable_productive_descending_count": 2,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 2,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.left.hygrosensory": {
+        "best_direct_example_body_id": 73560,
+        "best_direct_example_hops": 2,
+        "body_count": 29,
+        "hops_to_productive_descending": {
+          "count": 29,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 29,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.head.an.left.hygrosensory",
+        "reachable_any_motor_count": 29,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 29,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 29,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.left.mechanosensory": {
+        "best_direct_example_body_id": 20553,
+        "best_direct_example_hops": 1,
+        "body_count": 57,
+        "hops_to_productive_descending": {
+          "count": 57,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 57,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.left.mechanosensory",
+        "reachable_any_motor_count": 57,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 57,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 57,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.left.mechanosensory.auditory": {
+        "best_direct_example_body_id": 547920,
+        "best_direct_example_hops": 1,
+        "body_count": 62,
+        "hops_to_productive_descending": {
+          "count": 60,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 60,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.left.mechanosensory.auditory",
+        "reachable_any_motor_count": 60,
+        "reachable_any_motor_fraction": 0.967741935483871,
+        "reachable_productive_descending_count": 60,
+        "reachable_productive_descending_fraction": 0.967741935483871,
+        "runtime_body_count": 62,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.left.mechanosensory.grooming": {
+        "best_direct_example_body_id": 38160,
+        "best_direct_example_hops": 1,
+        "body_count": 40,
+        "hops_to_productive_descending": {
+          "count": 40,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 40,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.left.mechanosensory.grooming",
+        "reachable_any_motor_count": 40,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 40,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 40,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.left.mechanosensory.wind_gravity": {
+        "best_direct_example_body_id": 75970,
+        "best_direct_example_hops": 1,
+        "body_count": 228,
+        "hops_to_productive_descending": {
+          "count": 228,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 228,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.left.mechanosensory.wind_gravity",
+        "reachable_any_motor_count": 228,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 228,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 228,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.left.mechanosensory_tbc": {
+        "best_direct_example_body_id": 521444,
+        "best_direct_example_hops": 2,
+        "body_count": 1,
+        "hops_to_productive_descending": {
+          "count": 1,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 1,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.left.mechanosensory_tbc",
+        "reachable_any_motor_count": 1,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 1,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 1,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.left.olfactory": {
+        "best_direct_example_body_id": 32864,
+        "best_direct_example_hops": 2,
+        "body_count": 799,
+        "hops_to_productive_descending": {
+          "count": 799,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 799,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.head.an.left.olfactory",
+        "reachable_any_motor_count": 799,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 799,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 799,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.left.thermosensory": {
+        "best_direct_example_body_id": 35634,
+        "best_direct_example_hops": 2,
+        "body_count": 12,
+        "hops_to_productive_descending": {
+          "count": 12,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 12,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.left.thermosensory",
+        "reachable_any_motor_count": 12,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 12,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 12,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.left.unknown_sensory": {
+        "best_direct_example_body_id": 945500,
+        "best_direct_example_hops": 2,
+        "body_count": 1,
+        "hops_to_productive_descending": {
+          "count": 1,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 1,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.left.unknown_sensory",
+        "reachable_any_motor_count": 1,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 1,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 1,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.right.hygrosensory": {
+        "best_direct_example_body_id": 64263,
+        "best_direct_example_hops": 2,
+        "body_count": 36,
+        "hops_to_productive_descending": {
+          "count": 36,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 36,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.head.an.right.hygrosensory",
+        "reachable_any_motor_count": 36,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 36,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 36,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.right.mechanosensory": {
+        "best_direct_example_body_id": 13670,
+        "best_direct_example_hops": 1,
+        "body_count": 33,
+        "hops_to_productive_descending": {
+          "count": 31,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 31,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.right.mechanosensory",
+        "reachable_any_motor_count": 31,
+        "reachable_any_motor_fraction": 0.9393939393939394,
+        "reachable_productive_descending_count": 31,
+        "reachable_productive_descending_fraction": 0.9393939393939394,
+        "runtime_body_count": 33,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.right.mechanosensory.auditory": {
+        "best_direct_example_body_id": 126498,
+        "best_direct_example_hops": 2,
+        "body_count": 52,
+        "hops_to_productive_descending": {
+          "count": 25,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 25,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.head.an.right.mechanosensory.auditory",
+        "reachable_any_motor_count": 25,
+        "reachable_any_motor_fraction": 0.4807692307692308,
+        "reachable_productive_descending_count": 25,
+        "reachable_productive_descending_fraction": 0.4807692307692308,
+        "runtime_body_count": 52,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.right.mechanosensory.grooming": {
+        "best_direct_example_body_id": 31055,
+        "best_direct_example_hops": 1,
+        "body_count": 25,
+        "hops_to_productive_descending": {
+          "count": 25,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 25,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.right.mechanosensory.grooming",
+        "reachable_any_motor_count": 25,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 25,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 25,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.right.mechanosensory.wind_gravity": {
+        "best_direct_example_body_id": 93165,
+        "best_direct_example_hops": 1,
+        "body_count": 247,
+        "hops_to_productive_descending": {
+          "count": 190,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 190,
+          "max": 3,
+          "median": 2.0,
+          "min": 1,
+          "p95": 3.0
+        },
+        "port": "sensory.head.an.right.mechanosensory.wind_gravity",
+        "reachable_any_motor_count": 190,
+        "reachable_any_motor_fraction": 0.7692307692307693,
+        "reachable_productive_descending_count": 190,
+        "reachable_productive_descending_fraction": 0.7692307692307693,
+        "runtime_body_count": 247,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.right.olfactory": {
+        "best_direct_example_body_id": 11151,
+        "best_direct_example_hops": 2,
+        "body_count": 1248,
+        "hops_to_productive_descending": {
+          "count": 1248,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 1248,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.head.an.right.olfactory",
+        "reachable_any_motor_count": 1248,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 1248,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 1248,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.right.thermosensory": {
+        "best_direct_example_body_id": 15547,
+        "best_direct_example_hops": 2,
+        "body_count": 13,
+        "hops_to_productive_descending": {
+          "count": 13,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.3999999999999986
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 13,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.head.an.right.thermosensory",
+        "reachable_any_motor_count": 13,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 13,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 13,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.an.right.unknown_sensory": {
+        "best_direct_example_body_id": 258819,
+        "best_direct_example_hops": 2,
+        "body_count": 23,
+        "hops_to_productive_descending": {
+          "count": 6,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.75
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 6,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.75
+        },
+        "port": "sensory.head.an.right.unknown_sensory",
+        "reachable_any_motor_count": 6,
+        "reachable_any_motor_fraction": 0.2608695652173913,
+        "reachable_productive_descending_count": 6,
+        "reachable_productive_descending_fraction": 0.2608695652173913,
+        "runtime_body_count": 23,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.aphn.left.gustatory.pharyngeal_sensillum": {
+        "best_direct_example_body_id": 194138,
+        "best_direct_example_hops": 1,
+        "body_count": 18,
+        "hops_to_productive_descending": {
+          "count": 18,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.1499999999999986
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 18,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.aphn.left.gustatory.pharyngeal_sensillum",
+        "reachable_any_motor_count": 18,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 18,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 18,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.aphn.left.mechanosensory.pharyngeal_sensillum": {
+        "best_direct_example_body_id": 14742,
+        "best_direct_example_hops": 1,
+        "body_count": 21,
+        "hops_to_productive_descending": {
+          "count": 21,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 21,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.aphn.left.mechanosensory.pharyngeal_sensillum",
+        "reachable_any_motor_count": 21,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 21,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 21,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.aphn.right.gustatory.pharyngeal_sensillum": {
+        "best_direct_example_body_id": 15695,
+        "best_direct_example_hops": 1,
+        "body_count": 18,
+        "hops_to_productive_descending": {
+          "count": 18,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.1499999999999986
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 18,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.aphn.right.gustatory.pharyngeal_sensillum",
+        "reachable_any_motor_count": 18,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 18,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 18,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.aphn.right.mechanosensory.pharyngeal_sensillum": {
+        "best_direct_example_body_id": 14844,
+        "best_direct_example_hops": 1,
+        "body_count": 18,
+        "hops_to_productive_descending": {
+          "count": 18,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 18,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.aphn.right.mechanosensory.pharyngeal_sensillum",
+        "reachable_any_motor_count": 18,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 18,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 18,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.aphn.right.mechanosensory_tbc": {
+        "best_direct_example_body_id": 600700832,
+        "best_direct_example_hops": 1,
+        "body_count": 2,
+        "hops_to_productive_descending": {
+          "count": 2,
+          "max": 2,
+          "median": 1.5,
+          "min": 1,
+          "p95": 1.95
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 2,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.head.aphn.right.mechanosensory_tbc",
+        "reachable_any_motor_count": 2,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 2,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 2,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.left.gustatory.labellar_bristle": {
+        "best_direct_example_body_id": 54104,
+        "best_direct_example_hops": 2,
+        "body_count": 82,
+        "hops_to_productive_descending": {
+          "count": 82,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 82,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.head.mxlbn.left.gustatory.labellar_bristle",
+        "reachable_any_motor_count": 82,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 82,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 82,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.left.gustatory.taste_peg": {
+        "best_direct_example_body_id": 158200,
+        "best_direct_example_hops": 2,
+        "body_count": 29,
+        "hops_to_productive_descending": {
+          "count": 29,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 29,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.head.mxlbn.left.gustatory.taste_peg",
+        "reachable_any_motor_count": 29,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 29,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 29,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.left.mechanosensory": {
+        "best_direct_example_body_id": 25582,
+        "best_direct_example_hops": 1,
+        "body_count": 416,
+        "hops_to_productive_descending": {
+          "count": 416,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 416,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.mxlbn.left.mechanosensory",
+        "reachable_any_motor_count": 416,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 416,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 416,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.left.mechanosensory_tbc": {
+        "best_direct_example_body_id": 434199,
+        "best_direct_example_hops": 1,
+        "body_count": 6,
+        "hops_to_productive_descending": {
+          "count": 6,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 6,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.head.mxlbn.left.mechanosensory_tbc",
+        "reachable_any_motor_count": 6,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 6,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 6,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.left.olfactory": {
+        "best_direct_example_body_id": 52622,
+        "best_direct_example_hops": 2,
+        "body_count": 85,
+        "hops_to_productive_descending": {
+          "count": 85,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 85,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.head.mxlbn.left.olfactory",
+        "reachable_any_motor_count": 85,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 85,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 85,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.left.unknown_sensory": {
+        "best_direct_example_body_id": 85471,
+        "best_direct_example_hops": 1,
+        "body_count": 32,
+        "hops_to_productive_descending": {
+          "count": 21,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 21,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.mxlbn.left.unknown_sensory",
+        "reachable_any_motor_count": 21,
+        "reachable_any_motor_fraction": 0.65625,
+        "reachable_productive_descending_count": 21,
+        "reachable_productive_descending_fraction": 0.65625,
+        "runtime_body_count": 32,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.right.gustatory.labellar_bristle": {
+        "best_direct_example_body_id": 253648,
+        "best_direct_example_hops": 1,
+        "body_count": 80,
+        "hops_to_productive_descending": {
+          "count": 80,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 80,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.mxlbn.right.gustatory.labellar_bristle",
+        "reachable_any_motor_count": 80,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 80,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 80,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.right.gustatory.taste_peg": {
+        "best_direct_example_body_id": 129802,
+        "best_direct_example_hops": 2,
+        "body_count": 30,
+        "hops_to_productive_descending": {
+          "count": 30,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.5499999999999972
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 30,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.head.mxlbn.right.gustatory.taste_peg",
+        "reachable_any_motor_count": 30,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 30,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 30,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.right.mechanosensory": {
+        "best_direct_example_body_id": 23690,
+        "best_direct_example_hops": 1,
+        "body_count": 501,
+        "hops_to_productive_descending": {
+          "count": 491,
+          "max": 3,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 491,
+          "max": 4,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.mxlbn.right.mechanosensory",
+        "reachable_any_motor_count": 491,
+        "reachable_any_motor_fraction": 0.9800399201596807,
+        "reachable_productive_descending_count": 491,
+        "reachable_productive_descending_fraction": 0.9800399201596807,
+        "runtime_body_count": 501,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.right.olfactory": {
+        "best_direct_example_body_id": 36550,
+        "best_direct_example_hops": 2,
+        "body_count": 96,
+        "hops_to_productive_descending": {
+          "count": 96,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 96,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.25
+        },
+        "port": "sensory.head.mxlbn.right.olfactory",
+        "reachable_any_motor_count": 96,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 96,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 96,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.mxlbn.right.unknown_sensory": {
+        "best_direct_example_body_id": 58843,
+        "best_direct_example_hops": 1,
+        "body_count": 27,
+        "hops_to_productive_descending": {
+          "count": 23,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 23,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.mxlbn.right.unknown_sensory",
+        "reachable_any_motor_count": 23,
+        "reachable_any_motor_fraction": 0.8518518518518519,
+        "reachable_productive_descending_count": 23,
+        "reachable_productive_descending_fraction": 0.8518518518518519,
+        "runtime_body_count": 27,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.on.left.mechanosensory": {
+        "best_direct_example_body_id": 17347,
+        "best_direct_example_hops": 1,
+        "body_count": 14,
+        "hops_to_productive_descending": {
+          "count": 14,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 14,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.on.left.mechanosensory",
+        "reachable_any_motor_count": 14,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 14,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 14,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.on.right.mechanosensory": {
+        "best_direct_example_body_id": 39549,
+        "best_direct_example_hops": 1,
+        "body_count": 19,
+        "hops_to_productive_descending": {
+          "count": 19,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 19,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.on.right.mechanosensory",
+        "reachable_any_motor_count": 19,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 19,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 19,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.phn.left.gustatory.pharyngeal_sensillum": {
+        "best_direct_example_body_id": 55883,
+        "best_direct_example_hops": 1,
+        "body_count": 6,
+        "hops_to_productive_descending": {
+          "count": 6,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 6,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.phn.left.gustatory.pharyngeal_sensillum",
+        "reachable_any_motor_count": 6,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 6,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 6,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.phn.left.unknown_sensory": {
+        "best_direct_example_body_id": 46096,
+        "best_direct_example_hops": 1,
+        "body_count": 19,
+        "hops_to_productive_descending": {
+          "count": 19,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 19,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.phn.left.unknown_sensory",
+        "reachable_any_motor_count": 19,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 19,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 19,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.phn.right.gustatory.pharyngeal_sensillum": {
+        "best_direct_example_body_id": 109574,
+        "best_direct_example_hops": 1,
+        "body_count": 6,
+        "hops_to_productive_descending": {
+          "count": 6,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 6,
+          "max": 2,
+          "median": 1.5,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.phn.right.gustatory.pharyngeal_sensillum",
+        "reachable_any_motor_count": 6,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 6,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 6,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.phn.right.mechanosensory_tbc": {
+        "best_direct_example_body_id": 489781,
+        "best_direct_example_hops": 2,
+        "body_count": 1,
+        "hops_to_productive_descending": {
+          "count": 1,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 1,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.head.phn.right.mechanosensory_tbc",
+        "reachable_any_motor_count": 1,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 1,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 1,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.head.phn.right.unknown_sensory": {
+        "best_direct_example_body_id": 84031,
+        "best_direct_example_hops": 1,
+        "body_count": 14,
+        "hops_to_productive_descending": {
+          "count": 14,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 14,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.head.phn.right.unknown_sensory",
+        "reachable_any_motor_count": 14,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 14,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 14,
+        "source_mask_files": [
+          "head_sensory_inputs.candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_left.chemical": {
@@ -703,10 +1978,13 @@
         "reachable_productive_descending_count": 11,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 11,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_left.proprioception": {
-        "best_direct_example_body_id": 899926,
+        "best_direct_example_body_id": 811689,
         "best_direct_example_hops": 1,
         "body_count": 41,
         "hops_to_productive_descending": {
@@ -730,6 +2008,9 @@
         "reachable_productive_descending_count": 41,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 41,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_left.taste": {
@@ -757,10 +2038,13 @@
         "reachable_productive_descending_count": 134,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 134,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_left.touch": {
-        "best_direct_example_body_id": 815729,
+        "best_direct_example_body_id": 810843,
         "best_direct_example_hops": 1,
         "body_count": 151,
         "hops_to_productive_descending": {
@@ -784,6 +2068,9 @@
         "reachable_productive_descending_count": 151,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 151,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_left.unknown": {
@@ -811,6 +2098,9 @@
         "reachable_productive_descending_count": 146,
         "reachable_productive_descending_fraction": 0.9798657718120806,
         "runtime_body_count": 149,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_right.chemical": {
@@ -838,10 +2128,13 @@
         "reachable_productive_descending_count": 8,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 8,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_right.proprioception": {
-        "best_direct_example_body_id": 877244,
+        "best_direct_example_body_id": 816782,
         "best_direct_example_hops": 1,
         "body_count": 17,
         "hops_to_productive_descending": {
@@ -865,6 +2158,9 @@
         "reachable_productive_descending_count": 17,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 17,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_right.taste": {
@@ -892,10 +2188,13 @@
         "reachable_productive_descending_count": 136,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 136,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_right.touch": {
-        "best_direct_example_body_id": 817362,
+        "best_direct_example_body_id": 808535,
         "best_direct_example_hops": 1,
         "body_count": 115,
         "hops_to_productive_descending": {
@@ -919,10 +2218,13 @@
         "reachable_productive_descending_count": 115,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 115,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.front_right.unknown": {
-        "best_direct_example_body_id": 823053,
+        "best_direct_example_body_id": 818704,
         "best_direct_example_hops": 1,
         "body_count": 180,
         "hops_to_productive_descending": {
@@ -946,10 +2248,13 @@
         "reachable_productive_descending_count": 165,
         "reachable_productive_descending_fraction": 0.9166666666666666,
         "runtime_body_count": 180,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.hind_left.proprioception": {
-        "best_direct_example_body_id": 819255,
+        "best_direct_example_body_id": 802350,
         "best_direct_example_hops": 1,
         "body_count": 138,
         "hops_to_productive_descending": {
@@ -973,6 +2278,9 @@
         "reachable_productive_descending_count": 138,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 138,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.hind_left.taste": {
@@ -1000,10 +2308,13 @@
         "reachable_productive_descending_count": 108,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 108,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.hind_left.touch": {
-        "best_direct_example_body_id": 814241,
+        "best_direct_example_body_id": 807551,
         "best_direct_example_hops": 1,
         "body_count": 394,
         "hops_to_productive_descending": {
@@ -1027,6 +2338,9 @@
         "reachable_productive_descending_count": 394,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 394,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.hind_left.unknown": {
@@ -1054,10 +2368,13 @@
         "reachable_productive_descending_count": 80,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 80,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.hind_right.proprioception": {
-        "best_direct_example_body_id": 933318,
+        "best_direct_example_body_id": 804782,
         "best_direct_example_hops": 1,
         "body_count": 151,
         "hops_to_productive_descending": {
@@ -1081,6 +2398,9 @@
         "reachable_productive_descending_count": 151,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 151,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.hind_right.taste": {
@@ -1108,10 +2428,13 @@
         "reachable_productive_descending_count": 106,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 106,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.hind_right.touch": {
-        "best_direct_example_body_id": 808321,
+        "best_direct_example_body_id": 806332,
         "best_direct_example_hops": 1,
         "body_count": 411,
         "hops_to_productive_descending": {
@@ -1135,10 +2458,13 @@
         "reachable_productive_descending_count": 411,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 411,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.hind_right.unknown": {
-        "best_direct_example_body_id": 817670,
+        "best_direct_example_body_id": 802125,
         "best_direct_example_hops": 1,
         "body_count": 87,
         "hops_to_productive_descending": {
@@ -1162,6 +2488,9 @@
         "reachable_productive_descending_count": 86,
         "reachable_productive_descending_fraction": 0.9885057471264368,
         "runtime_body_count": 87,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.middle_left.chemical": {
@@ -1189,10 +2518,13 @@
         "reachable_productive_descending_count": 1,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 1,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.middle_left.proprioception": {
-        "best_direct_example_body_id": 1050413944,
+        "best_direct_example_body_id": 803512,
         "best_direct_example_hops": 1,
         "body_count": 135,
         "hops_to_productive_descending": {
@@ -1216,6 +2548,9 @@
         "reachable_productive_descending_count": 135,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 135,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.middle_left.taste": {
@@ -1243,10 +2578,13 @@
         "reachable_productive_descending_count": 99,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 99,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.middle_left.touch": {
-        "best_direct_example_body_id": 807746,
+        "best_direct_example_body_id": 804216,
         "best_direct_example_hops": 1,
         "body_count": 378,
         "hops_to_productive_descending": {
@@ -1270,6 +2608,9 @@
         "reachable_productive_descending_count": 378,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 378,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.middle_left.unknown": {
@@ -1297,10 +2638,13 @@
         "reachable_productive_descending_count": 46,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 46,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.middle_right.proprioception": {
-        "best_direct_example_body_id": 832921,
+        "best_direct_example_body_id": 803161,
         "best_direct_example_hops": 1,
         "body_count": 140,
         "hops_to_productive_descending": {
@@ -1324,6 +2668,9 @@
         "reachable_productive_descending_count": 140,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 140,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.middle_right.taste": {
@@ -1351,10 +2698,13 @@
         "reachable_productive_descending_count": 105,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 105,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.middle_right.touch": {
-        "best_direct_example_body_id": 809773,
+        "best_direct_example_body_id": 803761,
         "best_direct_example_hops": 1,
         "body_count": 428,
         "hops_to_productive_descending": {
@@ -1378,6 +2728,9 @@
         "reachable_productive_descending_count": 428,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 428,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.leg.middle_right.unknown": {
@@ -1405,6 +2758,579 @@
         "reachable_productive_descending_count": 27,
         "reachable_productive_descending_fraction": 0.9642857142857143,
         "runtime_body_count": 28,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.left.r1_r6": {
+        "best_direct_example_body_id": 15983,
+        "best_direct_example_hops": 3,
+        "body_count": 1112,
+        "hops_to_productive_descending": {
+          "count": 1112,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 1112,
+          "max": 4,
+          "median": 4.0,
+          "min": 3,
+          "p95": 4.0
+        },
+        "port": "sensory.vision.left.r1_r6",
+        "reachable_any_motor_count": 1112,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 1112,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 1112,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.left.r7_unclear": {
+        "best_direct_example_body_id": 193316,
+        "best_direct_example_hops": 2,
+        "body_count": 165,
+        "hops_to_productive_descending": {
+          "count": 165,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 165,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.left.r7_unclear",
+        "reachable_any_motor_count": 165,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 165,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 165,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.left.r7d": {
+        "best_direct_example_body_id": 50109,
+        "best_direct_example_hops": 3,
+        "body_count": 40,
+        "hops_to_productive_descending": {
+          "count": 40,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 40,
+          "max": 3,
+          "median": 3.0,
+          "min": 3,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.left.r7d",
+        "reachable_any_motor_count": 40,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 40,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 40,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.left.r7p": {
+        "best_direct_example_body_id": 176520,
+        "best_direct_example_hops": 2,
+        "body_count": 173,
+        "hops_to_productive_descending": {
+          "count": 173,
+          "max": 3,
+          "median": 2.0,
+          "min": 1,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 173,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.left.r7p",
+        "reachable_any_motor_count": 173,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 173,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 173,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.left.r7y": {
+        "best_direct_example_body_id": 147021,
+        "best_direct_example_hops": 2,
+        "body_count": 230,
+        "hops_to_productive_descending": {
+          "count": 230,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 230,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.left.r7y",
+        "reachable_any_motor_count": 230,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 230,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 230,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.left.r8_unclear": {
+        "best_direct_example_body_id": 170401,
+        "best_direct_example_hops": 2,
+        "body_count": 188,
+        "hops_to_productive_descending": {
+          "count": 188,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 188,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.left.r8_unclear",
+        "reachable_any_motor_count": 188,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 188,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 188,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.left.r8d": {
+        "best_direct_example_body_id": 243260,
+        "best_direct_example_hops": 2,
+        "body_count": 35,
+        "hops_to_productive_descending": {
+          "count": 35,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 35,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.left.r8d",
+        "reachable_any_motor_count": 35,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 35,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 35,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.left.r8p": {
+        "best_direct_example_body_id": 137585,
+        "best_direct_example_hops": 2,
+        "body_count": 172,
+        "hops_to_productive_descending": {
+          "count": 172,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 172,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.left.r8p",
+        "reachable_any_motor_count": 172,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 172,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 172,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.left.r8y": {
+        "best_direct_example_body_id": 15625,
+        "best_direct_example_hops": 2,
+        "body_count": 230,
+        "hops_to_productive_descending": {
+          "count": 230,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 230,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.left.r8y",
+        "reachable_any_motor_count": 230,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 230,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 230,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r1_r6": {
+        "best_direct_example_body_id": 28122,
+        "best_direct_example_hops": 3,
+        "body_count": 2265,
+        "hops_to_productive_descending": {
+          "count": 2243,
+          "max": 4,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 2243,
+          "max": 5,
+          "median": 4.0,
+          "min": 3,
+          "p95": 4.0
+        },
+        "port": "sensory.vision.right.r1_r6",
+        "reachable_any_motor_count": 2243,
+        "reachable_any_motor_fraction": 0.9902869757174393,
+        "reachable_productive_descending_count": 2243,
+        "reachable_productive_descending_fraction": 0.9902869757174393,
+        "runtime_body_count": 2265,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r7_unclear": {
+        "best_direct_example_body_id": 168655,
+        "best_direct_example_hops": 2,
+        "body_count": 239,
+        "hops_to_productive_descending": {
+          "count": 219,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 219,
+          "max": 4,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.right.r7_unclear",
+        "reachable_any_motor_count": 219,
+        "reachable_any_motor_fraction": 0.9163179916317992,
+        "reachable_productive_descending_count": 219,
+        "reachable_productive_descending_fraction": 0.9163179916317992,
+        "runtime_body_count": 239,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r7d": {
+        "best_direct_example_body_id": 137443,
+        "best_direct_example_hops": 2,
+        "body_count": 42,
+        "hops_to_productive_descending": {
+          "count": 42,
+          "max": 3,
+          "median": 2.0,
+          "min": 1,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 42,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.right.r7d",
+        "reachable_any_motor_count": 42,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 42,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 42,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r7p": {
+        "best_direct_example_body_id": 126130,
+        "best_direct_example_hops": 2,
+        "body_count": 159,
+        "hops_to_productive_descending": {
+          "count": 159,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 159,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.right.r7p",
+        "reachable_any_motor_count": 159,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 159,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 159,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r7r8_unclear": {
+        "best_direct_example_body_id": 500135,
+        "best_direct_example_hops": 2,
+        "body_count": 85,
+        "hops_to_productive_descending": {
+          "count": 39,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 39,
+          "max": 4,
+          "median": 3.0,
+          "min": 2,
+          "p95": 4.0
+        },
+        "port": "sensory.vision.right.r7r8_unclear",
+        "reachable_any_motor_count": 39,
+        "reachable_any_motor_fraction": 0.4588235294117647,
+        "reachable_productive_descending_count": 39,
+        "reachable_productive_descending_fraction": 0.4588235294117647,
+        "runtime_body_count": 85,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r7y": {
+        "best_direct_example_body_id": 101414,
+        "best_direct_example_hops": 2,
+        "body_count": 252,
+        "hops_to_productive_descending": {
+          "count": 252,
+          "max": 3,
+          "median": 2.0,
+          "min": 1,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 252,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.right.r7y",
+        "reachable_any_motor_count": 252,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 252,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 252,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r8_unclear": {
+        "best_direct_example_body_id": 144646,
+        "best_direct_example_hops": 2,
+        "body_count": 254,
+        "hops_to_productive_descending": {
+          "count": 251,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 251,
+          "max": 4,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.right.r8_unclear",
+        "reachable_any_motor_count": 251,
+        "reachable_any_motor_fraction": 0.9881889763779528,
+        "reachable_productive_descending_count": 251,
+        "reachable_productive_descending_fraction": 0.9881889763779528,
+        "runtime_body_count": 254,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r8d": {
+        "best_direct_example_body_id": 139978,
+        "best_direct_example_hops": 2,
+        "body_count": 41,
+        "hops_to_productive_descending": {
+          "count": 41,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 41,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.right.r8d",
+        "reachable_any_motor_count": 41,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 41,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 41,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r8p": {
+        "best_direct_example_body_id": 122037,
+        "best_direct_example_hops": 2,
+        "body_count": 158,
+        "hops_to_productive_descending": {
+          "count": 158,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.1500000000000057
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 158,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.right.r8p",
+        "reachable_any_motor_count": 158,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 158,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 158,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
+        "topology_route_confirmed": true
+      },
+      "sensory.vision.right.r8y": {
+        "best_direct_example_body_id": 29911,
+        "best_direct_example_hops": 2,
+        "body_count": 251,
+        "hops_to_productive_descending": {
+          "count": 251,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 251,
+          "max": 3,
+          "median": 3.0,
+          "min": 2,
+          "p95": 3.0
+        },
+        "port": "sensory.vision.right.r8y",
+        "reachable_any_motor_count": 251,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 251,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 251,
+        "source_mask_files": [
+          "visual_inputs.candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.wing.left.proprioception": {
@@ -1432,6 +3358,9 @@
         "reachable_productive_descending_count": 76,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 76,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.wing.left.taste": {
@@ -1459,6 +3388,9 @@
         "reachable_productive_descending_count": 193,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 193,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.wing.left.touch": {
@@ -1486,6 +3418,9 @@
         "reachable_productive_descending_count": 178,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 178,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.wing.left.unknown": {
@@ -1513,6 +3448,9 @@
         "reachable_productive_descending_count": 13,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 13,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.wing.right.proprioception": {
@@ -1540,6 +3478,9 @@
         "reachable_productive_descending_count": 78,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 78,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.wing.right.taste": {
@@ -1567,6 +3508,9 @@
         "reachable_productive_descending_count": 192,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 192,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.wing.right.touch": {
@@ -1594,6 +3538,9 @@
         "reachable_productive_descending_count": 174,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 174,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       },
       "sensory.wing.right.unknown": {
@@ -1621,6 +3568,9 @@
         "reachable_productive_descending_count": 13,
         "reachable_productive_descending_fraction": 1.0,
         "runtime_body_count": 13,
+        "source_mask_files": [
+          "sensory_inputs.physical-candidate.feather"
+        ],
         "topology_route_confirmed": true
       }
     },
@@ -1628,72 +3578,210 @@
       "motor.abdomen.left": {
         "body_count": 107,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 107
+        "runtime_body_count": 107,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.abdomen.right": {
         "body_count": 107,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 107
+        "runtime_body_count": 107,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.haltere.left": {
         "body_count": 8,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 8
+        "runtime_body_count": 8,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.haltere.right": {
         "body_count": 8,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 8
+        "runtime_body_count": 8,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
+      },
+      "motor.head.an.left.am": {
+        "body_count": 6,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 6,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.an.left.rm": {
+        "body_count": 1,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 1,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.an.right.am": {
+        "body_count": 7,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 7,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.an.right.rm": {
+        "body_count": 1,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 1,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.cvn.left.nm": {
+        "body_count": 10,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 10,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.cvn.right.nm": {
+        "body_count": 10,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 10,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.mxlbn.left.pm": {
+        "body_count": 13,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 13,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.mxlbn.right.pm": {
+        "body_count": 13,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 13,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.on.left.rm": {
+        "body_count": 2,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 2,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.on.right.rm": {
+        "body_count": 3,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 3,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.phn.left.pm": {
+        "body_count": 22,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 22,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
+      },
+      "motor.head.phn.right.pm": {
+        "body_count": 18,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 18,
+        "source_mask_files": [
+          "head_motor_outputs.candidate.feather"
+        ]
       },
       "motor.leg.front_left": {
         "body_count": 68,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 68
+        "runtime_body_count": 68,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.leg.front_right": {
         "body_count": 67,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 67
+        "runtime_body_count": 67,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.leg.hind_left": {
         "body_count": 66,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 66
+        "runtime_body_count": 66,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.leg.hind_right": {
         "body_count": 64,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 64
+        "runtime_body_count": 64,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.leg.middle_left": {
         "body_count": 58,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 58
+        "runtime_body_count": 58,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.leg.middle_right": {
         "body_count": 58,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 58
+        "runtime_body_count": 58,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.neck.left": {
         "body_count": 12,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 12
+        "runtime_body_count": 12,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.neck.right": {
         "body_count": 12,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 12
+        "runtime_body_count": 12,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.wing.left": {
         "body_count": 33,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 33
+        "runtime_body_count": 33,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       },
       "motor.wing.right": {
         "body_count": 34,
         "missing_runtime_body_ids": [],
-        "runtime_body_count": 34
+        "runtime_body_count": 34,
+        "source_mask_files": [
+          "motor_outputs.physical-candidate.feather"
+        ]
       }
     },
     "topology_confirmed_input_ports": [
@@ -1722,6 +3810,46 @@
       "sensory.haltere.right.proprioception",
       "sensory.haltere.right.touch",
       "sensory.haltere.right.unknown",
+      "sensory.head.an.left.hygrosensory",
+      "sensory.head.an.left.mechanosensory",
+      "sensory.head.an.left.mechanosensory.auditory",
+      "sensory.head.an.left.mechanosensory.grooming",
+      "sensory.head.an.left.mechanosensory.wind_gravity",
+      "sensory.head.an.left.mechanosensory_tbc",
+      "sensory.head.an.left.olfactory",
+      "sensory.head.an.left.thermosensory",
+      "sensory.head.an.left.unknown_sensory",
+      "sensory.head.an.right.hygrosensory",
+      "sensory.head.an.right.mechanosensory",
+      "sensory.head.an.right.mechanosensory.auditory",
+      "sensory.head.an.right.mechanosensory.grooming",
+      "sensory.head.an.right.mechanosensory.wind_gravity",
+      "sensory.head.an.right.olfactory",
+      "sensory.head.an.right.thermosensory",
+      "sensory.head.an.right.unknown_sensory",
+      "sensory.head.aphn.left.gustatory.pharyngeal_sensillum",
+      "sensory.head.aphn.left.mechanosensory.pharyngeal_sensillum",
+      "sensory.head.aphn.right.gustatory.pharyngeal_sensillum",
+      "sensory.head.aphn.right.mechanosensory.pharyngeal_sensillum",
+      "sensory.head.aphn.right.mechanosensory_tbc",
+      "sensory.head.mxlbn.left.gustatory.labellar_bristle",
+      "sensory.head.mxlbn.left.gustatory.taste_peg",
+      "sensory.head.mxlbn.left.mechanosensory",
+      "sensory.head.mxlbn.left.mechanosensory_tbc",
+      "sensory.head.mxlbn.left.olfactory",
+      "sensory.head.mxlbn.left.unknown_sensory",
+      "sensory.head.mxlbn.right.gustatory.labellar_bristle",
+      "sensory.head.mxlbn.right.gustatory.taste_peg",
+      "sensory.head.mxlbn.right.mechanosensory",
+      "sensory.head.mxlbn.right.olfactory",
+      "sensory.head.mxlbn.right.unknown_sensory",
+      "sensory.head.on.left.mechanosensory",
+      "sensory.head.on.right.mechanosensory",
+      "sensory.head.phn.left.gustatory.pharyngeal_sensillum",
+      "sensory.head.phn.left.unknown_sensory",
+      "sensory.head.phn.right.gustatory.pharyngeal_sensillum",
+      "sensory.head.phn.right.mechanosensory_tbc",
+      "sensory.head.phn.right.unknown_sensory",
       "sensory.leg.front_left.chemical",
       "sensory.leg.front_left.proprioception",
       "sensory.leg.front_left.taste",
@@ -1749,6 +3877,25 @@
       "sensory.leg.middle_right.taste",
       "sensory.leg.middle_right.touch",
       "sensory.leg.middle_right.unknown",
+      "sensory.vision.left.r1_r6",
+      "sensory.vision.left.r7_unclear",
+      "sensory.vision.left.r7d",
+      "sensory.vision.left.r7p",
+      "sensory.vision.left.r7y",
+      "sensory.vision.left.r8_unclear",
+      "sensory.vision.left.r8d",
+      "sensory.vision.left.r8p",
+      "sensory.vision.left.r8y",
+      "sensory.vision.right.r1_r6",
+      "sensory.vision.right.r7_unclear",
+      "sensory.vision.right.r7d",
+      "sensory.vision.right.r7p",
+      "sensory.vision.right.r7r8_unclear",
+      "sensory.vision.right.r7y",
+      "sensory.vision.right.r8_unclear",
+      "sensory.vision.right.r8d",
+      "sensory.vision.right.r8p",
+      "sensory.vision.right.r8y",
       "sensory.wing.left.proprioception",
       "sensory.wing.left.taste",
       "sensory.wing.left.touch",
@@ -1773,17 +3920,17 @@
   "searches": {
     "distance_to_any_motor": {
       "layer_sizes": [
-        702,
-        15679,
-        37961,
-        103004,
-        8110,
-        44,
+        808,
+        18873,
+        93342,
+        49626,
+        2844,
+        9,
         0
       ],
       "max_distance_observed": 5,
-      "reachable_node_count": 165500,
-      "target_count": 702
+      "reachable_node_count": 165502,
+      "target_count": 808
     },
     "distance_to_any_productive_descending": {
       "layer_sizes": [
@@ -1801,31 +3948,45 @@
   },
   "sensory_global": {
     "hops_to_productive_descending": {
-      "count": 5906,
-      "max": 4,
-      "median": 1.0,
-      "min": 1,
-      "p95": 2.0
-    },
-    "missing_runtime_body_ids": [],
-    "motor_hops": {
-      "count": 5906,
+      "count": 16222,
       "max": 4,
       "median": 2.0,
       "min": 1,
-      "p95": 2.0
+      "p95": 3.0
     },
-    "reachable_any_motor_count": 5906,
-    "reachable_any_motor_fraction": 0.993606998654105,
-    "reachable_productive_descending_count": 5906,
-    "reachable_productive_descending_fraction": 0.993606998654105,
-    "resolved_sensory_bodies": 5944
+    "missing_runtime_body_ids": [],
+    "motor_hops": {
+      "count": 16222,
+      "max": 5,
+      "median": 2.0,
+      "min": 1,
+      "p95": 4.0
+    },
+    "reachable_any_motor_count": 16222,
+    "reachable_any_motor_fraction": 0.9842849341666161,
+    "reachable_productive_descending_count": 16222,
+    "reachable_productive_descending_fraction": 0.9842849341666161,
+    "resolved_sensory_bodies": 16481,
+    "sensory_port_count": 119
+  },
+  "source_masks": {
+    "diagnostic": "diagnostic_ports.candidate.feather",
+    "motor": [
+      "motor_outputs.physical-candidate.feather",
+      "head_motor_outputs.candidate.feather"
+    ],
+    "sensory": [
+      "sensory_inputs.physical-candidate.feather",
+      "visual_inputs.candidate.feather",
+      "head_sensory_inputs.candidate.feather"
+    ]
   },
   "targets": {
     "descending_bodies": 1314,
+    "motor_port_count": 26,
     "productive_descending_bodies": 1314,
     "productive_descending_fraction": 1.0,
-    "resolved_motor_bodies": 702
+    "resolved_motor_bodies": 808
   },
   "validation_kind": "directed topology reachability only; not neural dynamics or behaviour"
 }
