@@ -1,0 +1,58 @@
+{
+  "version": "0.1",
+  "dataset": "male-cns:v1.0-minconf-0.5",
+  "include_status": ["Traced"],
+  "groups": {
+    "vnc_sensory": {
+      "direction": "input",
+      "name_prefix": "sensory.vnc",
+      "nerve_fields": ["entryNerve", "cellTypeEntryNerve", "v2Nerve", "cellTypeV2Nerve"],
+      "side_fields": ["rootSide", "somaSide"],
+      "neuromere_fields": ["somaNeuromere"],
+      "group_fields": ["class", "subclass"],
+      "encoding_policy": "uniform_split",
+      "decoding_policy": null
+    },
+    "vnc_motor": {
+      "direction": "output",
+      "name_prefix": "motor.vnc",
+      "nerve_fields": ["exitNerve", "cellTypeExitNerve", "v2Nerve", "cellTypeV2Nerve"],
+      "side_fields": ["rootSide", "somaSide"],
+      "neuromere_fields": ["somaNeuromere"],
+      "group_fields": ["class", "subclass"],
+      "encoding_policy": null,
+      "decoding_policy": "mean"
+    },
+    "ascending_neuron": {
+      "direction": "diagnostic",
+      "name_prefix": "diagnostic.ascending",
+      "nerve_fields": ["entryNerve", "cellTypeEntryNerve", "v2Nerve", "cellTypeV2Nerve"],
+      "side_fields": ["rootSide", "somaSide"],
+      "neuromere_fields": ["somaNeuromere"],
+      "group_fields": [],
+      "encoding_policy": null,
+      "decoding_policy": "mean"
+    },
+    "descending_neuron": {
+      "direction": "diagnostic",
+      "name_prefix": "diagnostic.descending",
+      "nerve_fields": ["exitNerve", "cellTypeExitNerve", "v2Nerve", "cellTypeV2Nerve"],
+      "side_fields": ["rootSide", "somaSide"],
+      "neuromere_fields": ["somaNeuromere"],
+      "group_fields": [],
+      "encoding_policy": null,
+      "decoding_policy": "mean"
+    }
+  },
+  "policy": {
+    "port_status": "candidate",
+    "port_confidence": 0.0,
+    "unknown_token": "unknown",
+    "notes": [
+      "This configuration creates conservative candidate ports only from explicit official superclass labels.",
+      "Nerve identity is preferred over soma location when available.",
+      "Candidate ports are not promoted to validated until graph-path and anatomy checks pass.",
+      "No unknown neuron is coerced into a leg, wing or other body channel."
+    ]
+  }
+}
