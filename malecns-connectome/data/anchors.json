@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "limb_families": {
+    "AN17A003": {
+      "status": "confirmed-six-channel",
+      "members": {
+        "T1L": 15751,
+        "T1R": 16384,
+        "T2L": 42467,
+        "T2R": 37876,
+        "T3L": 29304,
+        "T3R": 28508
+      }
+    },
+    "AN17A024": {
+      "status": "confirmed-six-channel",
+      "members": {
+        "T1L": 43839,
+        "T1R": 45843,
+        "T2L": 56218,
+        "T2R": 51068,
+        "T3L": 121691,
+        "T3R": 55185
+      }
+    },
+    "AN17A062": {
+      "status": "partial-segment-verification",
+      "known": {
+        "T3L": 30346,
+        "T2R": 520622
+      },
+      "unresolved_left": [19581, 934779],
+      "unresolved_right": [35621, 520333],
+      "notes": "Left unresolved bodies are T1L/T2L; right unresolved bodies are T1R/T3R. Do not train on this family until independently resolved."
+    }
+  },
+  "functional_anchors": {
+    "ANXXX098_leg_tactile": {
+      "body_ids": [14502, 14534, 16336, 16977, 17448, 516109],
+      "fine_module": 33,
+      "meso_region": 2,
+      "role": "functional anchor and negative control for naive six-limb interpretation"
+    },
+    "DNg11_front_leg_rubbing": {
+      "body_ids": [14686, 15568, 16399, 18562, 19633],
+      "fine_module": 8,
+      "meso_region": 5
+    },
+    "MDN_AN17A026_backward_walking": {
+      "body_ids": [10763, 11288, 11332, 12348, 13845, 14010],
+      "fine_module": 16,
+      "meso_region": 2
+    },
+    "AN04B001": {
+      "body_ids": [15188, 17490, 21360, 519981],
+      "fine_modules": [44, 48, 53, 36],
+      "meso_region": 2
+    },
+    "AN17A002": {
+      "body_ids": [14014, 16868],
+      "fine_modules": [34, 53],
+      "meso_region": 2
+    },
+    "DNg98": {
+      "body_ids": [10394, 10959],
+      "fine_module": 40,
+      "meso_region": 2
+    }
+  }
+}
