@@ -8,6 +8,10 @@ on:
       - 'malecns-connectome/**'
       - '.github/workflows/malecns-limb-experiment.yml'
 
+concurrency:
+  group: malecns-limb-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
@@ -80,7 +84,7 @@ jobs:
           python scripts/run_limb_decoder_v2.py \
             results/anchor_connectivity_features.npz \
             --anchors data/anchors.json \
-            --permutations 4096 \
+            --permutations 512 \
             --seed 20260912 \
             --output results/limb_decoder_v2.json
 
