@@ -1,0 +1,3841 @@
+{
+  "rows": [
+    {
+      "body_id": 820434,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 824830,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 936341,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 946767,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 952874,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 954670,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 954981,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 955135,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 955284,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 956305,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 956310,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 956323,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 956328,
+      "class": null,
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": null,
+      "subclass": null
+    },
+    {
+      "body_id": 1050206135,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": "unknown",
+      "subclass": "campaniform sensilla"
+    },
+    {
+      "body_id": 885592,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": null,
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": null
+    },
+    {
+      "body_id": 811741,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 828321,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 902460,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 808732,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 811197,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 912105,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 804256,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 804498,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 810585,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 811588,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814286,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814893,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 815150,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 815549,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 815994,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 908845,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 909456,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 913107,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 804718,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 813234,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 815545,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 817775,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 817943,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 818255,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 903669,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 909157,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 909712,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 909921,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 909922,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "DProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 809958,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 811545,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814514,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816440,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817169,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 808613,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 810972,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 811119,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814927,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816720,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817804,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 801756,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 803739,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 804151,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 804614,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 805050,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 805531,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 806696,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 807736,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 813050,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 813210,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 813230,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 813631,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 813793,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814098,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814386,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814423,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814447,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814548,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814757,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814760,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814877,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 815844,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 816883,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 902565,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 906073,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 906074,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 906075,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 906134,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 911587,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 912422,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 802409,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 802939,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 803150,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 803525,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 803626,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 804104,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 807790,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 811770,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 813918,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 813961,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814226,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 814756,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 815738,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 816105,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 816268,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 816567,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 904789,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 912923,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 913251,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 935828,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 802759,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 806595,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 806637,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 807651,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 807664,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 807986,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 808275,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 808565,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 808633,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 808917,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 810808,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 811373,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 811440,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 812589,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 812776,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 812866,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813010,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813225,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813446,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813514,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813609,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813762,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813776,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813802,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813811,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813830,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813837,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813940,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813941,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813997,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814001,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814071,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814096,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814257,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814405,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814439,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814472,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814578,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814617,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814635,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814642,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814648,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814657,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814697,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814776,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814797,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814799,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814851,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814885,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814992,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815006,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815023,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815028,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815137,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815191,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815218,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815275,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815361,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815530,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815550,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815618,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815638,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815726,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815755,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815775,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815815,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815865,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815888,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815920,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815925,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816092,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816097,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816116,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816204,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816245,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816312,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816390,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816525,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816526,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817468,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817520,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 818371,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 818816,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 821730,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 903637,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 905925,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 905991,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 907983,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 909448,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 910459,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 910460,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 911279,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 911588,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 911904,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 911920,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 911921,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 912109,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 912110,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 912242,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 912334,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 912350,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 804142,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 804486,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 804694,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 808343,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 809587,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 809617,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 810111,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 811106,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 811217,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 812055,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 812254,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 812549,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 812569,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 812955,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 812995,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813033,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813370,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813412,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813551,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813630,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813789,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813865,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 813999,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814012,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814013,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814147,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814172,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814198,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814256,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814320,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814343,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814449,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814512,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814520,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814573,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814580,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814609,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814620,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814726,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814813,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814829,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814880,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 814976,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815055,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815106,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815166,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815169,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815175,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815202,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815212,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815244,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815266,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815382,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815434,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815438,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815441,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815459,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815583,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815611,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815703,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815712,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815740,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815765,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815771,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815779,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815807,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815892,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815904,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815968,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815973,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 815980,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816031,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816040,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816086,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816107,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816114,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816135,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816259,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816261,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816300,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816428,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816509,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816528,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816546,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816581,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816618,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816622,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816641,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816699,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816769,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816784,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816827,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 816877,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817027,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817062,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817083,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817138,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817225,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817299,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817446,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817456,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 817514,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 818012,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 818099,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 818164,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 903552,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 907283,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 907984,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 909449,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 909450,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 912698,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 912718,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 913246,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 807032,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 919506,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 808084,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 808262,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": "PDMN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "notum"
+    },
+    {
+      "body_id": 805789,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 805928,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 806596,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 806654,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 807171,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 807311,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 807696,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 808441,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 809377,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 811922,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 906251,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 906483,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 906484,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 906485,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 908952,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 909252,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 910205,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 805951,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 806777,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 806791,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 806967,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 808243,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 808939,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 809128,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 810213,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 811305,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 811353,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 812287,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 813754,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 829156,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 905460,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 907953,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 909809,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 912763,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 821742,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "neck"
+    },
+    {
+      "body_id": 1050625756,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": "PrN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "neck"
+    },
+    {
+      "body_id": 803989,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 810716,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 858472,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 806966,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 807752,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 814763,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 832333,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 906066,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 820410,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 838832,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": "ProAN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 802287,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 810452,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 816004,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 816434,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 817350,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 817564,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 821279,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 822497,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 823972,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 902320,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 902351,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 902352,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 902353,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 902357,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 902397,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 902402,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 902403,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 905158,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 907697,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 908013,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 910285,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 912181,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 913067,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 914370,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 1060570389,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 819291,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 820181,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 821938,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 825792,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 829606,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 834000,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 909271,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 1060484465,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "ProCN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "chordotonal organ"
+    },
+    {
+      "body_id": 804975,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 813083,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 816234,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 860788,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 904779,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 908177,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 1110706007,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "L",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 815705,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 819536,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 912106,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 1310068700,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 1323625268,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "hair plate"
+    },
+    {
+      "body_id": 822614,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 839681,
+      "class": "mechanosensory_proprioceptive",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 817973,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 818092,
+      "class": "mechanosensory_tactile",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "mechanosensory bristle"
+    },
+    {
+      "body_id": 818780,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 908019,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 1053432224,
+      "class": "unknown_sensory",
+      "direction": "input",
+      "nerve": "VProN",
+      "reason": "unmapped_nerve",
+      "side": "R",
+      "subclass": "leg"
+    },
+    {
+      "body_id": 811400,
+      "direction": "output",
+      "nerve": "DMetaN",
+      "reason": "unknown_motor_target",
+      "side": "L",
+      "subclass": "xm"
+    },
+    {
+      "body_id": 812988,
+      "direction": "output",
+      "nerve": "DMetaN",
+      "reason": "unknown_motor_target",
+      "side": "L",
+      "subclass": "xm"
+    },
+    {
+      "body_id": 811395,
+      "direction": "output",
+      "nerve": "DMetaN",
+      "reason": "unknown_motor_target",
+      "side": "R",
+      "subclass": "xm"
+    },
+    {
+      "body_id": 812752,
+      "direction": "output",
+      "nerve": "DMetaN",
+      "reason": "unknown_motor_target",
+      "side": "R",
+      "subclass": "xm"
+    },
+    {
+      "body_id": 817026,
+      "direction": "output",
+      "nerve": "PDMNa",
+      "reason": "unknown_motor_target",
+      "side": "L",
+      "subclass": "xm"
+    },
+    {
+      "body_id": 818098,
+      "direction": "output",
+      "nerve": "PDMNa",
+      "reason": "unknown_motor_target",
+      "side": "R",
+      "subclass": "xm"
+    }
+  ]
+}
