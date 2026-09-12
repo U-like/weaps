@@ -45,6 +45,7 @@
         "class": [],
         "entryNerve": [],
         "exitNerve": [],
+        "receptorType": [],
         "rootSide": [],
         "somaNeuromere": [
           {
@@ -153,11 +154,194 @@
       },
       "direction": "diagnostic"
     },
+    "cb_motor": {
+      "breakdown": {
+        "class": [],
+        "entryNerve": [],
+        "exitNerve": [
+          {
+            "count": 40,
+            "value": "PhN"
+          },
+          {
+            "count": 26,
+            "value": "MxLbN"
+          },
+          {
+            "count": 20,
+            "value": "CvN"
+          },
+          {
+            "count": 15,
+            "value": "AN"
+          },
+          {
+            "count": 5,
+            "value": "ON"
+          }
+        ],
+        "receptorType": [],
+        "rootSide": [],
+        "somaNeuromere": [
+          {
+            "count": 16,
+            "value": "LB"
+          },
+          {
+            "count": 4,
+            "value": "GNG"
+          }
+        ],
+        "somaSide": [
+          {
+            "count": 54,
+            "value": "L"
+          },
+          {
+            "count": 53,
+            "value": "R"
+          }
+        ],
+        "status": [
+          {
+            "count": 107,
+            "value": "Traced"
+          }
+        ],
+        "subclass": [
+          {
+            "count": 67,
+            "value": "pm"
+          },
+          {
+            "count": 20,
+            "value": "nm"
+          },
+          {
+            "count": 13,
+            "value": "am"
+          },
+          {
+            "count": 7,
+            "value": "rm"
+          }
+        ]
+      },
+      "direction": "output"
+    },
+    "cb_sensory": {
+      "breakdown": {
+        "class": [
+          {
+            "count": 2639,
+            "value": "olfactory"
+          },
+          {
+            "count": 1733,
+            "value": "mechanosensory"
+          },
+          {
+            "count": 275,
+            "value": "gustatory"
+          },
+          {
+            "count": 99,
+            "value": "unknown_sensory"
+          },
+          {
+            "count": 66,
+            "value": "hygrosensory"
+          },
+          {
+            "count": 25,
+            "value": "thermosensory"
+          },
+          {
+            "count": 11,
+            "value": "mechanosensory_tbc"
+          }
+        ],
+        "entryNerve": [
+          {
+            "count": 3315,
+            "value": "AN"
+          },
+          {
+            "count": 1387,
+            "value": "MxLbN"
+          },
+          {
+            "count": 78,
+            "value": "aPhN"
+          },
+          {
+            "count": 46,
+            "value": "PhN"
+          },
+          {
+            "count": 33,
+            "value": "ON"
+          }
+        ],
+        "exitNerve": [],
+        "receptorType": [],
+        "rootSide": [
+          {
+            "count": 2494,
+            "value": "R"
+          },
+          {
+            "count": 1961,
+            "value": "L"
+          },
+          {
+            "count": 413,
+            "value": "unknown"
+          }
+        ],
+        "somaNeuromere": [],
+        "somaSide": [],
+        "status": [
+          {
+            "count": 4868,
+            "value": "Traced"
+          }
+        ],
+        "subclass": [
+          {
+            "count": 475,
+            "value": "wind_gravity"
+          },
+          {
+            "count": 163,
+            "value": "labellar bristle"
+          },
+          {
+            "count": 114,
+            "value": "auditory"
+          },
+          {
+            "count": 87,
+            "value": "pharyngeal sensillum"
+          },
+          {
+            "count": 65,
+            "value": "grooming"
+          },
+          {
+            "count": 60,
+            "value": "taste peg"
+          }
+        ]
+      },
+      "direction": "input"
+    },
     "descending_neuron": {
       "breakdown": {
         "class": [],
         "entryNerve": [],
         "exitNerve": [],
+        "receptorType": [],
         "rootSide": [],
         "somaNeuromere": [
           {
@@ -262,6 +446,245 @@
       },
       "direction": "diagnostic"
     },
+    "ol_sensory": {
+      "breakdown": {
+        "class": [
+          {
+            "count": 6091,
+            "value": "visual"
+          }
+        ],
+        "entryNerve": [],
+        "exitNerve": [],
+        "receptorType": [],
+        "rootSide": [
+          {
+            "count": 3746,
+            "value": "R"
+          },
+          {
+            "count": 2345,
+            "value": "L"
+          }
+        ],
+        "somaNeuromere": [],
+        "somaSide": [
+          {
+            "count": 23,
+            "value": "L"
+          },
+          {
+            "count": 13,
+            "value": "R"
+          }
+        ],
+        "status": [
+          {
+            "count": 4114,
+            "value": "Traced"
+          },
+          {
+            "count": 1,
+            "value": "Anchor"
+          }
+        ],
+        "subclass": []
+      },
+      "direction": "input"
+    },
+    "sensory_ascending": {
+      "breakdown": {
+        "class": [
+          {
+            "count": 423,
+            "value": "mechanosensory_proprioceptive"
+          },
+          {
+            "count": 80,
+            "value": "gustatory"
+          },
+          {
+            "count": 32,
+            "value": "unknown_sensory"
+          },
+          {
+            "count": 1,
+            "value": "chemosensory"
+          }
+        ],
+        "entryNerve": [
+          {
+            "count": 317,
+            "value": "DMetaN"
+          },
+          {
+            "count": 83,
+            "value": "ADMN"
+          },
+          {
+            "count": 40,
+            "value": "ProLN"
+          },
+          {
+            "count": 39,
+            "value": "MetaLN"
+          },
+          {
+            "count": 34,
+            "value": "MesoLN"
+          },
+          {
+            "count": 8,
+            "value": "AbN4"
+          },
+          {
+            "count": 6,
+            "value": "AbN2"
+          },
+          {
+            "count": 3,
+            "value": "DProN"
+          },
+          {
+            "count": 3,
+            "value": "PDMN"
+          },
+          {
+            "count": 2,
+            "value": "AbN3"
+          },
+          {
+            "count": 1,
+            "value": "PrN"
+          }
+        ],
+        "exitNerve": [],
+        "receptorType": [],
+        "rootSide": [
+          {
+            "count": 269,
+            "value": "R"
+          },
+          {
+            "count": 267,
+            "value": "L"
+          }
+        ],
+        "somaNeuromere": [],
+        "somaSide": [],
+        "status": [
+          {
+            "count": 537,
+            "value": "Traced"
+          }
+        ],
+        "subclass": [
+          {
+            "count": 251,
+            "value": "campaniform sensilla"
+          },
+          {
+            "count": 149,
+            "value": "haltere"
+          },
+          {
+            "count": 80,
+            "value": "leg bristle"
+          },
+          {
+            "count": 22,
+            "value": "chordotonal organ"
+          },
+          {
+            "count": 15,
+            "value": "abdomen"
+          },
+          {
+            "count": 14,
+            "value": "leg"
+          },
+          {
+            "count": 3,
+            "value": "notum"
+          },
+          {
+            "count": 1,
+            "value": "hair plate"
+          }
+        ]
+      },
+      "direction": "diagnostic"
+    },
+    "visual_centrifugal": {
+      "breakdown": {
+        "class": [],
+        "entryNerve": [],
+        "exitNerve": [],
+        "receptorType": [],
+        "rootSide": [],
+        "somaNeuromere": [
+          {
+            "count": 24,
+            "value": "MX"
+          },
+          {
+            "count": 8,
+            "value": "CG"
+          }
+        ],
+        "somaSide": [
+          {
+            "count": 283,
+            "value": "L"
+          },
+          {
+            "count": 280,
+            "value": "R"
+          }
+        ],
+        "status": [
+          {
+            "count": 563,
+            "value": "Traced"
+          }
+        ],
+        "subclass": []
+      },
+      "direction": "diagnostic"
+    },
+    "visual_projection": {
+      "breakdown": {
+        "class": [],
+        "entryNerve": [],
+        "exitNerve": [],
+        "receptorType": [],
+        "rootSide": [],
+        "somaNeuromere": [
+          {
+            "count": 46,
+            "value": "CG"
+          }
+        ],
+        "somaSide": [
+          {
+            "count": 4612,
+            "value": "R"
+          },
+          {
+            "count": 4589,
+            "value": "L"
+          }
+        ],
+        "status": [
+          {
+            "count": 9201,
+            "value": "Traced"
+          }
+        ],
+        "subclass": []
+      },
+      "direction": "diagnostic"
+    },
     "vnc_motor": {
       "breakdown": {
         "class": [],
@@ -336,6 +759,7 @@
             "value": "DMetaN"
           }
         ],
+        "receptorType": [],
         "rootSide": [],
         "somaNeuromere": [
           {
@@ -535,6 +959,20 @@
           }
         ],
         "exitNerve": [],
+        "receptorType": [
+          {
+            "count": 269,
+            "value": "putative_ppk23"
+          },
+          {
+            "count": 257,
+            "value": "putative_ppk25"
+          },
+          {
+            "count": 226,
+            "value": "putative_IR52b"
+          }
+        ],
         "rootSide": [
           {
             "count": 3186,
@@ -626,13 +1064,20 @@
   },
   "io_counts": {
     "ascending_neuron": 1846,
+    "cb_motor": 107,
+    "cb_sensory": 4868,
     "descending_neuron": 1314,
+    "ol_sensory": 6098,
+    "sensory_ascending": 537,
+    "visual_centrifugal": 563,
+    "visual_projection": 9201,
     "vnc_motor": 708,
     "vnc_sensory": 6370
   },
   "notes": [
     "Exact counts come directly from official MaleCNS v1.0 annotations.",
     "entryNerve/exitNerve are preferred over soma location for physical body-channel mapping when present.",
+    "Head/optic sensory superclasses are audited separately before any semantic port rules are assigned.",
     "Superclass membership alone remains candidate I/O until port grouping and route validation are complete."
   ],
   "rows": 211577,
