@@ -1,0 +1,1831 @@
+{
+  "dataset": "male-cns:v1.0-minconf-0.5",
+  "max_hops_per_reverse_search": 32,
+  "ports": {
+    "input": {
+      "sensory.abdomen.segment1.left.unknown": {
+        "best_direct_example_body_id": 818450,
+        "best_direct_example_hops": 1,
+        "body_count": 2,
+        "hops_to_productive_descending": {
+          "count": 1,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 1,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.abdomen.segment1.left.unknown",
+        "reachable_any_motor_count": 1,
+        "reachable_any_motor_fraction": 0.5,
+        "reachable_productive_descending_count": 1,
+        "reachable_productive_descending_fraction": 0.5,
+        "runtime_body_count": 2,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment2.left.chemical": {
+        "best_direct_example_body_id": 905881,
+        "best_direct_example_hops": 2,
+        "body_count": 2,
+        "hops_to_productive_descending": {
+          "count": 2,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 2,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment2.left.chemical",
+        "reachable_any_motor_count": 2,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 2,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 2,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment2.left.unknown": {
+        "best_direct_example_body_id": 808846,
+        "best_direct_example_hops": 1,
+        "body_count": 40,
+        "hops_to_productive_descending": {
+          "count": 33,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 33,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment2.left.unknown",
+        "reachable_any_motor_count": 33,
+        "reachable_any_motor_fraction": 0.825,
+        "reachable_productive_descending_count": 33,
+        "reachable_productive_descending_fraction": 0.825,
+        "runtime_body_count": 40,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment2.right.chemical": {
+        "best_direct_example_body_id": 801695,
+        "best_direct_example_hops": 1,
+        "body_count": 2,
+        "hops_to_productive_descending": {
+          "count": 2,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 2,
+          "max": 2,
+          "median": 1.5,
+          "min": 1,
+          "p95": 1.95
+        },
+        "port": "sensory.abdomen.segment2.right.chemical",
+        "reachable_any_motor_count": 2,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 2,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 2,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment2.right.unknown": {
+        "best_direct_example_body_id": 807257,
+        "best_direct_example_hops": 1,
+        "body_count": 38,
+        "hops_to_productive_descending": {
+          "count": 37,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.1999999999999957
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 37,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment2.right.unknown",
+        "reachable_any_motor_count": 37,
+        "reachable_any_motor_fraction": 0.9736842105263158,
+        "reachable_productive_descending_count": 37,
+        "reachable_productive_descending_fraction": 0.9736842105263158,
+        "runtime_body_count": 38,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment3.left.chemical": {
+        "best_direct_example_body_id": 804528,
+        "best_direct_example_hops": 1,
+        "body_count": 1,
+        "hops_to_productive_descending": {
+          "count": 1,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 1,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.abdomen.segment3.left.chemical",
+        "reachable_any_motor_count": 1,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 1,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 1,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment3.left.proprioception": {
+        "best_direct_example_body_id": 810004,
+        "best_direct_example_hops": 2,
+        "body_count": 33,
+        "hops_to_productive_descending": {
+          "count": 33,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 33,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment3.left.proprioception",
+        "reachable_any_motor_count": 33,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 33,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 33,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment3.left.unknown": {
+        "best_direct_example_body_id": 804369,
+        "best_direct_example_hops": 1,
+        "body_count": 105,
+        "hops_to_productive_descending": {
+          "count": 96,
+          "max": 4,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 96,
+          "max": 4,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment3.left.unknown",
+        "reachable_any_motor_count": 96,
+        "reachable_any_motor_fraction": 0.9142857142857143,
+        "reachable_productive_descending_count": 96,
+        "reachable_productive_descending_fraction": 0.9142857142857143,
+        "runtime_body_count": 105,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment3.right.chemical": {
+        "best_direct_example_body_id": 806067,
+        "best_direct_example_hops": 1,
+        "body_count": 2,
+        "hops_to_productive_descending": {
+          "count": 2,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 2,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.abdomen.segment3.right.chemical",
+        "reachable_any_motor_count": 2,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 2,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 2,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment3.right.proprioception": {
+        "best_direct_example_body_id": 823573,
+        "best_direct_example_hops": 1,
+        "body_count": 33,
+        "hops_to_productive_descending": {
+          "count": 33,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 33,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment3.right.proprioception",
+        "reachable_any_motor_count": 33,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 33,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 33,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment3.right.unknown": {
+        "best_direct_example_body_id": 805931,
+        "best_direct_example_hops": 1,
+        "body_count": 58,
+        "hops_to_productive_descending": {
+          "count": 58,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 58,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment3.right.unknown",
+        "reachable_any_motor_count": 58,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 58,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 58,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment4.left.chemical": {
+        "best_direct_example_body_id": 805314,
+        "best_direct_example_hops": 1,
+        "body_count": 11,
+        "hops_to_productive_descending": {
+          "count": 11,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 11,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment4.left.chemical",
+        "reachable_any_motor_count": 11,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 11,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 11,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment4.left.unknown": {
+        "best_direct_example_body_id": 802482,
+        "best_direct_example_hops": 1,
+        "body_count": 297,
+        "hops_to_productive_descending": {
+          "count": 297,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 297,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment4.left.unknown",
+        "reachable_any_motor_count": 297,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 297,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 297,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment4.right.chemical": {
+        "best_direct_example_body_id": 804024,
+        "best_direct_example_hops": 1,
+        "body_count": 10,
+        "hops_to_productive_descending": {
+          "count": 10,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.549999999999999
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 10,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment4.right.chemical",
+        "reachable_any_motor_count": 10,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 10,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 10,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.segment4.right.unknown": {
+        "best_direct_example_body_id": 803966,
+        "best_direct_example_hops": 1,
+        "body_count": 286,
+        "hops_to_productive_descending": {
+          "count": 286,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 286,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.segment4.right.unknown",
+        "reachable_any_motor_count": 286,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 286,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 286,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.trunk.left.chemical": {
+        "best_direct_example_body_id": 805975,
+        "best_direct_example_hops": 1,
+        "body_count": 4,
+        "hops_to_productive_descending": {
+          "count": 4,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 4,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.8499999999999996
+        },
+        "port": "sensory.abdomen.trunk.left.chemical",
+        "reachable_any_motor_count": 4,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 4,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 4,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.trunk.left.unknown": {
+        "best_direct_example_body_id": 800611,
+        "best_direct_example_hops": 1,
+        "body_count": 95,
+        "hops_to_productive_descending": {
+          "count": 95,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 95,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.trunk.left.unknown",
+        "reachable_any_motor_count": 95,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 95,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 95,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.trunk.right.chemical": {
+        "best_direct_example_body_id": 805812,
+        "best_direct_example_hops": 1,
+        "body_count": 5,
+        "hops_to_productive_descending": {
+          "count": 5,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.7999999999999998
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 5,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.trunk.right.chemical",
+        "reachable_any_motor_count": 5,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 5,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 5,
+        "topology_route_confirmed": true
+      },
+      "sensory.abdomen.trunk.right.unknown": {
+        "best_direct_example_body_id": 804076,
+        "best_direct_example_hops": 1,
+        "body_count": 104,
+        "hops_to_productive_descending": {
+          "count": 104,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 104,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.abdomen.trunk.right.unknown",
+        "reachable_any_motor_count": 104,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 104,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 104,
+        "topology_route_confirmed": true
+      },
+      "sensory.haltere.left.proprioception": {
+        "best_direct_example_body_id": 805510,
+        "best_direct_example_hops": 1,
+        "body_count": 42,
+        "hops_to_productive_descending": {
+          "count": 42,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 42,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.haltere.left.proprioception",
+        "reachable_any_motor_count": 42,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 42,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 42,
+        "topology_route_confirmed": true
+      },
+      "sensory.haltere.left.touch": {
+        "best_direct_example_body_id": 806921,
+        "best_direct_example_hops": 1,
+        "body_count": 20,
+        "hops_to_productive_descending": {
+          "count": 20,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 20,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.haltere.left.touch",
+        "reachable_any_motor_count": 20,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 20,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 20,
+        "topology_route_confirmed": true
+      },
+      "sensory.haltere.left.unknown": {
+        "best_direct_example_body_id": 814676,
+        "best_direct_example_hops": 1,
+        "body_count": 1,
+        "hops_to_productive_descending": {
+          "count": 1,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 1,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.haltere.left.unknown",
+        "reachable_any_motor_count": 1,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 1,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 1,
+        "topology_route_confirmed": true
+      },
+      "sensory.haltere.right.proprioception": {
+        "best_direct_example_body_id": 813795,
+        "best_direct_example_hops": 1,
+        "body_count": 38,
+        "hops_to_productive_descending": {
+          "count": 38,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 38,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.haltere.right.proprioception",
+        "reachable_any_motor_count": 38,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 38,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 38,
+        "topology_route_confirmed": true
+      },
+      "sensory.haltere.right.touch": {
+        "best_direct_example_body_id": 809010,
+        "best_direct_example_hops": 1,
+        "body_count": 19,
+        "hops_to_productive_descending": {
+          "count": 19,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 19,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "port": "sensory.haltere.right.touch",
+        "reachable_any_motor_count": 19,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 19,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 19,
+        "topology_route_confirmed": true
+      },
+      "sensory.haltere.right.unknown": {
+        "best_direct_example_body_id": 829505,
+        "best_direct_example_hops": 1,
+        "body_count": 2,
+        "hops_to_productive_descending": {
+          "count": 2,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 2,
+          "max": 2,
+          "median": 1.5,
+          "min": 1,
+          "p95": 1.95
+        },
+        "port": "sensory.haltere.right.unknown",
+        "reachable_any_motor_count": 2,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 2,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 2,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_left.chemical": {
+        "best_direct_example_body_id": 810692,
+        "best_direct_example_hops": 2,
+        "body_count": 11,
+        "hops_to_productive_descending": {
+          "count": 11,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.5
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 11,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_left.chemical",
+        "reachable_any_motor_count": 11,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 11,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 11,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_left.proprioception": {
+        "best_direct_example_body_id": 899926,
+        "best_direct_example_hops": 1,
+        "body_count": 41,
+        "hops_to_productive_descending": {
+          "count": 41,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 41,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_left.proprioception",
+        "reachable_any_motor_count": 41,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 41,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 41,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_left.taste": {
+        "best_direct_example_body_id": 803887,
+        "best_direct_example_hops": 2,
+        "body_count": 134,
+        "hops_to_productive_descending": {
+          "count": 134,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 134,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_left.taste",
+        "reachable_any_motor_count": 134,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 134,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 134,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_left.touch": {
+        "best_direct_example_body_id": 815729,
+        "best_direct_example_hops": 1,
+        "body_count": 151,
+        "hops_to_productive_descending": {
+          "count": 151,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 151,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_left.touch",
+        "reachable_any_motor_count": 151,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 151,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 151,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_left.unknown": {
+        "best_direct_example_body_id": 815463,
+        "best_direct_example_hops": 1,
+        "body_count": 149,
+        "hops_to_productive_descending": {
+          "count": 146,
+          "max": 3,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 146,
+          "max": 3,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_left.unknown",
+        "reachable_any_motor_count": 146,
+        "reachable_any_motor_fraction": 0.9798657718120806,
+        "reachable_productive_descending_count": 146,
+        "reachable_productive_descending_fraction": 0.9798657718120806,
+        "runtime_body_count": 149,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_right.chemical": {
+        "best_direct_example_body_id": 816391,
+        "best_direct_example_hops": 2,
+        "body_count": 8,
+        "hops_to_productive_descending": {
+          "count": 8,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 8,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_right.chemical",
+        "reachable_any_motor_count": 8,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 8,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 8,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_right.proprioception": {
+        "best_direct_example_body_id": 877244,
+        "best_direct_example_hops": 1,
+        "body_count": 17,
+        "hops_to_productive_descending": {
+          "count": 17,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 17,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_right.proprioception",
+        "reachable_any_motor_count": 17,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 17,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 17,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_right.taste": {
+        "best_direct_example_body_id": 805659,
+        "best_direct_example_hops": 2,
+        "body_count": 136,
+        "hops_to_productive_descending": {
+          "count": 136,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 136,
+          "max": 3,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_right.taste",
+        "reachable_any_motor_count": 136,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 136,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 136,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_right.touch": {
+        "best_direct_example_body_id": 817362,
+        "best_direct_example_hops": 1,
+        "body_count": 115,
+        "hops_to_productive_descending": {
+          "count": 115,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 115,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_right.touch",
+        "reachable_any_motor_count": 115,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 115,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 115,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.front_right.unknown": {
+        "best_direct_example_body_id": 823053,
+        "best_direct_example_hops": 1,
+        "body_count": 180,
+        "hops_to_productive_descending": {
+          "count": 165,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 165,
+          "max": 3,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.front_right.unknown",
+        "reachable_any_motor_count": 165,
+        "reachable_any_motor_fraction": 0.9166666666666666,
+        "reachable_productive_descending_count": 165,
+        "reachable_productive_descending_fraction": 0.9166666666666666,
+        "runtime_body_count": 180,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.hind_left.proprioception": {
+        "best_direct_example_body_id": 819255,
+        "best_direct_example_hops": 1,
+        "body_count": 138,
+        "hops_to_productive_descending": {
+          "count": 138,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 138,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.hind_left.proprioception",
+        "reachable_any_motor_count": 138,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 138,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 138,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.hind_left.taste": {
+        "best_direct_example_body_id": 807019,
+        "best_direct_example_hops": 2,
+        "body_count": 108,
+        "hops_to_productive_descending": {
+          "count": 108,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 108,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.hind_left.taste",
+        "reachable_any_motor_count": 108,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 108,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 108,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.hind_left.touch": {
+        "best_direct_example_body_id": 814241,
+        "best_direct_example_hops": 1,
+        "body_count": 394,
+        "hops_to_productive_descending": {
+          "count": 394,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 394,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.hind_left.touch",
+        "reachable_any_motor_count": 394,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 394,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 394,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.hind_left.unknown": {
+        "best_direct_example_body_id": 823172,
+        "best_direct_example_hops": 1,
+        "body_count": 80,
+        "hops_to_productive_descending": {
+          "count": 80,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 80,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.hind_left.unknown",
+        "reachable_any_motor_count": 80,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 80,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 80,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.hind_right.proprioception": {
+        "best_direct_example_body_id": 933318,
+        "best_direct_example_hops": 1,
+        "body_count": 151,
+        "hops_to_productive_descending": {
+          "count": 151,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 151,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.hind_right.proprioception",
+        "reachable_any_motor_count": 151,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 151,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 151,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.hind_right.taste": {
+        "best_direct_example_body_id": 815236,
+        "best_direct_example_hops": 1,
+        "body_count": 106,
+        "hops_to_productive_descending": {
+          "count": 106,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 106,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.hind_right.taste",
+        "reachable_any_motor_count": 106,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 106,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 106,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.hind_right.touch": {
+        "best_direct_example_body_id": 808321,
+        "best_direct_example_hops": 1,
+        "body_count": 411,
+        "hops_to_productive_descending": {
+          "count": 411,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 411,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.hind_right.touch",
+        "reachable_any_motor_count": 411,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 411,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 411,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.hind_right.unknown": {
+        "best_direct_example_body_id": 817670,
+        "best_direct_example_hops": 1,
+        "body_count": 87,
+        "hops_to_productive_descending": {
+          "count": 86,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 86,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.hind_right.unknown",
+        "reachable_any_motor_count": 86,
+        "reachable_any_motor_fraction": 0.9885057471264368,
+        "reachable_productive_descending_count": 86,
+        "reachable_productive_descending_fraction": 0.9885057471264368,
+        "runtime_body_count": 87,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.middle_left.chemical": {
+        "best_direct_example_body_id": 816627,
+        "best_direct_example_hops": 2,
+        "body_count": 1,
+        "hops_to_productive_descending": {
+          "count": 1,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 1,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.middle_left.chemical",
+        "reachable_any_motor_count": 1,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 1,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 1,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.middle_left.proprioception": {
+        "best_direct_example_body_id": 1050413944,
+        "best_direct_example_hops": 1,
+        "body_count": 135,
+        "hops_to_productive_descending": {
+          "count": 135,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 135,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.middle_left.proprioception",
+        "reachable_any_motor_count": 135,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 135,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 135,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.middle_left.taste": {
+        "best_direct_example_body_id": 807656,
+        "best_direct_example_hops": 2,
+        "body_count": 99,
+        "hops_to_productive_descending": {
+          "count": 99,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 99,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.middle_left.taste",
+        "reachable_any_motor_count": 99,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 99,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 99,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.middle_left.touch": {
+        "best_direct_example_body_id": 807746,
+        "best_direct_example_hops": 1,
+        "body_count": 378,
+        "hops_to_productive_descending": {
+          "count": 378,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 378,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.middle_left.touch",
+        "reachable_any_motor_count": 378,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 378,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 378,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.middle_left.unknown": {
+        "best_direct_example_body_id": 816328,
+        "best_direct_example_hops": 1,
+        "body_count": 46,
+        "hops_to_productive_descending": {
+          "count": 46,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 46,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.middle_left.unknown",
+        "reachable_any_motor_count": 46,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 46,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 46,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.middle_right.proprioception": {
+        "best_direct_example_body_id": 832921,
+        "best_direct_example_hops": 1,
+        "body_count": 140,
+        "hops_to_productive_descending": {
+          "count": 140,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 140,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.middle_right.proprioception",
+        "reachable_any_motor_count": 140,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 140,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 140,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.middle_right.taste": {
+        "best_direct_example_body_id": 806645,
+        "best_direct_example_hops": 2,
+        "body_count": 105,
+        "hops_to_productive_descending": {
+          "count": 105,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 105,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.middle_right.taste",
+        "reachable_any_motor_count": 105,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 105,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 105,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.middle_right.touch": {
+        "best_direct_example_body_id": 809773,
+        "best_direct_example_hops": 1,
+        "body_count": 428,
+        "hops_to_productive_descending": {
+          "count": 428,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 428,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.middle_right.touch",
+        "reachable_any_motor_count": 428,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 428,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 428,
+        "topology_route_confirmed": true
+      },
+      "sensory.leg.middle_right.unknown": {
+        "best_direct_example_body_id": 813494,
+        "best_direct_example_hops": 1,
+        "body_count": 28,
+        "hops_to_productive_descending": {
+          "count": 27,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 27,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.leg.middle_right.unknown",
+        "reachable_any_motor_count": 27,
+        "reachable_any_motor_fraction": 0.9642857142857143,
+        "reachable_productive_descending_count": 27,
+        "reachable_productive_descending_fraction": 0.9642857142857143,
+        "runtime_body_count": 28,
+        "topology_route_confirmed": true
+      },
+      "sensory.wing.left.proprioception": {
+        "best_direct_example_body_id": 800049,
+        "best_direct_example_hops": 1,
+        "body_count": 76,
+        "hops_to_productive_descending": {
+          "count": 76,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 76,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.wing.left.proprioception",
+        "reachable_any_motor_count": 76,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 76,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 76,
+        "topology_route_confirmed": true
+      },
+      "sensory.wing.left.taste": {
+        "best_direct_example_body_id": 804476,
+        "best_direct_example_hops": 2,
+        "body_count": 193,
+        "hops_to_productive_descending": {
+          "count": 193,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 193,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.wing.left.taste",
+        "reachable_any_motor_count": 193,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 193,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 193,
+        "topology_route_confirmed": true
+      },
+      "sensory.wing.left.touch": {
+        "best_direct_example_body_id": 805783,
+        "best_direct_example_hops": 1,
+        "body_count": 178,
+        "hops_to_productive_descending": {
+          "count": 178,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 178,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.wing.left.touch",
+        "reachable_any_motor_count": 178,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 178,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 178,
+        "topology_route_confirmed": true
+      },
+      "sensory.wing.left.unknown": {
+        "best_direct_example_body_id": 805901,
+        "best_direct_example_hops": 1,
+        "body_count": 13,
+        "hops_to_productive_descending": {
+          "count": 13,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 13,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.wing.left.unknown",
+        "reachable_any_motor_count": 13,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 13,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 13,
+        "topology_route_confirmed": true
+      },
+      "sensory.wing.right.proprioception": {
+        "best_direct_example_body_id": 801533,
+        "best_direct_example_hops": 1,
+        "body_count": 78,
+        "hops_to_productive_descending": {
+          "count": 78,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 78,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.wing.right.proprioception",
+        "reachable_any_motor_count": 78,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 78,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 78,
+        "topology_route_confirmed": true
+      },
+      "sensory.wing.right.taste": {
+        "best_direct_example_body_id": 808222,
+        "best_direct_example_hops": 2,
+        "body_count": 192,
+        "hops_to_productive_descending": {
+          "count": 192,
+          "max": 2,
+          "median": 2.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 192,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.wing.right.taste",
+        "reachable_any_motor_count": 192,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 192,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 192,
+        "topology_route_confirmed": true
+      },
+      "sensory.wing.right.touch": {
+        "best_direct_example_body_id": 804506,
+        "best_direct_example_hops": 2,
+        "body_count": 174,
+        "hops_to_productive_descending": {
+          "count": 174,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 174,
+          "max": 2,
+          "median": 2.0,
+          "min": 2,
+          "p95": 2.0
+        },
+        "port": "sensory.wing.right.touch",
+        "reachable_any_motor_count": 174,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 174,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 174,
+        "topology_route_confirmed": true
+      },
+      "sensory.wing.right.unknown": {
+        "best_direct_example_body_id": 808301,
+        "best_direct_example_hops": 1,
+        "body_count": 13,
+        "hops_to_productive_descending": {
+          "count": 13,
+          "max": 1,
+          "median": 1.0,
+          "min": 1,
+          "p95": 1.0
+        },
+        "missing_runtime_body_ids": [],
+        "motor_hops": {
+          "count": 13,
+          "max": 2,
+          "median": 1.0,
+          "min": 1,
+          "p95": 2.0
+        },
+        "port": "sensory.wing.right.unknown",
+        "reachable_any_motor_count": 13,
+        "reachable_any_motor_fraction": 1.0,
+        "reachable_productive_descending_count": 13,
+        "reachable_productive_descending_fraction": 1.0,
+        "runtime_body_count": 13,
+        "topology_route_confirmed": true
+      }
+    },
+    "output": {
+      "motor.abdomen.left": {
+        "body_count": 107,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 107
+      },
+      "motor.abdomen.right": {
+        "body_count": 107,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 107
+      },
+      "motor.haltere.left": {
+        "body_count": 8,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 8
+      },
+      "motor.haltere.right": {
+        "body_count": 8,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 8
+      },
+      "motor.leg.front_left": {
+        "body_count": 68,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 68
+      },
+      "motor.leg.front_right": {
+        "body_count": 67,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 67
+      },
+      "motor.leg.hind_left": {
+        "body_count": 66,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 66
+      },
+      "motor.leg.hind_right": {
+        "body_count": 64,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 64
+      },
+      "motor.leg.middle_left": {
+        "body_count": 58,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 58
+      },
+      "motor.leg.middle_right": {
+        "body_count": 58,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 58
+      },
+      "motor.neck.left": {
+        "body_count": 12,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 12
+      },
+      "motor.neck.right": {
+        "body_count": 12,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 12
+      },
+      "motor.wing.left": {
+        "body_count": 33,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 33
+      },
+      "motor.wing.right": {
+        "body_count": 34,
+        "missing_runtime_body_ids": [],
+        "runtime_body_count": 34
+      }
+    },
+    "topology_confirmed_input_ports": [
+      "sensory.abdomen.segment1.left.unknown",
+      "sensory.abdomen.segment2.left.chemical",
+      "sensory.abdomen.segment2.left.unknown",
+      "sensory.abdomen.segment2.right.chemical",
+      "sensory.abdomen.segment2.right.unknown",
+      "sensory.abdomen.segment3.left.chemical",
+      "sensory.abdomen.segment3.left.proprioception",
+      "sensory.abdomen.segment3.left.unknown",
+      "sensory.abdomen.segment3.right.chemical",
+      "sensory.abdomen.segment3.right.proprioception",
+      "sensory.abdomen.segment3.right.unknown",
+      "sensory.abdomen.segment4.left.chemical",
+      "sensory.abdomen.segment4.left.unknown",
+      "sensory.abdomen.segment4.right.chemical",
+      "sensory.abdomen.segment4.right.unknown",
+      "sensory.abdomen.trunk.left.chemical",
+      "sensory.abdomen.trunk.left.unknown",
+      "sensory.abdomen.trunk.right.chemical",
+      "sensory.abdomen.trunk.right.unknown",
+      "sensory.haltere.left.proprioception",
+      "sensory.haltere.left.touch",
+      "sensory.haltere.left.unknown",
+      "sensory.haltere.right.proprioception",
+      "sensory.haltere.right.touch",
+      "sensory.haltere.right.unknown",
+      "sensory.leg.front_left.chemical",
+      "sensory.leg.front_left.proprioception",
+      "sensory.leg.front_left.taste",
+      "sensory.leg.front_left.touch",
+      "sensory.leg.front_left.unknown",
+      "sensory.leg.front_right.chemical",
+      "sensory.leg.front_right.proprioception",
+      "sensory.leg.front_right.taste",
+      "sensory.leg.front_right.touch",
+      "sensory.leg.front_right.unknown",
+      "sensory.leg.hind_left.proprioception",
+      "sensory.leg.hind_left.taste",
+      "sensory.leg.hind_left.touch",
+      "sensory.leg.hind_left.unknown",
+      "sensory.leg.hind_right.proprioception",
+      "sensory.leg.hind_right.taste",
+      "sensory.leg.hind_right.touch",
+      "sensory.leg.hind_right.unknown",
+      "sensory.leg.middle_left.chemical",
+      "sensory.leg.middle_left.proprioception",
+      "sensory.leg.middle_left.taste",
+      "sensory.leg.middle_left.touch",
+      "sensory.leg.middle_left.unknown",
+      "sensory.leg.middle_right.proprioception",
+      "sensory.leg.middle_right.taste",
+      "sensory.leg.middle_right.touch",
+      "sensory.leg.middle_right.unknown",
+      "sensory.wing.left.proprioception",
+      "sensory.wing.left.taste",
+      "sensory.wing.left.touch",
+      "sensory.wing.left.unknown",
+      "sensory.wing.right.proprioception",
+      "sensory.wing.right.taste",
+      "sensory.wing.right.touch",
+      "sensory.wing.right.unknown"
+    ],
+    "topology_unconfirmed_input_ports": []
+  },
+  "promotion_policy": {
+    "biological_validation": "not performed here; requires signed neural dynamics and stimulus/response tests",
+    "candidate_to_topology_validated": "port has >=1 body reaching any resolved motor and >=1 body reaching a descending neuron that itself reaches motor within configured hop limits"
+  },
+  "runtime": {
+    "edge_sha256": "4aae07ae95b0d546896e7a66d4b80e2fd31b932c82bff08d942a027fce2c02ed",
+    "edges": 25582938,
+    "node_sha256": "87159829738e876934c4c10047731ab75cfe60bfaf7ab4b9b453a1e20523cf09",
+    "nodes": 166700
+  },
+  "searches": {
+    "distance_to_any_motor": {
+      "layer_sizes": [
+        702,
+        15679,
+        37961,
+        103004,
+        8110,
+        44,
+        0
+      ],
+      "max_distance_observed": 5,
+      "reachable_node_count": 165500,
+      "target_count": 702
+    },
+    "distance_to_any_productive_descending": {
+      "layer_sizes": [
+        1314,
+        47935,
+        107964,
+        8207,
+        47,
+        0
+      ],
+      "max_distance_observed": 4,
+      "reachable_node_count": 165467,
+      "target_count": 1314
+    }
+  },
+  "sensory_global": {
+    "hops_to_productive_descending": {
+      "count": 5906,
+      "max": 4,
+      "median": 1.0,
+      "min": 1,
+      "p95": 2.0
+    },
+    "missing_runtime_body_ids": [],
+    "motor_hops": {
+      "count": 5906,
+      "max": 4,
+      "median": 2.0,
+      "min": 1,
+      "p95": 2.0
+    },
+    "reachable_any_motor_count": 5906,
+    "reachable_any_motor_fraction": 0.993606998654105,
+    "reachable_productive_descending_count": 5906,
+    "reachable_productive_descending_fraction": 0.993606998654105,
+    "resolved_sensory_bodies": 5944
+  },
+  "targets": {
+    "descending_bodies": 1314,
+    "productive_descending_bodies": 1314,
+    "productive_descending_fraction": 1.0,
+    "resolved_motor_bodies": 702
+  },
+  "validation_kind": "directed topology reachability only; not neural dynamics or behaviour"
+}
