@@ -55,7 +55,7 @@ jobs:
       - name: Download official Janelia annotations
         working-directory: ${{ env.PROJECT }}
         run: |
-          mkdir -p data/raw results
+          mkdir -p data/raw results/io_candidate
           curl -L --fail --retry 3 --retry-delay 5 \
             "$DATA_BASE/$ANNOTATIONS" -o "data/raw/$ANNOTATIONS"
           sha256sum "data/raw/$ANNOTATIONS" | tee results/annotations.sha256
@@ -70,28 +70,50 @@ jobs:
           echo '=== I/O SUMMARY ==='
           cat results/annotation_io_summary.json
 
-      - name: Commit compact audit checkpoint
+      - name: Build candidate simulation I/O masks and manifest
+        working-directory: ${{ env.PROJECT }}
+        run: |
+          python scripts/build_io_manifest.py \
+            "data/raw/$ANNOTATIONS" \
+            --rules config/io_port_rules.json \
+            --manifest results/io_candidate/io_manifest.candidate.json \
+            --sensory-feather results/io_candidate/sensory_inputs.candidate.feather \
+            --motor-feather results/io_candidate/motor_outputs.candidate.feather \
+            --diagnostic-feather results/io_candidate/diagnostic_ports.candidate.feather \
+            --unknowns results/io_candidate/io_unknowns.json \
+            --summary results/io_candidate/io_manifest_summary.json
+          echo '=== CANDIDATE MANIFEST SUMMARY ==='
+          cat results/io_candidate/io_manifest_summary.json
+
+      - name: Commit reproducible I/O checkpoint
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add \
             malecns-connectome/results/annotation_io_audit.json \
             malecns-connectome/results/annotation_io_summary.json \
-            malecns-connectome/results/annotations.sha256
+            malecns-connectome/results/annotations.sha256 \
+            malecns-connectome/results/io_candidate/io_manifest.candidate.json \
+            malecns-connectome/results/io_candidate/sensory_inputs.candidate.feather \
+            malecns-connectome/results/io_candidate/motor_outputs.candidate.feather \
+            malecns-connectome/results/io_candidate/diagnostic_ports.candidate.feather \
+            malecns-connectome/results/io_candidate/io_unknowns.json \
+            malecns-connectome/results/io_candidate/io_manifest_summary.json
           if git diff --cached --quiet; then
-            echo 'No audit changes.'
+            echo 'No I/O checkpoint changes.'
           else
-            git commit -m 'results: refresh MaleCNS I/O annotation audit [skip ci]'
+            git commit -m 'results: refresh MaleCNS candidate I/O masks [skip ci]'
             git push origin HEAD:malecns-connectome
           fi
 
-      - name: Upload audit artifact
+      - name: Upload I/O checkpoint artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: malecns-io-audit-${{ github.sha }}
+          name: malecns-io-candidate-${{ github.sha }}
           retention-days: 30
           path: |
             malecns-connectome/results/annotation_io_audit.json
             malecns-connectome/results/annotation_io_summary.json
             malecns-connectome/results/annotations.sha256
+            malecns-connectome/results/io_candidate/
