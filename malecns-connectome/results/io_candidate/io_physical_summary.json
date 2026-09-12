@@ -1,0 +1,2160 @@
+{
+  "diagnostic": {
+    "class_counts": {
+      "unknown": 3160
+    },
+    "nerve_counts": {
+      "unknown": 3160
+    },
+    "neuromere_counts": {
+      "A1": 109,
+      "A10": 8,
+      "A2": 54,
+      "A3": 30,
+      "A4": 31,
+      "A5": 33,
+      "A6": 23,
+      "A7": 20,
+      "A8": 20,
+      "A9": 12,
+      "CG": 66,
+      "DC": 8,
+      "GNG": 17,
+      "LB": 418,
+      "MD": 43,
+      "MX": 201,
+      "T1": 722,
+      "T2": 390,
+      "T3": 394,
+      "TC": 2,
+      "unknown": 559
+    },
+    "physical_combinations": [
+      {
+        "class": "unknown",
+        "count": 369,
+        "nerve": "unknown",
+        "neuromere": "T1",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 349,
+        "nerve": "unknown",
+        "neuromere": "T1",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 281,
+        "nerve": "unknown",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 276,
+        "nerve": "unknown",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 206,
+        "nerve": "unknown",
+        "neuromere": "LB",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 205,
+        "nerve": "unknown",
+        "neuromere": "LB",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 199,
+        "nerve": "unknown",
+        "neuromere": "T3",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 196,
+        "nerve": "unknown",
+        "neuromere": "T2",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 194,
+        "nerve": "unknown",
+        "neuromere": "T2",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 194,
+        "nerve": "unknown",
+        "neuromere": "T3",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 102,
+        "nerve": "unknown",
+        "neuromere": "MX",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 99,
+        "nerve": "unknown",
+        "neuromere": "MX",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 55,
+        "nerve": "unknown",
+        "neuromere": "A1",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 53,
+        "nerve": "unknown",
+        "neuromere": "A1",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 33,
+        "nerve": "unknown",
+        "neuromere": "CG",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 33,
+        "nerve": "unknown",
+        "neuromere": "CG",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 27,
+        "nerve": "unknown",
+        "neuromere": "A2",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 26,
+        "nerve": "unknown",
+        "neuromere": "A2",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 21,
+        "nerve": "unknown",
+        "neuromere": "MD",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 21,
+        "nerve": "unknown",
+        "neuromere": "MD",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 17,
+        "nerve": "unknown",
+        "neuromere": "A5",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 16,
+        "nerve": "unknown",
+        "neuromere": "A5",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 15,
+        "nerve": "unknown",
+        "neuromere": "A4",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 15,
+        "nerve": "unknown",
+        "neuromere": "A3",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 15,
+        "nerve": "unknown",
+        "neuromere": "A4",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 14,
+        "nerve": "unknown",
+        "neuromere": "A3",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 12,
+        "nerve": "unknown",
+        "neuromere": "A6",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 11,
+        "nerve": "unknown",
+        "neuromere": "A6",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 10,
+        "nerve": "unknown",
+        "neuromere": "A7",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 10,
+        "nerve": "unknown",
+        "neuromere": "A8",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 10,
+        "nerve": "unknown",
+        "neuromere": "A7",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 10,
+        "nerve": "unknown",
+        "neuromere": "A8",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 9,
+        "nerve": "unknown",
+        "neuromere": "GNG",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 8,
+        "nerve": "unknown",
+        "neuromere": "GNG",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 7,
+        "nerve": "unknown",
+        "neuromere": "LB",
+        "side": "M",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 6,
+        "nerve": "unknown",
+        "neuromere": "A9",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 6,
+        "nerve": "unknown",
+        "neuromere": "A9",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 4,
+        "nerve": "unknown",
+        "neuromere": "A10",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 4,
+        "nerve": "unknown",
+        "neuromere": "DC",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 4,
+        "nerve": "unknown",
+        "neuromere": "T1",
+        "side": "M",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 4,
+        "nerve": "unknown",
+        "neuromere": "A10",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 4,
+        "nerve": "unknown",
+        "neuromere": "DC",
+        "side": "R",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "unknown",
+        "neuromere": "unknown",
+        "side": "M",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "TC",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "A1",
+        "side": "M",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "A2",
+        "side": "M",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "A3",
+        "side": "M",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "A4",
+        "side": "M",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "MD",
+        "side": "M",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "T3",
+        "side": "M",
+        "subclass": "unknown"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "TC",
+        "side": "R",
+        "subclass": "unknown"
+      }
+    ],
+    "rows": 3160,
+    "side_counts": {
+      "L": 1586,
+      "M": 19,
+      "R": 1555
+    },
+    "subclass_counts": {
+      "unknown": 3160
+    },
+    "unique_bodies": 3160
+  },
+  "motor": {
+    "class_counts": {
+      "unknown": 708
+    },
+    "nerve_counts": {
+      "ADMN": 28,
+      "AbN1": 30,
+      "AbN2": 44,
+      "AbN3": 28,
+      "AbN4": 72,
+      "AbNT": 64,
+      "CvN": 4,
+      "DMetaN": 4,
+      "DProN": 28,
+      "MesoAN": 19,
+      "MesoLN": 116,
+      "MetaLN": 122,
+      "PDMNa": 16,
+      "PDMNp": 6,
+      "ProAN": 24,
+      "ProLN": 81,
+      "VProN": 22
+    },
+    "neuromere_counts": {
+      "A1": 56,
+      "A10": 10,
+      "A2": 28,
+      "A3": 22,
+      "A4": 22,
+      "A5": 16,
+      "A6": 8,
+      "A7": 6,
+      "A8": 18,
+      "A9": 21,
+      "T1": 173,
+      "T2": 175,
+      "T3": 152,
+      "unknown": 1
+    },
+    "physical_combinations": [
+      {
+        "class": "unknown",
+        "count": 62,
+        "nerve": "MetaLN",
+        "neuromere": "T3",
+        "side": "L",
+        "subclass": "hl"
+      },
+      {
+        "class": "unknown",
+        "count": 60,
+        "nerve": "MetaLN",
+        "neuromere": "T3",
+        "side": "R",
+        "subclass": "hl"
+      },
+      {
+        "class": "unknown",
+        "count": 58,
+        "nerve": "MesoLN",
+        "neuromere": "T2",
+        "side": "L",
+        "subclass": "ml"
+      },
+      {
+        "class": "unknown",
+        "count": 58,
+        "nerve": "MesoLN",
+        "neuromere": "T2",
+        "side": "R",
+        "subclass": "ml"
+      },
+      {
+        "class": "unknown",
+        "count": 41,
+        "nerve": "ProLN",
+        "neuromere": "T1",
+        "side": "L",
+        "subclass": "fl"
+      },
+      {
+        "class": "unknown",
+        "count": 40,
+        "nerve": "ProLN",
+        "neuromere": "T1",
+        "side": "R",
+        "subclass": "fl"
+      },
+      {
+        "class": "unknown",
+        "count": 22,
+        "nerve": "AbN2",
+        "neuromere": "A1",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 22,
+        "nerve": "AbN2",
+        "neuromere": "A1",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 14,
+        "nerve": "ADMN",
+        "neuromere": "T2",
+        "side": "L",
+        "subclass": "wm"
+      },
+      {
+        "class": "unknown",
+        "count": 14,
+        "nerve": "ADMN",
+        "neuromere": "T2",
+        "side": "R",
+        "subclass": "wm"
+      },
+      {
+        "class": "unknown",
+        "count": 12,
+        "nerve": "ProAN",
+        "neuromere": "T1",
+        "side": "L",
+        "subclass": "fl"
+      },
+      {
+        "class": "unknown",
+        "count": 12,
+        "nerve": "ProAN",
+        "neuromere": "T1",
+        "side": "R",
+        "subclass": "fl"
+      },
+      {
+        "class": "unknown",
+        "count": 11,
+        "nerve": "AbN4",
+        "neuromere": "A3",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 11,
+        "nerve": "AbN4",
+        "neuromere": "A3",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 11,
+        "nerve": "AbNT",
+        "neuromere": "A9",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 11,
+        "nerve": "VProN",
+        "neuromere": "T1",
+        "side": "L",
+        "subclass": "fl"
+      },
+      {
+        "class": "unknown",
+        "count": 11,
+        "nerve": "VProN",
+        "neuromere": "T1",
+        "side": "R",
+        "subclass": "fl"
+      },
+      {
+        "class": "unknown",
+        "count": 10,
+        "nerve": "AbNT",
+        "neuromere": "A9",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 10,
+        "nerve": "DProN",
+        "neuromere": "T1",
+        "side": "L",
+        "subclass": "nm"
+      },
+      {
+        "class": "unknown",
+        "count": 10,
+        "nerve": "DProN",
+        "neuromere": "T1",
+        "side": "R",
+        "subclass": "nm"
+      },
+      {
+        "class": "unknown",
+        "count": 10,
+        "nerve": "MesoAN",
+        "neuromere": "T2",
+        "side": "R",
+        "subclass": "wm"
+      },
+      {
+        "class": "unknown",
+        "count": 9,
+        "nerve": "AbN4",
+        "neuromere": "A4",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 9,
+        "nerve": "AbN4",
+        "neuromere": "A4",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 9,
+        "nerve": "MesoAN",
+        "neuromere": "T2",
+        "side": "L",
+        "subclass": "wm"
+      },
+      {
+        "class": "unknown",
+        "count": 8,
+        "nerve": "AbN1",
+        "neuromere": "T3",
+        "side": "L",
+        "subclass": "hm"
+      },
+      {
+        "class": "unknown",
+        "count": 8,
+        "nerve": "AbN1",
+        "neuromere": "T3",
+        "side": "R",
+        "subclass": "hm"
+      },
+      {
+        "class": "unknown",
+        "count": 8,
+        "nerve": "AbN3",
+        "neuromere": "A2",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 8,
+        "nerve": "AbN3",
+        "neuromere": "A2",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 8,
+        "nerve": "AbNT",
+        "neuromere": "A8",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 8,
+        "nerve": "AbNT",
+        "neuromere": "A8",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 7,
+        "nerve": "AbN4",
+        "neuromere": "A5",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 7,
+        "nerve": "AbN4",
+        "neuromere": "A5",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 6,
+        "nerve": "AbN3",
+        "neuromere": "A1",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 6,
+        "nerve": "AbN3",
+        "neuromere": "A1",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 6,
+        "nerve": "AbN4",
+        "neuromere": "A2",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 6,
+        "nerve": "AbN4",
+        "neuromere": "A2",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 6,
+        "nerve": "PDMNa",
+        "neuromere": "T1",
+        "side": "L",
+        "subclass": "wm"
+      },
+      {
+        "class": "unknown",
+        "count": 6,
+        "nerve": "PDMNa",
+        "neuromere": "T1",
+        "side": "R",
+        "subclass": "wm"
+      },
+      {
+        "class": "unknown",
+        "count": 5,
+        "nerve": "AbNT",
+        "neuromere": "A10",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 5,
+        "nerve": "AbNT",
+        "neuromere": "A10",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 4,
+        "nerve": "AbN1",
+        "neuromere": "T3",
+        "side": "L",
+        "subclass": "hl"
+      },
+      {
+        "class": "unknown",
+        "count": 4,
+        "nerve": "AbN1",
+        "neuromere": "T3",
+        "side": "R",
+        "subclass": "hl"
+      },
+      {
+        "class": "unknown",
+        "count": 4,
+        "nerve": "DProN",
+        "neuromere": "T1",
+        "side": "L",
+        "subclass": "fl"
+      },
+      {
+        "class": "unknown",
+        "count": 4,
+        "nerve": "DProN",
+        "neuromere": "T1",
+        "side": "R",
+        "subclass": "fl"
+      },
+      {
+        "class": "unknown",
+        "count": 3,
+        "nerve": "AbN1",
+        "neuromere": "T3",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 3,
+        "nerve": "AbN1",
+        "neuromere": "T3",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 3,
+        "nerve": "AbNT",
+        "neuromere": "A7",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 3,
+        "nerve": "AbNT",
+        "neuromere": "A7",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 3,
+        "nerve": "PDMNp",
+        "neuromere": "T2",
+        "side": "L",
+        "subclass": "wm"
+      },
+      {
+        "class": "unknown",
+        "count": 3,
+        "nerve": "PDMNp",
+        "neuromere": "T2",
+        "side": "R",
+        "subclass": "wm"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "AbN4",
+        "neuromere": "A6",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "AbN4",
+        "neuromere": "A6",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "AbNT",
+        "neuromere": "A4",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "AbNT",
+        "neuromere": "A6",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "AbNT",
+        "neuromere": "A4",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "AbNT",
+        "neuromere": "A6",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "CvN",
+        "neuromere": "T1",
+        "side": "L",
+        "subclass": "nm"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "CvN",
+        "neuromere": "T1",
+        "side": "R",
+        "subclass": "nm"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "DMetaN",
+        "neuromere": "T2",
+        "side": "L",
+        "subclass": "xm"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "DMetaN",
+        "neuromere": "T2",
+        "side": "R",
+        "subclass": "xm"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "AbN4",
+        "neuromere": "A8",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "AbN4",
+        "neuromere": "A8",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "AbNT",
+        "neuromere": "A5",
+        "side": "L",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "AbNT",
+        "neuromere": "A5",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "AbNT",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "ad"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "PDMNa",
+        "neuromere": "T1",
+        "side": "L",
+        "subclass": "xm"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "PDMNa",
+        "neuromere": "T2",
+        "side": "L",
+        "subclass": "wm"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "PDMNa",
+        "neuromere": "T1",
+        "side": "R",
+        "subclass": "xm"
+      },
+      {
+        "class": "unknown",
+        "count": 1,
+        "nerve": "PDMNa",
+        "neuromere": "T2",
+        "side": "R",
+        "subclass": "wm"
+      }
+    ],
+    "rows": 708,
+    "side_counts": {
+      "L": 355,
+      "R": 353
+    },
+    "subclass_counts": {
+      "ad": 214,
+      "fl": 135,
+      "hl": 130,
+      "hm": 16,
+      "ml": 116,
+      "nm": 24,
+      "wm": 67,
+      "xm": 6
+    },
+    "unique_bodies": 708
+  },
+  "sensory": {
+    "class_counts": {
+      "chemosensory": 57,
+      "gustatory": 1073,
+      "mechanosensory_proprioceptive": 1030,
+      "mechanosensory_tactile": 2558,
+      "unknown": 83,
+      "unknown_sensory": 1564
+    },
+    "nerve_counts": {
+      "ADMN": 917,
+      "AbN1": 2,
+      "AbN2": 82,
+      "AbN3": 232,
+      "AbN4": 604,
+      "AbNT": 208,
+      "DMetaN": 122,
+      "DProN": 29,
+      "MesoLN": 1360,
+      "MetaLN": 1475,
+      "PDMN": 279,
+      "PrN": 36,
+      "ProAN": 10,
+      "ProCN": 33,
+      "ProLN": 942,
+      "VProN": 19,
+      "unknown": 15
+    },
+    "neuromere_counts": {
+      "unknown": 6365
+    },
+    "physical_combinations": [
+      {
+        "class": "mechanosensory_tactile",
+        "count": 396,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 370,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 355,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 320,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 297,
+        "nerve": "AbN4",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 286,
+        "nerve": "AbN4",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "gustatory",
+        "count": 193,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "wing bristle"
+      },
+      {
+        "class": "gustatory",
+        "count": 192,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "wing bristle"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 178,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 173,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 140,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "gustatory",
+        "count": 136,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg bristle"
+      },
+      {
+        "class": "gustatory",
+        "count": 134,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg bristle"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 124,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 117,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 113,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "notum"
+      },
+      {
+        "class": "gustatory",
+        "count": 108,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg bristle"
+      },
+      {
+        "class": "gustatory",
+        "count": 106,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg bristle"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 105,
+        "nerve": "AbN3",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "gustatory",
+        "count": 105,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg bristle"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 104,
+        "nerve": "AbNT",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 101,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "notum"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 100,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "gustatory",
+        "count": 99,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 96,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "chordotonal organ"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 95,
+        "nerve": "AbNT",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 89,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "chordotonal organ"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 79,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "chordotonal organ"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 76,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "chordotonal organ"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 68,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 67,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 58,
+        "nerve": "AbN3",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 58,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 58,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 51,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 47,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 44,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 44,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 40,
+        "nerve": "AbN2",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 39,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 39,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 39,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 38,
+        "nerve": "AbN2",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "unknown",
+        "count": 38,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "taste bristle"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 38,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 35,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 33,
+        "nerve": "AbN3",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 33,
+        "nerve": "AbN3",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 30,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 27,
+        "nerve": "DMetaN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "haltere"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 27,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 27,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 26,
+        "nerve": "DMetaN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "haltere"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 26,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 25,
+        "nerve": "ProCN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "chordotonal organ"
+      },
+      {
+        "class": "unknown",
+        "count": 24,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "taste bristle"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 20,
+        "nerve": "DMetaN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 20,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 20,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "chordotonal organ"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 19,
+        "nerve": "DMetaN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 18,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 18,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 17,
+        "nerve": "PrN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 17,
+        "nerve": "PrN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 15,
+        "nerve": "DMetaN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 15,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 15,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 15,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 14,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 13,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "wing"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 13,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "wing"
+      },
+      {
+        "class": "unknown",
+        "count": 13,
+        "nerve": "unknown",
+        "neuromere": "unknown",
+        "side": "unknown",
+        "subclass": "unknown"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 12,
+        "nerve": "DMetaN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 12,
+        "nerve": "DProN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 12,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "chemosensory",
+        "count": 11,
+        "nerve": "AbN4",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 11,
+        "nerve": "DProN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "chemosensory",
+        "count": 11,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 10,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "wing"
+      },
+      {
+        "class": "chemosensory",
+        "count": 10,
+        "nerve": "AbN4",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 10,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "chordotonal organ"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 9,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "wing"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 8,
+        "nerve": "ProCN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "chordotonal organ"
+      },
+      {
+        "class": "chemosensory",
+        "count": 8,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 7,
+        "nerve": "VProN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 6,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "notum"
+      },
+      {
+        "class": "unknown",
+        "count": 6,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "taste bristle"
+      },
+      {
+        "class": "chemosensory",
+        "count": 5,
+        "nerve": "AbNT",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 5,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 5,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "notum"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 5,
+        "nerve": "ProAN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 5,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 5,
+        "nerve": "VProN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "chemosensory",
+        "count": 4,
+        "nerve": "AbNT",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 3,
+        "nerve": "DProN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 3,
+        "nerve": "DProN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 3,
+        "nerve": "ProAN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 3,
+        "nerve": "VProN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 2,
+        "nerve": "AbN1",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "chemosensory",
+        "count": 2,
+        "nerve": "AbN2",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "chemosensory",
+        "count": 2,
+        "nerve": "AbN2",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "chemosensory",
+        "count": 2,
+        "nerve": "AbN3",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 2,
+        "nerve": "DMetaN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "haltere"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 2,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 2,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 2,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 2,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 2,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 2,
+        "nerve": "MetaLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 2,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 2,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "campaniform sensilla"
+      },
+      {
+        "class": "unknown",
+        "count": 2,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "taste bristle"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 2,
+        "nerve": "VProN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 2,
+        "nerve": "VProN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 1,
+        "nerve": "ADMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "wing"
+      },
+      {
+        "class": "chemosensory",
+        "count": 1,
+        "nerve": "AbN3",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "abdomen"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "nerve": "DMetaN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "haltere"
+      },
+      {
+        "class": "chemosensory",
+        "count": 1,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "nerve": "MesoLN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "notum"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "mechanosensory bristle"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "nerve": "PDMN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "notum"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 1,
+        "nerve": "PrN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "neck"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "nerve": "PrN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "neck"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "nerve": "ProAN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_tactile",
+        "count": 1,
+        "nerve": "ProAN",
+        "neuromere": "unknown",
+        "side": "R",
+        "subclass": "leg"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 1,
+        "nerve": "ProLN",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "hair plate"
+      },
+      {
+        "class": "unknown_sensory",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "unknown",
+        "side": "L",
+        "subclass": "unknown"
+      },
+      {
+        "class": "mechanosensory_proprioceptive",
+        "count": 1,
+        "nerve": "unknown",
+        "neuromere": "unknown",
+        "side": "unknown",
+        "subclass": "campaniform sensilla"
+      }
+    ],
+    "rows": 6365,
+    "side_counts": {
+      "L": 3185,
+      "R": 3166,
+      "unknown": 14
+    },
+    "subclass_counts": {
+      "abdomen": 1128,
+      "campaniform sensilla": 175,
+      "chordotonal organ": 403,
+      "hair plate": 112,
+      "haltere": 56,
+      "leg": 853,
+      "leg bristle": 688,
+      "mechanosensory bristle": 2206,
+      "neck": 2,
+      "notum": 227,
+      "taste bristle": 70,
+      "unknown": 14,
+      "wing": 46,
+      "wing bristle": 385
+    },
+    "unique_bodies": 6365
+  }
+}
