@@ -8,6 +8,7 @@ on:
       - 'malecns-connectome/pyproject.toml'
       - 'malecns-connectome/scripts/build_runtime_graph.py'
       - 'malecns-connectome/scripts/validate_io_routes.py'
+      - 'malecns-connectome/scripts/audit_unreachable_sensory.py'
       - '.github/workflows/malecns-runtime-build.yml'
 
 concurrency:
@@ -130,6 +131,34 @@ jobs:
           }, indent=2))
           PY
 
+      - name: Audit sensory bodies without a motor route
+        working-directory: ${{ env.PROJECT }}
+        run: |
+          python scripts/audit_unreachable_sensory.py \
+            --nodes runtime/neurons.feather \
+            --edges runtime/edges.feather \
+            --metadata runtime/metadata.json \
+            --sensory \
+              results/io_resolved/sensory_inputs.physical-candidate.feather \
+              results/io_head/visual_inputs.candidate.feather \
+              results/io_head/head_sensory_inputs.candidate.feather \
+            --motor \
+              results/io_resolved/motor_outputs.physical-candidate.feather \
+              results/io_head/head_motor_outputs.candidate.feather \
+            --output results/unreachable_sensory_audit.json \
+            --max-hops 32
+          echo '=== UNREACHABLE SENSORY AUDIT ==='
+          python - <<'PY'
+          import json
+          r = json.load(open('results/unreachable_sensory_audit.json'))
+          print(json.dumps({
+              'summary': r['summary'],
+              'by_source_mask': r['unreachable_membership_counts']['source_mask_file'],
+              'by_superclass': r['unreachable_membership_counts']['superclass'],
+              'by_modality': r['unreachable_membership_counts']['modality'],
+          }, indent=2))
+          PY
+
       - name: Commit compact runtime and route checkpoint
         run: |
           cp malecns-connectome/runtime/metadata.json malecns-connectome/results/runtime_metadata.json
@@ -138,11 +167,12 @@ jobs:
           git add \
             malecns-connectome/results/runtime_metadata.json \
             malecns-connectome/results/runtime_sources.sha256 \
-            malecns-connectome/results/route_validation.json
+            malecns-connectome/results/route_validation.json \
+            malecns-connectome/results/unreachable_sensory_audit.json
           if git diff --cached --quiet; then
             echo 'No runtime metadata or route changes.'
           else
-            git commit -m 'results: refresh whole-body MaleCNS route validation [skip ci]'
+            git commit -m 'results: refresh whole-body MaleCNS route audits [skip ci]'
             git fetch origin malecns-connectome
             git rebase origin/malecns-connectome
             git push origin HEAD:malecns-connectome
@@ -160,6 +190,7 @@ jobs:
             malecns-connectome/runtime/metadata.json
             malecns-connectome/results/runtime_sources.sha256
             malecns-connectome/results/route_validation.json
+            malecns-connectome/results/unreachable_sensory_audit.json
             malecns-connectome/results/io_head/io_manifest.whole-body-candidate.json
             malecns-connectome/results/io_head/visual_inputs.candidate.feather
             malecns-connectome/results/io_head/head_sensory_inputs.candidate.feather
