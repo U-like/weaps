@@ -143,6 +143,8 @@ jobs:
             echo 'No runtime metadata or route changes.'
           else
             git commit -m 'results: refresh whole-body MaleCNS route validation [skip ci]'
+            git fetch origin malecns-connectome
+            git rebase origin/malecns-connectome
             git push origin HEAD:malecns-connectome
           fi
 
