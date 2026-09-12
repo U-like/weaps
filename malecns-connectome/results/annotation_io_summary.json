@@ -1,0 +1,640 @@
+{
+  "body_id_column": "bodyId",
+  "column_names": [
+    "assignedOlHex1",
+    "assignedOlHex2",
+    "bodyId",
+    "flywireType",
+    "group",
+    "instance",
+    "somaSide",
+    "statusLabel",
+    "superclass",
+    "type",
+    "vfbId",
+    "hemibrainType",
+    "itoleeHl",
+    "supertype",
+    "birthtime",
+    "mancBodyid",
+    "mancGroup",
+    "mancType",
+    "subclass",
+    "synonyms",
+    "class",
+    "rootSide",
+    "somaNeuromere",
+    "trumanHl",
+    "dimorphism",
+    "matchingNotes",
+    "entryNerve",
+    "mancSerial",
+    "mcnsSerial",
+    "serialMotif",
+    "fruDsx",
+    "exitNerve",
+    "receptorType",
+    "somaLocation",
+    "tosomaLocation",
+    "status"
+  ],
+  "columns": 36,
+  "io_breakdown": {
+    "ascending_neuron": {
+      "breakdown": {
+        "class": [],
+        "entryNerve": [],
+        "exitNerve": [],
+        "rootSide": [],
+        "somaNeuromere": [
+          {
+            "count": 722,
+            "value": "T1"
+          },
+          {
+            "count": 394,
+            "value": "T3"
+          },
+          {
+            "count": 390,
+            "value": "T2"
+          },
+          {
+            "count": 109,
+            "value": "A1"
+          },
+          {
+            "count": 54,
+            "value": "A2"
+          },
+          {
+            "count": 33,
+            "value": "A5"
+          },
+          {
+            "count": 31,
+            "value": "A4"
+          },
+          {
+            "count": 30,
+            "value": "A3"
+          },
+          {
+            "count": 23,
+            "value": "A6"
+          },
+          {
+            "count": 20,
+            "value": "A7"
+          },
+          {
+            "count": 20,
+            "value": "A8"
+          },
+          {
+            "count": 12,
+            "value": "A9"
+          },
+          {
+            "count": 8,
+            "value": "A10"
+          }
+        ],
+        "somaSide": [
+          {
+            "count": 930,
+            "value": "L"
+          },
+          {
+            "count": 907,
+            "value": "R"
+          },
+          {
+            "count": 9,
+            "value": "M"
+          }
+        ],
+        "status": [
+          {
+            "count": 1846,
+            "value": "Traced"
+          }
+        ],
+        "subclass": [
+          {
+            "count": 1317,
+            "value": "BA"
+          },
+          {
+            "count": 160,
+            "value": "CA"
+          },
+          {
+            "count": 128,
+            "value": "IA"
+          },
+          {
+            "count": 28,
+            "value": "XA"
+          },
+          {
+            "count": 17,
+            "value": "BI"
+          },
+          {
+            "count": 4,
+            "value": "II"
+          },
+          {
+            "count": 2,
+            "value": "CI"
+          }
+        ]
+      },
+      "direction": "diagnostic"
+    },
+    "descending_neuron": {
+      "breakdown": {
+        "class": [],
+        "entryNerve": [],
+        "exitNerve": [],
+        "rootSide": [],
+        "somaNeuromere": [
+          {
+            "count": 418,
+            "value": "LB"
+          },
+          {
+            "count": 201,
+            "value": "MX"
+          },
+          {
+            "count": 66,
+            "value": "CG"
+          },
+          {
+            "count": 43,
+            "value": "MD"
+          },
+          {
+            "count": 17,
+            "value": "GNG"
+          },
+          {
+            "count": 8,
+            "value": "DC"
+          },
+          {
+            "count": 2,
+            "value": "TC"
+          }
+        ],
+        "somaSide": [
+          {
+            "count": 656,
+            "value": "L"
+          },
+          {
+            "count": 648,
+            "value": "R"
+          },
+          {
+            "count": 10,
+            "value": "M"
+          }
+        ],
+        "status": [
+          {
+            "count": 1314,
+            "value": "Traced"
+          }
+        ],
+        "subclass": [
+          {
+            "count": 441,
+            "value": "xn"
+          },
+          {
+            "count": 276,
+            "value": "ut"
+          },
+          {
+            "count": 275,
+            "value": "xl"
+          },
+          {
+            "count": 115,
+            "value": "fl"
+          },
+          {
+            "count": 108,
+            "value": "nt"
+          },
+          {
+            "count": 31,
+            "value": "lt"
+          },
+          {
+            "count": 26,
+            "value": "ht"
+          },
+          {
+            "count": 18,
+            "value": "it"
+          },
+          {
+            "count": 10,
+            "value": "ad"
+          },
+          {
+            "count": 2,
+            "value": "hl"
+          },
+          {
+            "count": 2,
+            "value": "ml"
+          },
+          {
+            "count": 2,
+            "value": "wt"
+          }
+        ]
+      },
+      "direction": "diagnostic"
+    },
+    "vnc_motor": {
+      "breakdown": {
+        "class": [],
+        "entryNerve": [],
+        "exitNerve": [
+          {
+            "count": 122,
+            "value": "MetaLN"
+          },
+          {
+            "count": 116,
+            "value": "MesoLN"
+          },
+          {
+            "count": 81,
+            "value": "ProLN"
+          },
+          {
+            "count": 72,
+            "value": "AbN4"
+          },
+          {
+            "count": 64,
+            "value": "AbNT"
+          },
+          {
+            "count": 44,
+            "value": "AbN2"
+          },
+          {
+            "count": 30,
+            "value": "AbN1"
+          },
+          {
+            "count": 28,
+            "value": "ADMN"
+          },
+          {
+            "count": 28,
+            "value": "AbN3"
+          },
+          {
+            "count": 28,
+            "value": "DProN"
+          },
+          {
+            "count": 24,
+            "value": "ProAN"
+          },
+          {
+            "count": 22,
+            "value": "VProN"
+          },
+          {
+            "count": 19,
+            "value": "MesoAN"
+          },
+          {
+            "count": 16,
+            "value": "PDMNa"
+          },
+          {
+            "count": 6,
+            "value": "PDMNp"
+          },
+          {
+            "count": 4,
+            "value": "CvN"
+          },
+          {
+            "count": 4,
+            "value": "DMetaN"
+          }
+        ],
+        "rootSide": [],
+        "somaNeuromere": [
+          {
+            "count": 175,
+            "value": "T2"
+          },
+          {
+            "count": 173,
+            "value": "T1"
+          },
+          {
+            "count": 152,
+            "value": "T3"
+          },
+          {
+            "count": 56,
+            "value": "A1"
+          },
+          {
+            "count": 28,
+            "value": "A2"
+          },
+          {
+            "count": 22,
+            "value": "A3"
+          },
+          {
+            "count": 22,
+            "value": "A4"
+          },
+          {
+            "count": 21,
+            "value": "A9"
+          },
+          {
+            "count": 18,
+            "value": "A8"
+          },
+          {
+            "count": 16,
+            "value": "A5"
+          },
+          {
+            "count": 10,
+            "value": "A10"
+          },
+          {
+            "count": 8,
+            "value": "A6"
+          },
+          {
+            "count": 6,
+            "value": "A7"
+          }
+        ],
+        "somaSide": [
+          {
+            "count": 355,
+            "value": "L"
+          },
+          {
+            "count": 353,
+            "value": "R"
+          }
+        ],
+        "status": [
+          {
+            "count": 708,
+            "value": "Traced"
+          }
+        ],
+        "subclass": [
+          {
+            "count": 214,
+            "value": "ad"
+          },
+          {
+            "count": 135,
+            "value": "fl"
+          },
+          {
+            "count": 130,
+            "value": "hl"
+          },
+          {
+            "count": 116,
+            "value": "ml"
+          },
+          {
+            "count": 67,
+            "value": "wm"
+          },
+          {
+            "count": 24,
+            "value": "nm"
+          },
+          {
+            "count": 16,
+            "value": "hm"
+          },
+          {
+            "count": 6,
+            "value": "xm"
+          }
+        ]
+      },
+      "direction": "output"
+    },
+    "vnc_sensory": {
+      "breakdown": {
+        "class": [
+          {
+            "count": 2558,
+            "value": "mechanosensory_tactile"
+          },
+          {
+            "count": 1569,
+            "value": "unknown_sensory"
+          },
+          {
+            "count": 1073,
+            "value": "gustatory"
+          },
+          {
+            "count": 1030,
+            "value": "mechanosensory_proprioceptive"
+          },
+          {
+            "count": 57,
+            "value": "chemosensory"
+          }
+        ],
+        "entryNerve": [
+          {
+            "count": 1476,
+            "value": "MetaLN"
+          },
+          {
+            "count": 1363,
+            "value": "MesoLN"
+          },
+          {
+            "count": 943,
+            "value": "ProLN"
+          },
+          {
+            "count": 917,
+            "value": "ADMN"
+          },
+          {
+            "count": 604,
+            "value": "AbN4"
+          },
+          {
+            "count": 279,
+            "value": "PDMN"
+          },
+          {
+            "count": 232,
+            "value": "AbN3"
+          },
+          {
+            "count": 208,
+            "value": "AbNT"
+          },
+          {
+            "count": 122,
+            "value": "DMetaN"
+          },
+          {
+            "count": 82,
+            "value": "AbN2"
+          },
+          {
+            "count": 36,
+            "value": "PrN"
+          },
+          {
+            "count": 33,
+            "value": "ProCN"
+          },
+          {
+            "count": 29,
+            "value": "DProN"
+          },
+          {
+            "count": 19,
+            "value": "VProN"
+          },
+          {
+            "count": 10,
+            "value": "ProAN"
+          },
+          {
+            "count": 2,
+            "value": "AbN1"
+          }
+        ],
+        "exitNerve": [],
+        "rootSide": [
+          {
+            "count": 3186,
+            "value": "L"
+          },
+          {
+            "count": 3170,
+            "value": "R"
+          },
+          {
+            "count": 1,
+            "value": "unknown"
+          }
+        ],
+        "somaNeuromere": [],
+        "somaSide": [
+          {
+            "count": 2,
+            "value": "L"
+          }
+        ],
+        "status": [
+          {
+            "count": 6365,
+            "value": "Traced"
+          },
+          {
+            "count": 1,
+            "value": "Anchor"
+          }
+        ],
+        "subclass": [
+          {
+            "count": 2206,
+            "value": "mechanosensory bristle"
+          },
+          {
+            "count": 1128,
+            "value": "abdomen"
+          },
+          {
+            "count": 858,
+            "value": "leg"
+          },
+          {
+            "count": 688,
+            "value": "leg bristle"
+          },
+          {
+            "count": 403,
+            "value": "chordotonal organ"
+          },
+          {
+            "count": 385,
+            "value": "wing bristle"
+          },
+          {
+            "count": 227,
+            "value": "notum"
+          },
+          {
+            "count": 175,
+            "value": "campaniform sensilla"
+          },
+          {
+            "count": 112,
+            "value": "hair plate"
+          },
+          {
+            "count": 70,
+            "value": "taste bristle"
+          },
+          {
+            "count": 56,
+            "value": "haltere"
+          },
+          {
+            "count": 46,
+            "value": "wing"
+          },
+          {
+            "count": 2,
+            "value": "neck"
+          }
+        ]
+      },
+      "direction": "input"
+    }
+  },
+  "io_counts": {
+    "ascending_neuron": 1846,
+    "descending_neuron": 1314,
+    "vnc_motor": 708,
+    "vnc_sensory": 6370
+  },
+  "notes": [
+    "Exact counts come directly from official MaleCNS v1.0 annotations.",
+    "entryNerve/exitNerve are preferred over soma location for physical body-channel mapping when present.",
+    "Superclass membership alone remains candidate I/O until port grouping and route validation are complete."
+  ],
+  "rows": 211577,
+  "source_file": "body-annotations-male-cns-v1.0-minconf-0.5.feather"
+}
