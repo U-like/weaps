@@ -12,6 +12,7 @@ on:
       - 'malecns-connectome/scripts/audit_runtime_nodes.py'
       - 'malecns-connectome/scripts/audit_head_sensory.py'
       - 'malecns-connectome/scripts/build_io_manifest.py'
+      - 'malecns-connectome/scripts/build_head_io.py'
       - 'malecns-connectome/scripts/summarize_io_masks.py'
       - 'malecns-connectome/scripts/resolve_physical_ports.py'
       - 'malecns-connectome/config/io_port_rules.json'
@@ -60,7 +61,7 @@ jobs:
       - name: Download official Janelia annotations
         working-directory: ${{ env.PROJECT }}
         run: |
-          mkdir -p data/raw results/io_candidate results/io_resolved
+          mkdir -p data/raw results/io_candidate results/io_resolved results/io_head
           curl -L --fail --retry 3 --retry-delay 5 \
             "$DATA_BASE/$ANNOTATIONS" -o "data/raw/$ANNOTATIONS"
           sha256sum "data/raw/$ANNOTATIONS" | tee results/annotations.sha256
@@ -81,7 +82,7 @@ jobs:
           echo '=== HEAD / OPTIC SENSORY AUDIT ==='
           cat results/head_sensory_audit.json
 
-      - name: Build candidate simulation I/O masks and manifest
+      - name: Build candidate VNC simulation I/O masks
         working-directory: ${{ env.PROJECT }}
         run: |
           python scripts/build_io_manifest.py \
@@ -99,12 +100,8 @@ jobs:
             --diagnostic results/io_candidate/diagnostic_ports.candidate.feather \
             --output results/io_candidate/io_physical_summary.json \
             --core-output results/io_candidate/io_physical_core.json
-          echo '=== CANDIDATE MANIFEST SUMMARY ==='
-          cat results/io_candidate/io_manifest_summary.json
-          echo '=== PHYSICAL I/O CORE ==='
-          cat results/io_candidate/io_physical_core.json
 
-      - name: Resolve conservative physical body channels
+      - name: Resolve conservative VNC physical body channels
         working-directory: ${{ env.PROJECT }}
         run: |
           python scripts/resolve_physical_ports.py \
@@ -117,8 +114,23 @@ jobs:
             --resolved-motor results/io_resolved/motor_outputs.physical-candidate.feather \
             --unresolved results/io_resolved/io_unresolved.json \
             --summary results/io_resolved/io_physical_resolution_summary.json
-          echo '=== PHYSICAL CHANNEL RESOLUTION ==='
+          echo '=== VNC PHYSICAL CHANNEL RESOLUTION ==='
           cat results/io_resolved/io_physical_resolution_summary.json
+
+      - name: Build head, visual and central-brain motor ports
+        working-directory: ${{ env.PROJECT }}
+        run: |
+          python scripts/build_head_io.py \
+            "data/raw/$ANNOTATIONS" \
+            --base-manifest results/io_resolved/io_manifest.physical-candidate.json \
+            --manifest results/io_head/io_manifest.whole-body-candidate.json \
+            --visual results/io_head/visual_inputs.candidate.feather \
+            --head-sensory results/io_head/head_sensory_inputs.candidate.feather \
+            --head-motor results/io_head/head_motor_outputs.candidate.feather \
+            --unresolved results/io_head/head_io_unresolved.json \
+            --summary results/io_head/head_io_summary.json
+          echo '=== WHOLE-BODY HEAD/VISUAL SUMMARY ==='
+          cat results/io_head/head_io_summary.json
 
       - name: Commit reproducible I/O checkpoint
         run: |
@@ -131,11 +143,12 @@ jobs:
             malecns-connectome/results/head_sensory_audit.json \
             malecns-connectome/results/annotations.sha256 \
             malecns-connectome/results/io_candidate/ \
-            malecns-connectome/results/io_resolved/
+            malecns-connectome/results/io_resolved/ \
+            malecns-connectome/results/io_head/
           if git diff --cached --quiet; then
             echo 'No I/O checkpoint changes.'
           else
-            git commit -m 'results: refresh MaleCNS head and body I/O audit [skip ci]'
+            git commit -m 'results: refresh MaleCNS whole-body I/O checkpoint [skip ci]'
             git push origin HEAD:malecns-connectome
           fi
 
@@ -143,7 +156,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: malecns-io-physical-${{ github.sha }}
+          name: malecns-io-whole-body-${{ github.sha }}
           retention-days: 30
           path: |
             malecns-connectome/results/annotation_io_audit.json
@@ -153,3 +166,4 @@ jobs:
             malecns-connectome/results/annotations.sha256
             malecns-connectome/results/io_candidate/
             malecns-connectome/results/io_resolved/
+            malecns-connectome/results/io_head/
