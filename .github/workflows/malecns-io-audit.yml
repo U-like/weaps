@@ -9,6 +9,7 @@ on:
       - 'malecns-connectome/src/malecns/body_adapter.py'
       - 'malecns-connectome/src/malecns/runtime.py'
       - 'malecns-connectome/scripts/audit_annotation_io.py'
+      - 'malecns-connectome/scripts/audit_runtime_nodes.py'
       - 'malecns-connectome/scripts/build_io_manifest.py'
       - 'malecns-connectome/scripts/summarize_io_masks.py'
       - 'malecns-connectome/config/io_port_rules.json'
@@ -61,15 +62,18 @@ jobs:
             "$DATA_BASE/$ANNOTATIONS" -o "data/raw/$ANNOTATIONS"
           sha256sum "data/raw/$ANNOTATIONS" | tee results/annotations.sha256
 
-      - name: Audit annotation schema and I/O superclasses
+      - name: Audit annotation schema and runtime node policies
         working-directory: ${{ env.PROJECT }}
         run: |
           python scripts/audit_annotation_io.py \
             "data/raw/$ANNOTATIONS" \
             --output results/annotation_io_audit.json \
             --summary-output results/annotation_io_summary.json
-          echo '=== I/O SUMMARY ==='
-          cat results/annotation_io_summary.json
+          python scripts/audit_runtime_nodes.py \
+            "data/raw/$ANNOTATIONS" \
+            --output results/runtime_node_audit.json
+          echo '=== RUNTIME NODE AUDIT ==='
+          cat results/runtime_node_audit.json
 
       - name: Build candidate simulation I/O masks and manifest
         working-directory: ${{ env.PROJECT }}
@@ -101,6 +105,7 @@ jobs:
           git add \
             malecns-connectome/results/annotation_io_audit.json \
             malecns-connectome/results/annotation_io_summary.json \
+            malecns-connectome/results/runtime_node_audit.json \
             malecns-connectome/results/annotations.sha256 \
             malecns-connectome/results/io_candidate/io_manifest.candidate.json \
             malecns-connectome/results/io_candidate/sensory_inputs.candidate.feather \
@@ -126,5 +131,6 @@ jobs:
           path: |
             malecns-connectome/results/annotation_io_audit.json
             malecns-connectome/results/annotation_io_summary.json
+            malecns-connectome/results/runtime_node_audit.json
             malecns-connectome/results/annotations.sha256
             malecns-connectome/results/io_candidate/
