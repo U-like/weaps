@@ -10,6 +10,7 @@ on:
       - 'malecns-connectome/src/malecns/runtime.py'
       - 'malecns-connectome/scripts/audit_annotation_io.py'
       - 'malecns-connectome/scripts/audit_runtime_nodes.py'
+      - 'malecns-connectome/scripts/audit_head_sensory.py'
       - 'malecns-connectome/scripts/build_io_manifest.py'
       - 'malecns-connectome/scripts/summarize_io_masks.py'
       - 'malecns-connectome/scripts/resolve_physical_ports.py'
@@ -74,8 +75,11 @@ jobs:
           python scripts/audit_runtime_nodes.py \
             "data/raw/$ANNOTATIONS" \
             --output results/runtime_node_audit.json
-          echo '=== RUNTIME NODE AUDIT ==='
-          cat results/runtime_node_audit.json
+          python scripts/audit_head_sensory.py \
+            "data/raw/$ANNOTATIONS" \
+            --output results/head_sensory_audit.json
+          echo '=== HEAD / OPTIC SENSORY AUDIT ==='
+          cat results/head_sensory_audit.json
 
       - name: Build candidate simulation I/O masks and manifest
         working-directory: ${{ env.PROJECT }}
@@ -124,13 +128,14 @@ jobs:
             malecns-connectome/results/annotation_io_audit.json \
             malecns-connectome/results/annotation_io_summary.json \
             malecns-connectome/results/runtime_node_audit.json \
+            malecns-connectome/results/head_sensory_audit.json \
             malecns-connectome/results/annotations.sha256 \
             malecns-connectome/results/io_candidate/ \
             malecns-connectome/results/io_resolved/
           if git diff --cached --quiet; then
             echo 'No I/O checkpoint changes.'
           else
-            git commit -m 'results: refresh MaleCNS physical I/O checkpoint [skip ci]'
+            git commit -m 'results: refresh MaleCNS head and body I/O audit [skip ci]'
             git push origin HEAD:malecns-connectome
           fi
 
@@ -144,6 +149,7 @@ jobs:
             malecns-connectome/results/annotation_io_audit.json
             malecns-connectome/results/annotation_io_summary.json
             malecns-connectome/results/runtime_node_audit.json
+            malecns-connectome/results/head_sensory_audit.json
             malecns-connectome/results/annotations.sha256
             malecns-connectome/results/io_candidate/
             malecns-connectome/results/io_resolved/
