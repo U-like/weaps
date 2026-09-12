@@ -65,15 +65,19 @@ jobs:
         run: |
           python scripts/audit_annotation_io.py \
             "data/raw/$ANNOTATIONS" \
-            --output results/annotation_io_audit.json
-          echo '=== I/O AUDIT ==='
-          cat results/annotation_io_audit.json
+            --output results/annotation_io_audit.json \
+            --summary-output results/annotation_io_summary.json
+          echo '=== I/O SUMMARY ==='
+          cat results/annotation_io_summary.json
 
       - name: Commit compact audit checkpoint
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add malecns-connectome/results/annotation_io_audit.json malecns-connectome/results/annotations.sha256
+          git add \
+            malecns-connectome/results/annotation_io_audit.json \
+            malecns-connectome/results/annotation_io_summary.json \
+            malecns-connectome/results/annotations.sha256
           if git diff --cached --quiet; then
             echo 'No audit changes.'
           else
@@ -89,4 +93,5 @@ jobs:
           retention-days: 30
           path: |
             malecns-connectome/results/annotation_io_audit.json
+            malecns-connectome/results/annotation_io_summary.json
             malecns-connectome/results/annotations.sha256
