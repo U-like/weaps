@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Audit official MaleCNS annotations for simulation I/O construction.
 
-The script intentionally does not invent biological labels.  It reports the
-exact Feather schema, value distributions for annotation columns and concrete
-body IDs in the high-level I/O superclasses that are explicitly present in the
-official table.
+The script intentionally does not invent biological labels. It reports the
+exact Feather schema, value distributions and compact summaries of explicit
+high-level I/O superclasses from the official annotation table.
 """
 
 from __future__ import annotations
@@ -64,7 +63,13 @@ def body_column(names: list[str]) -> str:
     raise KeyError(f"no body-id column found in {names}")
 
 
-def rows_for_superclass(table: pa.Table, superclass: str, body_col: str) -> dict[str, Any]:
+def summarize_superclass(
+    table: pa.Table,
+    superclass: str,
+    body_col: str,
+    *,
+    sample_rows: int = 40,
+) -> dict[str, Any]:
     mask = pc.equal(table["superclass"], pa.scalar(superclass))
     sub = table.filter(mask)
     fields = [
@@ -80,13 +85,23 @@ def rows_for_superclass(table: pa.Table, superclass: str, body_col: str) -> dict
         "status",
     ]
     fields = [f for f in fields if f in sub.column_names]
-    # Preserve exact rows for I/O classes.  The annotation file is small and
-    # this output is intended to become the auditable source for port masks.
-    rows = []
-    if fields:
-        for row in sub.select(fields).to_pylist():
-            rows.append({k: scalar(v) for k, v in row.items()})
-    return {"count": sub.num_rows, "fields": fields, "rows": rows}
+
+    breakdown: dict[str, Any] = {}
+    for field in ("class", "subclass", "somaSide", "somaNeuromere", "rootSide", "rootNeuropil", "status"):
+        if field in sub.column_names:
+            breakdown[field] = value_counts(sub[field], 200)
+
+    sample: list[dict[str, Any]] = []
+    if fields and sub.num_rows:
+        for row in sub.select(fields).slice(0, sample_rows).to_pylist():
+            sample.append({k: scalar(v) for k, v in row.items()})
+
+    return {
+        "count": sub.num_rows,
+        "fields": fields,
+        "breakdown": breakdown,
+        "sample_rows": sample,
+    }
 
 
 def main() -> None:
@@ -127,7 +142,7 @@ def main() -> None:
     io_groups: dict[str, Any] = {}
     if "superclass" in names:
         for superclass, direction in IO_SUPERCLASSES.items():
-            group = rows_for_superclass(table, superclass, body_col)
+            group = summarize_superclass(table, superclass, body_col)
             group["direction"] = direction
             io_groups[superclass] = group
 
@@ -141,8 +156,9 @@ def main() -> None:
         "io_superclasses": io_groups,
         "notes": [
             "I/O groups are selected only by exact superclass labels found in the official annotations.",
-            "Rows are candidates until semantic port grouping and path validation are complete.",
+            "Superclass rows remain candidates until semantic port grouping and path validation are complete.",
             "No unknown/unclassified neuron is assigned an I/O role by this audit.",
+            "Only compact samples are tracked here; body-ID masks are generated separately from the source Feather.",
         ],
     }
 
