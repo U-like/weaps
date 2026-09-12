@@ -1,0 +1,26 @@
+name: MaleCNS tests
+
+on:
+  push:
+    branches: [malecns-connectome]
+    paths:
+      - 'malecns-connectome/**'
+      - '.github/workflows/malecns-tests.yml'
+  pull_request:
+    paths:
+      - 'malecns-connectome/**'
+      - '.github/workflows/malecns-tests.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: malecns-connectome
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[test]'
+      - run: pytest -q
