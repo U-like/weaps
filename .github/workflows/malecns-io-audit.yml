@@ -10,6 +10,7 @@ on:
       - 'malecns-connectome/src/malecns/runtime.py'
       - 'malecns-connectome/scripts/audit_annotation_io.py'
       - 'malecns-connectome/scripts/build_io_manifest.py'
+      - 'malecns-connectome/scripts/summarize_io_masks.py'
       - 'malecns-connectome/config/io_port_rules.json'
       - 'malecns-connectome/tests/test_runtime_interface.py'
       - '.github/workflows/malecns-io-audit.yml'
@@ -82,8 +83,15 @@ jobs:
             --diagnostic-feather results/io_candidate/diagnostic_ports.candidate.feather \
             --unknowns results/io_candidate/io_unknowns.json \
             --summary results/io_candidate/io_manifest_summary.json
+          python scripts/summarize_io_masks.py \
+            --sensory results/io_candidate/sensory_inputs.candidate.feather \
+            --motor results/io_candidate/motor_outputs.candidate.feather \
+            --diagnostic results/io_candidate/diagnostic_ports.candidate.feather \
+            --output results/io_candidate/io_physical_summary.json
           echo '=== CANDIDATE MANIFEST SUMMARY ==='
           cat results/io_candidate/io_manifest_summary.json
+          echo '=== PHYSICAL I/O SUMMARY ==='
+          cat results/io_candidate/io_physical_summary.json
 
       - name: Commit reproducible I/O checkpoint
         run: |
@@ -98,7 +106,8 @@ jobs:
             malecns-connectome/results/io_candidate/motor_outputs.candidate.feather \
             malecns-connectome/results/io_candidate/diagnostic_ports.candidate.feather \
             malecns-connectome/results/io_candidate/io_unknowns.json \
-            malecns-connectome/results/io_candidate/io_manifest_summary.json
+            malecns-connectome/results/io_candidate/io_manifest_summary.json \
+            malecns-connectome/results/io_candidate/io_physical_summary.json
           if git diff --cached --quiet; then
             echo 'No I/O checkpoint changes.'
           else
