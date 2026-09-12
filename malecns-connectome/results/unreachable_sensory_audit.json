@@ -1,0 +1,5055 @@
+{
+  "audit_kind": "directed topology reachability to selected motor bodies",
+  "dataset": "male-cns:v1.0-minconf-0.5",
+  "max_hops": 32,
+  "notes": [
+    "Unreachable means no directed path to any selected motor body within the configured hop limit.",
+    "A zero-out-degree sensory body is a sink in the curated neuron-induced graph; this can reflect segmentation/annotation scope rather than biological absence of output.",
+    "Bodies with nonzero out-degree but no motor route belong to directed subgraphs that do not reach the selected motor interface under this topology-only test.",
+    "No membrane dynamics, transmitter signs or stimulus semantics are used in this audit."
+  ],
+  "runtime": {
+    "edges": 25582938,
+    "nodes": 166700
+  },
+  "source_masks": {
+    "motor": [
+      "motor_outputs.physical-candidate.feather",
+      "head_motor_outputs.candidate.feather"
+    ],
+    "sensory": [
+      "sensory_inputs.physical-candidate.feather",
+      "visual_inputs.candidate.feather",
+      "head_sensory_inputs.candidate.feather"
+    ]
+  },
+  "summary": {
+    "missing_runtime_body_ids": [],
+    "present_in_runtime": 16481,
+    "reachable_motor_bodies": 16222,
+    "unique_resolved_sensory_bodies": 16481,
+    "unreachable_fraction": 0.015715065833383897,
+    "unreachable_motor_bodies": 259,
+    "unreachable_nonzero_out_degree": 5,
+    "unreachable_zero_out_degree": 254
+  },
+  "unreachable_bodies": [
+    {
+      "body_id": 74014,
+      "dense_id": 55523,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 1,
+      "zero_out_degree": false
+    },
+    {
+      "body_id": 90197,
+      "dense_id": 68248,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 112548,
+      "dense_id": 84612,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 127503,
+      "dense_id": 94565,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 1,
+      "zero_out_degree": false
+    },
+    {
+      "body_id": 131175,
+      "dense_id": 96791,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 141440,
+      "dense_id": 102404,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 155292,
+      "dense_id": 108435,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 158264,
+      "dense_id": 109453,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 1,
+      "zero_out_degree": false
+    },
+    {
+      "body_id": 159276,
+      "dense_id": 109803,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 173372,
+      "dense_id": 113721,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 174344,
+      "dense_id": 113956,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 181072,
+      "dense_id": 115394,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 186886,
+      "dense_id": 116552,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 188337,
+      "dense_id": 116823,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 191875,
+      "dense_id": 117499,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 192812,
+      "dense_id": 117679,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 202924,
+      "dense_id": 119381,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 203576,
+      "dense_id": 119466,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 204442,
+      "dense_id": 119585,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 204893,
+      "dense_id": 119641,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 205699,
+      "dense_id": 119772,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 210305,
+      "dense_id": 120380,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 214264,
+      "dense_id": 120863,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 215360,
+      "dense_id": 121013,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 217952,
+      "dense_id": 121282,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 220577,
+      "dense_id": 121541,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 1,
+      "zero_out_degree": false
+    },
+    {
+      "body_id": 243109,
+      "dense_id": 122976,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r1_r6",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R1-R6",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 255964,
+      "dense_id": 123421,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 281017,
+      "dense_id": 123973,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 301305,
+      "dense_id": 124291,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 321241,
+      "dense_id": 124520,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 356908,
+      "dense_id": 124828,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 360579,
+      "dense_id": 124852,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 377394,
+      "dense_id": 124952,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 378122,
+      "dense_id": 124957,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.left.mechanosensory.auditory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 378732,
+      "dense_id": 124966,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 415959,
+      "dense_id": 125164,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 435445,
+      "dense_id": 125275,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 439338,
+      "dense_id": 125290,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 453447,
+      "dense_id": 125347,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 462482,
+      "dense_id": 125375,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500086,
+      "dense_id": 125561,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500119,
+      "dense_id": 125584,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500122,
+      "dense_id": 125586,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500123,
+      "dense_id": 125587,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500126,
+      "dense_id": 125590,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500136,
+      "dense_id": 125594,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500141,
+      "dense_id": 125597,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500145,
+      "dense_id": 125601,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500147,
+      "dense_id": 125603,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500151,
+      "dense_id": 125606,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500177,
+      "dense_id": 125619,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500180,
+      "dense_id": 125621,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500183,
+      "dense_id": 125623,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500185,
+      "dense_id": 125625,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500188,
+      "dense_id": 125628,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500189,
+      "dense_id": 125629,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500197,
+      "dense_id": 125632,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500203,
+      "dense_id": 125637,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500206,
+      "dense_id": 125639,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500208,
+      "dense_id": 125641,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500209,
+      "dense_id": 125642,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500210,
+      "dense_id": 125643,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500211,
+      "dense_id": 125644,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500212,
+      "dense_id": 125645,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500214,
+      "dense_id": 125646,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500215,
+      "dense_id": 125647,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500220,
+      "dense_id": 125648,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500221,
+      "dense_id": 125649,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500224,
+      "dense_id": 125650,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500226,
+      "dense_id": 125652,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500237,
+      "dense_id": 125657,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500241,
+      "dense_id": 125661,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500244,
+      "dense_id": 125663,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500253,
+      "dense_id": 125667,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500254,
+      "dense_id": 125668,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500255,
+      "dense_id": 125669,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500256,
+      "dense_id": 125670,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500264,
+      "dense_id": 125675,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500265,
+      "dense_id": 125676,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500267,
+      "dense_id": 125678,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500268,
+      "dense_id": 125679,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500269,
+      "dense_id": 125680,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500270,
+      "dense_id": 125681,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500274,
+      "dense_id": 125684,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500287,
+      "dense_id": 125689,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500291,
+      "dense_id": 125691,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500296,
+      "dense_id": 125693,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500299,
+      "dense_id": 125694,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500302,
+      "dense_id": 125696,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500303,
+      "dense_id": 125697,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500304,
+      "dense_id": 125698,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500307,
+      "dense_id": 125700,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500310,
+      "dense_id": 125703,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500311,
+      "dense_id": 125704,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500314,
+      "dense_id": 125706,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500317,
+      "dense_id": 125707,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500318,
+      "dense_id": 125708,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500322,
+      "dense_id": 125709,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500329,
+      "dense_id": 125712,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500331,
+      "dense_id": 125713,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500332,
+      "dense_id": 125714,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500350,
+      "dense_id": 125717,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500360,
+      "dense_id": 125719,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500367,
+      "dense_id": 125721,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 500417,
+      "dense_id": 125725,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 856004,
+      "dense_id": 160388,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 902338,
+      "dense_id": 160615,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 908125,
+      "dense_id": 162421,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN3",
+          "semantic_port": "sensory.abdomen.segment3.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 932907,
+      "dense_id": 164397,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 953758,
+      "dense_id": 164918,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 954304,
+      "dense_id": 164933,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 101197072,
+      "dense_id": 165000,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 101508128,
+      "dense_id": 165001,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 102730610,
+      "dense_id": 165012,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 102829180,
+      "dense_id": 165014,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 102863178,
+      "dense_id": 165015,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 103514419,
+      "dense_id": 165018,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 105138176,
+      "dense_id": 165028,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 1,
+      "zero_out_degree": false
+    },
+    {
+      "body_id": 107969133,
+      "dense_id": 165042,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 117575474,
+      "dense_id": 165067,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 123539461,
+      "dense_id": 165084,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r7_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R7_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 126591604,
+      "dense_id": 165096,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "visual",
+          "nerve": null,
+          "semantic_port": "sensory.vision.right.r8_unclear",
+          "side": "R",
+          "source_mask_file": "visual_inputs.candidate.feather",
+          "subclass": "R8_unclear",
+          "superclass": "ol_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 135713666,
+      "dense_id": 165118,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 135742289,
+      "dense_id": 165119,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 136538886,
+      "dense_id": 165121,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 138093763,
+      "dense_id": 165123,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 165307335,
+      "dense_id": 165176,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 169608017,
+      "dense_id": 165179,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 182055376,
+      "dense_id": 165196,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 187467801,
+      "dense_id": 165204,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 190960183,
+      "dense_id": 165211,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 191222213,
+      "dense_id": 165212,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 225531498,
+      "dense_id": 165259,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 229159256,
+      "dense_id": 165262,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 237125523,
+      "dense_id": 165273,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 261075781,
+      "dense_id": 165304,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 267864463,
+      "dense_id": 165315,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 276340622,
+      "dense_id": 165321,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 289189116,
+      "dense_id": 165337,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 297907170,
+      "dense_id": 165344,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 306697215,
+      "dense_id": 165355,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 315136169,
+      "dense_id": 165364,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 324538419,
+      "dense_id": 165382,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 325721459,
+      "dense_id": 165385,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 330976005,
+      "dense_id": 165390,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 331344108,
+      "dense_id": 165391,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 345369828,
+      "dense_id": 165405,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 347648851,
+      "dense_id": 165409,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 348970414,
+      "dense_id": 165412,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 353479881,
+      "dense_id": 165419,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 381438645,
+      "dense_id": 165446,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 387136270,
+      "dense_id": 165452,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 388907605,
+      "dense_id": 165455,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 401966116,
+      "dense_id": 165471,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 407382048,
+      "dense_id": 165476,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 417447355,
+      "dense_id": 165485,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 428888752,
+      "dense_id": 165496,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 433689529,
+      "dense_id": 165500,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 443987517,
+      "dense_id": 165511,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 445096818,
+      "dense_id": 165513,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 472558513,
+      "dense_id": 165536,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 482660437,
+      "dense_id": 165548,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 482981517,
+      "dense_id": 165549,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 493489162,
+      "dense_id": 165559,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 511044322,
+      "dense_id": 165578,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 528648152,
+      "dense_id": 165598,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 535319434,
+      "dense_id": 165609,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 545758258,
+      "dense_id": 165618,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 550485938,
+      "dense_id": 165624,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 567887507,
+      "dense_id": 165640,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 574443245,
+      "dense_id": 165650,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 581219364,
+      "dense_id": 165655,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 595981074,
+      "dense_id": 165666,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 608346676,
+      "dense_id": 165676,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 616359945,
+      "dense_id": 165686,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 634015490,
+      "dense_id": 165702,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 635361007,
+      "dense_id": 165706,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 639100334,
+      "dense_id": 165710,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 650169251,
+      "dense_id": 165724,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 661082297,
+      "dense_id": 165732,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 665341618,
+      "dense_id": 165735,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 675422459,
+      "dense_id": 165748,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 684296256,
+      "dense_id": 165758,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.left.mechanosensory.auditory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 686936509,
+      "dense_id": 165764,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 695941051,
+      "dense_id": 165774,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 696659928,
+      "dense_id": 165776,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 698835546,
+      "dense_id": 165780,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 702682768,
+      "dense_id": 165785,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 707083084,
+      "dense_id": 165790,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.left.unknown_sensory",
+          "side": "L",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 710268570,
+      "dense_id": 165793,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 735726559,
+      "dense_id": 165820,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 785169039,
+      "dense_id": 165870,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 795685695,
+      "dense_id": 165889,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 796118345,
+      "dense_id": 165890,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 840250886,
+      "dense_id": 165940,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 852693854,
+      "dense_id": 165957,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 865642428,
+      "dense_id": 165967,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 866990190,
+      "dense_id": 165970,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 871118340,
+      "dense_id": 165972,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 893816063,
+      "dense_id": 165999,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 894980518,
+      "dense_id": 166001,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 897664547,
+      "dense_id": 166005,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 898227417,
+      "dense_id": 166006,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 911172847,
+      "dense_id": 166026,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 912460631,
+      "dense_id": 166031,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 925945873,
+      "dense_id": 166043,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 933869224,
+      "dense_id": 166047,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 935355047,
+      "dense_id": 166049,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 939224751,
+      "dense_id": 166055,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 940091388,
+      "dense_id": 166056,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 963561242,
+      "dense_id": 166079,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 983476208,
+      "dense_id": 166101,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 986835763,
+      "dense_id": 166105,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 990942159,
+      "dense_id": 166108,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 997762696,
+      "dense_id": 166117,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 999210425,
+      "dense_id": 166119,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1001037799,
+      "dense_id": 166126,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1002084228,
+      "dense_id": 166127,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.mechanosensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1002939892,
+      "dense_id": 166131,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "MxLbN",
+          "semantic_port": "sensory.head.mxlbn.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1004101664,
+      "dense_id": 166135,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.wind_gravity",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "wind_gravity",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1006889022,
+      "dense_id": 166145,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "unknown_sensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.unknown_sensory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": null,
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1018999243,
+      "dense_id": 166158,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1026240572,
+      "dense_id": 166168,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": null,
+          "modality": "mechanosensory",
+          "nerve": "AN",
+          "semantic_port": "sensory.head.an.right.mechanosensory.auditory",
+          "side": "R",
+          "source_mask_file": "head_sensory_inputs.candidate.feather",
+          "subclass": "auditory",
+          "superclass": "cb_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1050223647,
+      "dense_id": 166250,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN3",
+          "semantic_port": "sensory.abdomen.segment3.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1050403721,
+      "dense_id": 166278,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1051114092,
+      "dense_id": 166347,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1051898535,
+      "dense_id": 166394,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1051956076,
+      "dense_id": 166398,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN3",
+          "semantic_port": "sensory.abdomen.segment3.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1051956979,
+      "dense_id": 166399,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1052731460,
+      "dense_id": 166426,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1053074577,
+      "dense_id": 166432,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "MetaLN",
+          "semantic_port": "sensory.leg.hind_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1053199398,
+      "dense_id": 166438,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN3",
+          "semantic_port": "sensory.abdomen.segment3.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1053793655,
+      "dense_id": 166457,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1054797409,
+      "dense_id": 166486,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN1",
+          "semantic_port": "sensory.abdomen.segment1.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1056285430,
+      "dense_id": 166507,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1057177892,
+      "dense_id": 166518,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN3",
+          "semantic_port": "sensory.abdomen.segment3.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1057237289,
+      "dense_id": 166519,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1060965073,
+      "dense_id": 166550,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1061197933,
+      "dense_id": 166554,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN2",
+          "semantic_port": "sensory.abdomen.segment2.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1061727485,
+      "dense_id": 166561,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1062101639,
+      "dense_id": 166563,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1064803101,
+      "dense_id": 166578,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN3",
+          "semantic_port": "sensory.abdomen.segment3.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1064962719,
+      "dense_id": 166581,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1065966336,
+      "dense_id": 166584,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1066802105,
+      "dense_id": 166590,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1068252750,
+      "dense_id": 166593,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1071809383,
+      "dense_id": 166605,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "MesoLN",
+          "semantic_port": "sensory.leg.middle_right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1073624626,
+      "dense_id": 166610,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN3",
+          "semantic_port": "sensory.abdomen.segment3.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1081870239,
+      "dense_id": 166628,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN2",
+          "semantic_port": "sensory.abdomen.segment2.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1082921466,
+      "dense_id": 166632,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN3",
+          "semantic_port": "sensory.abdomen.segment3.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1088046531,
+      "dense_id": 166639,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN2",
+          "semantic_port": "sensory.abdomen.segment2.right.unknown",
+          "side": "R",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1092206068,
+      "dense_id": 166645,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN2",
+          "semantic_port": "sensory.abdomen.segment2.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1108956440,
+      "dense_id": 166653,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN2",
+          "semantic_port": "sensory.abdomen.segment2.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1117532999,
+      "dense_id": 166664,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN2",
+          "semantic_port": "sensory.abdomen.segment2.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1132562437,
+      "dense_id": 166669,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN3",
+          "semantic_port": "sensory.abdomen.segment3.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1155473808,
+      "dense_id": 166676,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "ProLN",
+          "semantic_port": "sensory.leg.front_left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "leg",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1177201997,
+      "dense_id": 166678,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN2",
+          "semantic_port": "sensory.abdomen.segment2.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    },
+    {
+      "body_id": 1265502596,
+      "dense_id": 166688,
+      "distance_to_motor": -1,
+      "memberships": [
+        {
+          "class": "unknown_sensory",
+          "modality": "unknown",
+          "nerve": "AbN2",
+          "semantic_port": "sensory.abdomen.segment2.left.unknown",
+          "side": "L",
+          "source_mask_file": "sensory_inputs.physical-candidate.feather",
+          "subclass": "abdomen",
+          "superclass": "vnc_sensory"
+        }
+      ],
+      "out_degree": 0,
+      "zero_out_degree": true
+    }
+  ],
+  "unreachable_membership_counts": {
+    "class": {
+      "<null>": 221,
+      "unknown_sensory": 38
+    },
+    "modality": {
+      "mechanosensory": 98,
+      "unknown": 38,
+      "unknown_sensory": 32,
+      "visual": 91
+    },
+    "nerve": {
+      "<null>": 91,
+      "AN": 105,
+      "AbN1": 1,
+      "AbN2": 8,
+      "AbN3": 9,
+      "MesoLN": 1,
+      "MetaLN": 1,
+      "MxLbN": 25,
+      "ProLN": 18
+    },
+    "semantic_port": {
+      "sensory.abdomen.segment1.left.unknown": 1,
+      "sensory.abdomen.segment2.left.unknown": 7,
+      "sensory.abdomen.segment2.right.unknown": 1,
+      "sensory.abdomen.segment3.left.unknown": 9,
+      "sensory.head.an.left.mechanosensory.auditory": 2,
+      "sensory.head.an.right.mechanosensory": 2,
+      "sensory.head.an.right.mechanosensory.auditory": 27,
+      "sensory.head.an.right.mechanosensory.wind_gravity": 57,
+      "sensory.head.an.right.unknown_sensory": 17,
+      "sensory.head.mxlbn.left.unknown_sensory": 11,
+      "sensory.head.mxlbn.right.mechanosensory": 10,
+      "sensory.head.mxlbn.right.unknown_sensory": 4,
+      "sensory.leg.front_left.unknown": 3,
+      "sensory.leg.front_right.unknown": 15,
+      "sensory.leg.hind_right.unknown": 1,
+      "sensory.leg.middle_right.unknown": 1,
+      "sensory.vision.right.r1_r6": 22,
+      "sensory.vision.right.r7_unclear": 20,
+      "sensory.vision.right.r7r8_unclear": 46,
+      "sensory.vision.right.r8_unclear": 3
+    },
+    "side": {
+      "L": 33,
+      "R": 226
+    },
+    "source_mask_file": {
+      "head_sensory_inputs.candidate.feather": 130,
+      "sensory_inputs.physical-candidate.feather": 38,
+      "visual_inputs.candidate.feather": 91
+    },
+    "source_superclass_modality": [
+      {
+        "count": 98,
+        "modality": "mechanosensory",
+        "source_mask_file": "head_sensory_inputs.candidate.feather",
+        "superclass": "cb_sensory"
+      },
+      {
+        "count": 91,
+        "modality": "visual",
+        "source_mask_file": "visual_inputs.candidate.feather",
+        "superclass": "ol_sensory"
+      },
+      {
+        "count": 38,
+        "modality": "unknown",
+        "source_mask_file": "sensory_inputs.physical-candidate.feather",
+        "superclass": "vnc_sensory"
+      },
+      {
+        "count": 32,
+        "modality": "unknown_sensory",
+        "source_mask_file": "head_sensory_inputs.candidate.feather",
+        "superclass": "cb_sensory"
+      }
+    ],
+    "subclass": {
+      "<null>": 44,
+      "R1-R6": 22,
+      "R7R8_unclear": 46,
+      "R7_unclear": 20,
+      "R8_unclear": 3,
+      "abdomen": 18,
+      "auditory": 29,
+      "leg": 20,
+      "wind_gravity": 57
+    },
+    "superclass": {
+      "cb_sensory": 130,
+      "ol_sensory": 91,
+      "vnc_sensory": 38
+    }
+  }
+}
