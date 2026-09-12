@@ -1,0 +1,114 @@
+name: MaleCNS handoff bundle
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [malecns-connectome]
+    paths:
+      - '.github/workflows/malecns-handoff.yml'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  package-handoff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RUNTIME_RUN_ID: '34715915733'
+      RUNTIME_ARTIFACT_NAME: 'malecns-runtime-c7072b85847ebf240478bcf463361ff0cd416039'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: malecns-connectome
+          fetch-depth: 1
+
+      - name: Assemble source and handoff notes
+        run: |
+          set -euxo pipefail
+          ROOT="$RUNNER_TEMP/MaleCNS_HANDOFF"
+          mkdir -p "$ROOT/repo" "$ROOT/workflows" "$ROOT/runtime_artifact"
+          cp -a malecns-connectome/. "$ROOT/repo/"
+          cp .github/workflows/malecns-*.yml "$ROOT/workflows/"
+          cat > "$ROOT/HANDOFF.md" <<EOF
+          # MaleCNS project handoff
+
+          This archive is a self-contained continuation checkpoint for the MaleCNS virtual-fly project.
+
+          ## Git state
+          - Repository: U-like/weaps
+          - Branch: malecns-connectome
+          - Handoff packaging commit: ${GITHUB_SHA}
+          - Curated runtime build commit: c7072b85847ebf240478bcf463361ff0cd416039
+          - Runtime metadata result commit: da96820117f9712d43b26a59ffdaa4c4db37b7ca
+          - Runtime Actions run: 34715915733
+          - Runtime artifact ID: 10304882379
+
+          ## Curated runtime status
+          - Stateful neurons: 166,700 official neuronal bodies
+          - Directed neuron-to-neuron edges: 25,582,938
+          - Edge weights: integer 1..2591, no threshold applied
+          - Neurotransmitter companion matched: 166,522 / 166,700 neurons
+          - Neurotransmitter-unmatched: 178 neurons
+          - Raw segment graph remains source-of-truth; runtime graph is the induced graph over official neuronal bodies.
+
+          ## Physical simulation I/O status
+          Anatomy-resolved candidate interface currently contains:
+          - 60 semantic sensory input ports
+          - 14 semantic motor output ports
+          - 51 diagnostic ascending/descending ports
+          - 5,944 resolved sensory bodies
+          - 702 resolved motor bodies
+          - 427 unresolved I/O rows intentionally retained as unresolved rather than guessed
+
+          Confirmed physical conventions include:
+          - ProLN -> T1/front leg sensory
+          - MesoLN -> T2/middle leg sensory
+          - MetaLN -> T3/hind leg sensory
+          - motor subclass fl/ml/hl -> front/middle/hind leg
+          - wm -> wing, hm -> haltere, nm -> neck, ad -> abdomen
+
+          ## Important corrections already made
+          1. Raw connectome-weights is segment-to-segment, not a curated neuron-only graph.
+          2. Stateful runtime node selection is based on assigned official superclass, retaining null-status neurons and excluding explicit Glia.
+          3. A previous Arrow null-logic bug dropped 2,002 null-status neurons; fixed. Final count is 166,700.
+          4. Empty curated-edge record batches are handled explicitly.
+          5. I/O masks may overlap; no biological group is physically split out of the graph.
+          6. Candidate anatomy labels are not promoted to validated simulation ports until graph-route validation succeeds.
+
+          ## Immediate next task
+          Implement and run sparse route validation on the curated runtime graph:
+          sensory physical port -> CNS/VNC network -> motor physical port,
+          with ascending/descending groups available as diagnostic waypoints.
+
+          The latest source commit before packaging also added SciPy to the analysis dependency set specifically for sparse route validation.
+
+          Do not claim biological dynamics from reachability alone. The current graph is topology + official weights/annotations. Neural dynamics, time constants, transfer functions and excitatory/inhibitory sign conventions remain model choices unless independently grounded.
+          EOF
+
+      - name: Download validated curated runtime artifact
+        run: |
+          set -euxo pipefail
+          ROOT="$RUNNER_TEMP/MaleCNS_HANDOFF"
+          gh run download "$RUNTIME_RUN_ID" \
+            --repo U-like/weaps \
+            --name "$RUNTIME_ARTIFACT_NAME" \
+            --dir "$ROOT/runtime_artifact"
+          find "$ROOT/runtime_artifact" -maxdepth 3 -type f -print
+
+      - name: Add integrity manifest
+        run: |
+          set -euxo pipefail
+          ROOT="$RUNNER_TEMP/MaleCNS_HANDOFF"
+          (cd "$ROOT" && find . -type f ! -name SHA256SUMS -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS)
+          du -sh "$ROOT"
+
+      - name: Upload complete handoff archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: MaleCNS_HANDOFF_${{ github.sha }}
+          compression-level: 6
+          retention-days: 30
+          path: ${{ runner.temp }}/MaleCNS_HANDOFF/
