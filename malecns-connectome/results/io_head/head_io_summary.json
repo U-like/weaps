@@ -1,0 +1,32 @@
+{
+  "base_port_count": 125,
+  "combined_manifest_port_count": 196,
+  "dataset": "male-cns:v1.0-minconf-0.5",
+  "head_motor": {
+    "port_count": 12,
+    "resolved_body_memberships": 106,
+    "source_rows": 107,
+    "unique_bodies": 106,
+    "unresolved_rows": 1
+  },
+  "head_sensory": {
+    "port_count": 40,
+    "resolved_body_memberships": 4446,
+    "source_rows": 4868,
+    "unique_bodies": 4446,
+    "unresolved_rows": 422
+  },
+  "notes": [
+    "Visual ports preserve eye side and official photoreceptor type but have no retinal coordinates in MaleCNS v1.0 annotations.",
+    "Central-brain nerve abbreviations are preserved verbatim; no anatomical alias is invented.",
+    "Rows lacking an explicit side or entry/exit nerve are unresolved rather than coerced into a body channel.",
+    "Null status is not a rejection criterion when an official sensory superclass is present."
+  ],
+  "visual": {
+    "port_count": 19,
+    "resolved_body_memberships": 6091,
+    "source_rows": 6098,
+    "unique_bodies": 6091,
+    "unresolved_rows": 7
+  }
+}

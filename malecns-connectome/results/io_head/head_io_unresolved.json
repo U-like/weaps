@@ -1,0 +1,3877 @@
+{
+  "head_motor": [
+    {
+      "body_id": 492462351,
+      "exitNerve": null,
+      "reason": "missing_body_exit_nerve_or_side",
+      "somaSide": "R",
+      "subclass": "pm",
+      "superclass": "cb_motor"
+    }
+  ],
+  "head_sensory": [
+    {
+      "body_id": 105375,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 111210,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 143987,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 145394,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 157933,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 159650,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 160077,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 161795,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 163519,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 163773,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 164308,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 166304,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 166768,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 168674,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 169543,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 170158,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 171751,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 173091,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 173392,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 174114,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 174172,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 174309,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 175401,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 177554,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 177845,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 178728,
+      "class": "olfactory",
+      "entryNerve": "MxLbN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 180327,
+      "class": "olfactory",
+      "entryNerve": "MxLbN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 180771,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 181425,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 182918,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 183973,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 185343,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 186228,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 186893,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 189355,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 191158,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 191418,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 193128,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 193295,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 194870,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 196554,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 199315,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 200319,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 200909,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 201419,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 202762,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 204881,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 205502,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 205799,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 206983,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 207587,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 209979,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 210140,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 211534,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 211558,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 211671,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 213331,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 214109,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 214895,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 214923,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 215717,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 215822,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 216354,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 216534,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 217601,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 217817,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 218440,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 218975,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 219926,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 219962,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 222393,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 222879,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 222883,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 222913,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 222929,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 223975,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 226284,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 226401,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 228711,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 228766,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 229147,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 229791,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 229808,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 230251,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 231573,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 231725,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 232258,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 233434,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 233580,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 233711,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 233782,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 234846,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 235199,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 235623,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 235895,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 236018,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 238930,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 239438,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 240566,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 241019,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 241135,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 242812,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 243394,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 245127,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 245398,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 245769,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 246871,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 247132,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 247362,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 247534,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 248338,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 248353,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 249380,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 249537,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 249668,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 249677,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 250450,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 250880,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 251700,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 252274,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 252854,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 253303,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 254193,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 254440,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 255895,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 256925,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 257013,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 257940,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 258421,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 258608,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 258881,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 258945,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 259761,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 260451,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 260859,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 261509,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 261535,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 261559,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 262793,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 262861,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 265000,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 265253,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 265512,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 265784,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 267422,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 267755,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 270784,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 271998,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 272602,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 272841,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 273311,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 275352,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 275404,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 276163,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 276451,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 276529,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 276614,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 276636,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 278892,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 281674,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 282217,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 283758,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 284843,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 285045,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 288640,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 290558,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 290881,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 292464,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 292716,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 292769,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 292875,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 293034,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 293820,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 294188,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 296322,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 296771,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 297106,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 297566,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 298264,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 298491,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 298521,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 299852,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 300562,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 300909,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 301260,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 301377,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 301842,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 303047,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 305452,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 306709,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 307312,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 307728,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 308373,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 309407,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 309615,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 311039,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 311128,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 311230,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 319077,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 319896,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 323291,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 331473,
+      "class": "unknown_sensory",
+      "entryNerve": "aPhN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 334233,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 340453,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 342862,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 342961,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 344285,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 344825,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 347305,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 347453,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 348209,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 350615,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 351622,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 351969,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 354053,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 354837,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 357109,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 358056,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 358830,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 361757,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 363756,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 365688,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 371825,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 379141,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 393825,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 394297,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 396423,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 399456,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 404599,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 406177,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 406995,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 407628,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 414269,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 417046,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 419166,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 425802,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 426031,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 429689,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 430212,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 435201,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 437336,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 440799,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 452797,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 467724,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 471375,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 474191,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 474224,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 477936,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 479194,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 486753,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 492754,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 498998,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 508381,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 514311,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 514358,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 515011,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 519252,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 519548,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 519550,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 519971,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 521470,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 521473,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 521480,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 524210,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 525176,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 535093,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 539006,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 546951,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 547460,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 550691,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 550832,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 550890,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 551753,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 553030,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 553352,
+      "class": "hygrosensory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 553982,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 554231,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 559285,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 559975,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 569092,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 569785,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 576271,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 580855,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 589330,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 593426,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 902780,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 902845,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 910863,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 915765,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 915922,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 916503,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 916523,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 916608,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 916996,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 918366,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 918525,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 919104,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 919213,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 919214,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 920062,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 920090,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 920179,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 921122,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 921144,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 921630,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 921721,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 921839,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 921951,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 922001,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 922235,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 922309,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 922335,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 923024,
+      "class": "gustatory",
+      "entryNerve": null,
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "R",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 923456,
+      "class": "olfactory",
+      "entryNerve": "MxLbN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 923464,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925260,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925292,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925310,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925419,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925474,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925494,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925495,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925509,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925649,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925736,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 925926,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 926058,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 927424,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 942499,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 943264,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 943401,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 955281,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 955452,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 955878,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 955926,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 955939,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 956001,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 956014,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 956021,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 956023,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 956026,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 956039,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 956041,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 956123,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 956165,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 957167,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 957530,
+      "class": "gustatory",
+      "entryNerve": null,
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "R",
+      "subclass": "labellar bristle",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 103329548,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 164101582,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 189202940,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 191925150,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 237355379,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 251862822,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 256805965,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 263940501,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 273896622,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 285495498,
+      "class": "gustatory",
+      "entryNerve": null,
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "L",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 286177664,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 293027241,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 309983293,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 318180431,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 323862925,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 351768533,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 364416375,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 374381048,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 383123775,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 402504772,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 410132390,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 416493946,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 422096435,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 427967297,
+      "class": "mechanosensory_tbc",
+      "entryNerve": null,
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "L",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 433166791,
+      "class": "gustatory",
+      "entryNerve": null,
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "L",
+      "subclass": "taste peg",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 473812465,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 504846092,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 525888732,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 530127411,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 532810745,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 534097707,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 556764773,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 567952886,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 571368140,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 572980291,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 603410970,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 610676992,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 614860813,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 649610769,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 672937889,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 677279003,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 683472058,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 687494120,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 704939312,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 712920408,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 723961295,
+      "class": "gustatory",
+      "entryNerve": null,
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "L",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 752011430,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 757518255,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 765617000,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 766592451,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 768943739,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 773978848,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 776770294,
+      "class": "unknown_sensory",
+      "entryNerve": null,
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "R",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 780103867,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 780296191,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 786473603,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 829367655,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 831767234,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 891139438,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 893822889,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 902041659,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 903058532,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 916729632,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 926818612,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 936853248,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 938371337,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 942783124,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 947005552,
+      "class": "gustatory",
+      "entryNerve": null,
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "R",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 964058935,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 981789985,
+      "class": "unknown_sensory",
+      "entryNerve": null,
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "R",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 991820465,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 1000476020,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 1010035819,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 1033214884,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    },
+    {
+      "body_id": 1037165389,
+      "class": "olfactory",
+      "entryNerve": "AN",
+      "reason": "missing_body_entry_nerve_or_side",
+      "rootSide": "unknown",
+      "subclass": "unspecified",
+      "superclass": "cb_sensory"
+    }
+  ],
+  "visual": [
+    {
+      "body_id": 14428,
+      "class": null,
+      "reason": "missing_body_type_or_eye_side",
+      "rootSide": null,
+      "status": "Traced",
+      "superclass": "ol_sensory",
+      "type": "HBeyelet"
+    },
+    {
+      "body_id": 26455,
+      "class": null,
+      "reason": "missing_body_type_or_eye_side",
+      "rootSide": null,
+      "status": "Traced",
+      "superclass": "ol_sensory",
+      "type": "HBeyelet"
+    },
+    {
+      "body_id": 28633,
+      "class": null,
+      "reason": "missing_body_type_or_eye_side",
+      "rootSide": null,
+      "status": "Traced",
+      "superclass": "ol_sensory",
+      "type": "HBeyelet"
+    },
+    {
+      "body_id": 54246,
+      "class": null,
+      "reason": "missing_body_type_or_eye_side",
+      "rootSide": null,
+      "status": "Traced",
+      "superclass": "ol_sensory",
+      "type": "HBeyelet"
+    },
+    {
+      "body_id": 517847,
+      "class": null,
+      "reason": "missing_body_type_or_eye_side",
+      "rootSide": null,
+      "status": "Traced",
+      "superclass": "ol_sensory",
+      "type": "HBeyelet"
+    },
+    {
+      "body_id": 518937,
+      "class": null,
+      "reason": "missing_body_type_or_eye_side",
+      "rootSide": null,
+      "status": "Traced",
+      "superclass": "ol_sensory",
+      "type": "HBeyelet"
+    },
+    {
+      "body_id": 518938,
+      "class": null,
+      "reason": "missing_body_type_or_eye_side",
+      "rootSide": null,
+      "status": "Traced",
+      "superclass": "ol_sensory",
+      "type": "HBeyelet"
+    }
+  ]
+}
