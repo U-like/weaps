@@ -31,6 +31,12 @@ INTERESTING = {
     "hemilineage",
     "mancType",
     "flywireType",
+    "entryNerve",
+    "exitNerve",
+    "cellTypeEntryNerve",
+    "cellTypeExitNerve",
+    "v2Nerve",
+    "cellTypeV2Nerve",
 }
 
 IO_SUPERCLASSES = {
@@ -39,6 +45,40 @@ IO_SUPERCLASSES = {
     "ascending_neuron": "diagnostic",
     "descending_neuron": "diagnostic",
 }
+
+BREAKDOWN_FIELDS = (
+    "class",
+    "subclass",
+    "somaSide",
+    "somaNeuromere",
+    "rootSide",
+    "rootNeuropil",
+    "entryNerve",
+    "exitNerve",
+    "cellTypeEntryNerve",
+    "cellTypeExitNerve",
+    "v2Nerve",
+    "cellTypeV2Nerve",
+    "status",
+)
+
+SAMPLE_FIELDS = (
+    "type",
+    "systematicType",
+    "class",
+    "subclass",
+    "somaSide",
+    "somaNeuromere",
+    "rootSide",
+    "rootNeuropil",
+    "entryNerve",
+    "exitNerve",
+    "cellTypeEntryNerve",
+    "cellTypeExitNerve",
+    "v2Nerve",
+    "cellTypeV2Nerve",
+    "status",
+)
 
 
 def scalar(value: Any) -> Any:
@@ -72,22 +112,11 @@ def summarize_superclass(
 ) -> dict[str, Any]:
     mask = pc.equal(table["superclass"], pa.scalar(superclass))
     sub = table.filter(mask)
-    fields = [
-        body_col,
-        "type",
-        "systematicType",
-        "class",
-        "subclass",
-        "somaSide",
-        "somaNeuromere",
-        "rootSide",
-        "rootNeuropil",
-        "status",
-    ]
+    fields = [body_col, *SAMPLE_FIELDS]
     fields = [f for f in fields if f in sub.column_names]
 
     breakdown: dict[str, Any] = {}
-    for field in ("class", "subclass", "somaSide", "somaNeuromere", "rootSide", "rootNeuropil", "status"):
+    for field in BREAKDOWN_FIELDS:
         if field in sub.column_names:
             breakdown[field] = value_counts(sub[field], 200)
 
@@ -104,10 +133,39 @@ def summarize_superclass(
     }
 
 
+def compact_summary(
+    *,
+    table: pa.Table,
+    body_col: str,
+    io_groups: dict[str, Any],
+) -> dict[str, Any]:
+    return {
+        "source_file": "body-annotations-male-cns-v1.0-minconf-0.5.feather",
+        "rows": table.num_rows,
+        "columns": table.num_columns,
+        "body_id_column": body_col,
+        "column_names": table.column_names,
+        "io_counts": {name: group["count"] for name, group in io_groups.items()},
+        "io_breakdown": {
+            name: {
+                "direction": group["direction"],
+                "breakdown": group["breakdown"],
+            }
+            for name, group in io_groups.items()
+        },
+        "notes": [
+            "Exact counts come directly from official MaleCNS v1.0 annotations.",
+            "entryNerve/exitNerve are preferred over soma location for physical body-channel mapping when present.",
+            "Superclass membership alone remains candidate I/O until port grouping and route validation are complete.",
+        ],
+    }
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("annotations")
     ap.add_argument("--output", required=True)
+    ap.add_argument("--summary-output")
     ap.add_argument("--max-values", type=int, default=200)
     args = ap.parse_args()
 
@@ -165,11 +223,18 @@ def main() -> None:
     target = Path(args.output)
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(out, indent=2, sort_keys=True, default=str) + "\n", encoding="utf-8")
+
+    summary = compact_summary(table=table, body_col=body_col, io_groups=io_groups)
+    if args.summary_output:
+        summary_path = Path(args.summary_output)
+        summary_path.parent.mkdir(parents=True, exist_ok=True)
+        summary_path.write_text(json.dumps(summary, indent=2, sort_keys=True, default=str) + "\n", encoding="utf-8")
+
     print(json.dumps({
         "rows": table.num_rows,
         "columns": table.num_columns,
         "body_id_column": body_col,
-        "io_counts": {k: v["count"] for k, v in io_groups.items()},
+        "io_counts": summary["io_counts"],
     }, indent=2, sort_keys=True))
 
 
