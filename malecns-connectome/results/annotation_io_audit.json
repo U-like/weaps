@@ -9244,6 +9244,8 @@
     "ascending_neuron": {
       "breakdown": {
         "class": [],
+        "entryNerve": [],
+        "exitNerve": [],
         "rootSide": [],
         "somaNeuromere": [
           {
@@ -9360,12 +9362,16 @@
         "somaSide",
         "somaNeuromere",
         "rootSide",
+        "entryNerve",
+        "exitNerve",
         "status"
       ],
       "sample_rows": [
         {
           "bodyId": 10069,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9376,6 +9382,8 @@
         {
           "bodyId": 10071,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9386,6 +9394,8 @@
         {
           "bodyId": 10087,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "A1",
           "somaSide": "L",
@@ -9396,6 +9406,8 @@
         {
           "bodyId": 10150,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -9406,6 +9418,8 @@
         {
           "bodyId": 10165,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9416,6 +9430,8 @@
         {
           "bodyId": 10180,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -9426,6 +9442,8 @@
         {
           "bodyId": 10199,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -9436,6 +9454,8 @@
         {
           "bodyId": 10253,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9446,6 +9466,8 @@
         {
           "bodyId": 10291,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9456,6 +9478,8 @@
         {
           "bodyId": 10434,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9466,6 +9490,8 @@
         {
           "bodyId": 10512,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9476,6 +9502,8 @@
         {
           "bodyId": 10545,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9486,6 +9514,8 @@
         {
           "bodyId": 10550,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -9496,6 +9526,8 @@
         {
           "bodyId": 10576,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -9506,6 +9538,8 @@
         {
           "bodyId": 10592,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "L",
@@ -9516,6 +9550,8 @@
         {
           "bodyId": 10620,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "L",
@@ -9526,6 +9562,8 @@
         {
           "bodyId": 10671,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -9536,6 +9574,8 @@
         {
           "bodyId": 10689,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9546,6 +9586,8 @@
         {
           "bodyId": 10692,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9556,6 +9598,8 @@
         {
           "bodyId": 10775,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9566,6 +9610,8 @@
         {
           "bodyId": 10797,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9576,6 +9622,8 @@
         {
           "bodyId": 10840,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9586,6 +9634,8 @@
         {
           "bodyId": 10841,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "L",
@@ -9596,6 +9646,8 @@
         {
           "bodyId": 10922,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -9606,6 +9658,8 @@
         {
           "bodyId": 10997,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9616,6 +9670,8 @@
         {
           "bodyId": 11011,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9626,6 +9682,8 @@
         {
           "bodyId": 11014,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9636,6 +9694,8 @@
         {
           "bodyId": 11064,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9646,6 +9706,8 @@
         {
           "bodyId": 11422,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "R",
@@ -9656,6 +9718,8 @@
         {
           "bodyId": 11431,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "A1",
           "somaSide": "L",
@@ -9666,6 +9730,8 @@
         {
           "bodyId": 11443,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -9676,6 +9742,8 @@
         {
           "bodyId": 11508,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -9686,6 +9754,8 @@
         {
           "bodyId": 11568,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "M",
@@ -9696,6 +9766,8 @@
         {
           "bodyId": 11604,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "A8",
           "somaSide": "R",
@@ -9706,6 +9778,8 @@
         {
           "bodyId": 11616,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9716,6 +9790,8 @@
         {
           "bodyId": 11733,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9726,6 +9802,8 @@
         {
           "bodyId": 11796,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9736,6 +9814,8 @@
         {
           "bodyId": 11822,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "R",
@@ -9746,6 +9826,8 @@
         {
           "bodyId": 11867,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "R",
@@ -9756,6 +9838,8 @@
         {
           "bodyId": 11869,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -9768,6 +9852,8 @@
     "descending_neuron": {
       "breakdown": {
         "class": [],
+        "entryNerve": [],
+        "exitNerve": [],
         "rootSide": [],
         "somaNeuromere": [
           {
@@ -9880,12 +9966,16 @@
         "somaSide",
         "somaNeuromere",
         "rootSide",
+        "entryNerve",
+        "exitNerve",
         "status"
       ],
       "sample_rows": [
         {
           "bodyId": 10001,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -9896,6 +9986,8 @@
         {
           "bodyId": 10010,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -9906,6 +9998,8 @@
         {
           "bodyId": 10026,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -9916,6 +10010,8 @@
         {
           "bodyId": 10030,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -9926,6 +10022,8 @@
         {
           "bodyId": 10033,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "LB",
           "somaSide": "R",
@@ -9936,6 +10034,8 @@
         {
           "bodyId": 10038,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -9946,6 +10046,8 @@
         {
           "bodyId": 10045,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -9956,6 +10058,8 @@
         {
           "bodyId": 10048,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -9966,6 +10070,8 @@
         {
           "bodyId": 10054,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -9976,6 +10082,8 @@
         {
           "bodyId": 10056,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -9986,6 +10094,8 @@
         {
           "bodyId": 10059,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -9996,6 +10106,8 @@
         {
           "bodyId": 10063,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -10006,6 +10118,8 @@
         {
           "bodyId": 10065,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -10016,6 +10130,8 @@
         {
           "bodyId": 10068,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -10026,6 +10142,8 @@
         {
           "bodyId": 10090,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10036,6 +10154,8 @@
         {
           "bodyId": 10091,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10046,6 +10166,8 @@
         {
           "bodyId": 10104,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -10056,6 +10178,8 @@
         {
           "bodyId": 10106,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -10066,6 +10190,8 @@
         {
           "bodyId": 10117,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "CG",
           "somaSide": "R",
@@ -10076,6 +10202,8 @@
         {
           "bodyId": 10118,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10086,6 +10214,8 @@
         {
           "bodyId": 10123,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10096,6 +10226,8 @@
         {
           "bodyId": 10124,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "MX",
           "somaSide": "L",
@@ -10106,6 +10238,8 @@
         {
           "bodyId": 10131,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "MX",
           "somaSide": "R",
@@ -10116,6 +10250,8 @@
         {
           "bodyId": 10135,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10126,6 +10262,8 @@
         {
           "bodyId": 10141,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10136,6 +10274,8 @@
         {
           "bodyId": 10143,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10146,6 +10286,8 @@
         {
           "bodyId": 10151,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "LB",
           "somaSide": "R",
@@ -10156,6 +10298,8 @@
         {
           "bodyId": 10160,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "MX",
           "somaSide": "L",
@@ -10166,6 +10310,8 @@
         {
           "bodyId": 10162,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10176,6 +10322,8 @@
         {
           "bodyId": 10163,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10186,6 +10334,8 @@
         {
           "bodyId": 10177,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "LB",
           "somaSide": "L",
@@ -10196,6 +10346,8 @@
         {
           "bodyId": 10192,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10206,6 +10358,8 @@
         {
           "bodyId": 10195,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -10216,6 +10370,8 @@
         {
           "bodyId": 10197,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "CG",
           "somaSide": "L",
@@ -10226,6 +10382,8 @@
         {
           "bodyId": 10213,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -10236,6 +10394,8 @@
         {
           "bodyId": 10216,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "LB",
           "somaSide": "R",
@@ -10246,6 +10406,8 @@
         {
           "bodyId": 10218,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "R",
@@ -10256,6 +10418,8 @@
         {
           "bodyId": 10221,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "LB",
           "somaSide": "L",
@@ -10266,6 +10430,8 @@
         {
           "bodyId": 10223,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": null,
           "somaSide": "L",
@@ -10276,6 +10442,8 @@
         {
           "bodyId": 10228,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": null,
           "rootSide": null,
           "somaNeuromere": "CG",
           "somaSide": "L",
@@ -10288,6 +10456,77 @@
     "vnc_motor": {
       "breakdown": {
         "class": [],
+        "entryNerve": [],
+        "exitNerve": [
+          {
+            "count": 122,
+            "value": "MetaLN"
+          },
+          {
+            "count": 116,
+            "value": "MesoLN"
+          },
+          {
+            "count": 81,
+            "value": "ProLN"
+          },
+          {
+            "count": 72,
+            "value": "AbN4"
+          },
+          {
+            "count": 64,
+            "value": "AbNT"
+          },
+          {
+            "count": 44,
+            "value": "AbN2"
+          },
+          {
+            "count": 30,
+            "value": "AbN1"
+          },
+          {
+            "count": 28,
+            "value": "ADMN"
+          },
+          {
+            "count": 28,
+            "value": "AbN3"
+          },
+          {
+            "count": 28,
+            "value": "DProN"
+          },
+          {
+            "count": 24,
+            "value": "ProAN"
+          },
+          {
+            "count": 22,
+            "value": "VProN"
+          },
+          {
+            "count": 19,
+            "value": "MesoAN"
+          },
+          {
+            "count": 16,
+            "value": "PDMNa"
+          },
+          {
+            "count": 6,
+            "value": "PDMNp"
+          },
+          {
+            "count": 4,
+            "value": "CvN"
+          },
+          {
+            "count": 4,
+            "value": "DMetaN"
+          }
+        ],
         "rootSide": [],
         "somaNeuromere": [
           {
@@ -10404,12 +10643,16 @@
         "somaSide",
         "somaNeuromere",
         "rootSide",
+        "entryNerve",
+        "exitNerve",
         "status"
       ],
       "sample_rows": [
         {
           "bodyId": 164190,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbN2",
           "rootSide": null,
           "somaNeuromere": "A1",
           "somaSide": "L",
@@ -10420,6 +10663,8 @@
         {
           "bodyId": 800056,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "ADMN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -10430,6 +10675,8 @@
         {
           "bodyId": 800061,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "DProN",
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -10440,6 +10687,8 @@
         {
           "bodyId": 800146,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "PDMNp",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -10450,6 +10699,8 @@
         {
           "bodyId": 800158,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "R",
@@ -10460,6 +10711,8 @@
         {
           "bodyId": 800175,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "L",
@@ -10470,6 +10723,8 @@
         {
           "bodyId": 800184,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoAN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -10480,6 +10735,8 @@
         {
           "bodyId": 800190,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoAN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -10490,6 +10747,8 @@
         {
           "bodyId": 800230,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoLN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -10500,6 +10759,8 @@
         {
           "bodyId": 800241,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "ADMN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -10510,6 +10771,8 @@
         {
           "bodyId": 800248,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbN4",
           "rootSide": null,
           "somaNeuromere": "A4",
           "somaSide": "L",
@@ -10520,6 +10783,8 @@
         {
           "bodyId": 800290,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "R",
@@ -10530,6 +10795,8 @@
         {
           "bodyId": 800316,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "R",
@@ -10540,6 +10807,8 @@
         {
           "bodyId": 800358,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "R",
@@ -10550,6 +10819,8 @@
         {
           "bodyId": 800381,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "ADMN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -10560,6 +10831,8 @@
         {
           "bodyId": 800412,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "ADMN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -10570,6 +10843,8 @@
         {
           "bodyId": 800474,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbN1",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "R",
@@ -10580,6 +10855,8 @@
         {
           "bodyId": 800478,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbNT",
           "rootSide": null,
           "somaNeuromere": "A9",
           "somaSide": "L",
@@ -10590,6 +10867,8 @@
         {
           "bodyId": 800479,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbNT",
           "rootSide": null,
           "somaNeuromere": "A9",
           "somaSide": "R",
@@ -10600,6 +10879,8 @@
         {
           "bodyId": 800504,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "L",
@@ -10610,6 +10891,8 @@
         {
           "bodyId": 800541,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoLN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -10620,6 +10903,8 @@
         {
           "bodyId": 800553,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "R",
@@ -10630,6 +10915,8 @@
         {
           "bodyId": 800573,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "ADMN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -10640,6 +10927,8 @@
         {
           "bodyId": 800577,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbNT",
           "rootSide": null,
           "somaNeuromere": "A8",
           "somaSide": "L",
@@ -10650,6 +10939,8 @@
         {
           "bodyId": 800578,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "L",
@@ -10660,6 +10951,8 @@
         {
           "bodyId": 800589,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoLN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -10670,6 +10963,8 @@
         {
           "bodyId": 800606,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoAN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -10680,6 +10975,8 @@
         {
           "bodyId": 800608,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbN4",
           "rootSide": null,
           "somaNeuromere": "A4",
           "somaSide": "R",
@@ -10690,6 +10987,8 @@
         {
           "bodyId": 800621,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "L",
@@ -10700,6 +10999,8 @@
         {
           "bodyId": 800636,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "ProLN",
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -10710,6 +11011,8 @@
         {
           "bodyId": 800637,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "ADMN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -10720,6 +11023,8 @@
         {
           "bodyId": 800659,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbNT",
           "rootSide": null,
           "somaNeuromere": "A7",
           "somaSide": "R",
@@ -10730,6 +11035,8 @@
         {
           "bodyId": 800664,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbNT",
           "rootSide": null,
           "somaNeuromere": "A9",
           "somaSide": "L",
@@ -10740,6 +11047,8 @@
         {
           "bodyId": 800696,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoAN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -10750,6 +11059,8 @@
         {
           "bodyId": 800718,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "PDMNa",
           "rootSide": null,
           "somaNeuromere": "T1",
           "somaSide": "L",
@@ -10760,6 +11071,8 @@
         {
           "bodyId": 800743,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoAN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -10770,6 +11083,8 @@
         {
           "bodyId": 800762,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "AbN2",
           "rootSide": null,
           "somaNeuromere": "A1",
           "somaSide": "L",
@@ -10780,6 +11095,8 @@
         {
           "bodyId": 800776,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoLN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "R",
@@ -10790,6 +11107,8 @@
         {
           "bodyId": 800847,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MesoAN",
           "rootSide": null,
           "somaNeuromere": "T2",
           "somaSide": "L",
@@ -10800,6 +11119,8 @@
         {
           "bodyId": 800851,
           "class": null,
+          "entryNerve": null,
+          "exitNerve": "MetaLN",
           "rootSide": null,
           "somaNeuromere": "T3",
           "somaSide": "L",
@@ -10833,6 +11154,73 @@
             "value": "chemosensory"
           }
         ],
+        "entryNerve": [
+          {
+            "count": 1476,
+            "value": "MetaLN"
+          },
+          {
+            "count": 1363,
+            "value": "MesoLN"
+          },
+          {
+            "count": 943,
+            "value": "ProLN"
+          },
+          {
+            "count": 917,
+            "value": "ADMN"
+          },
+          {
+            "count": 604,
+            "value": "AbN4"
+          },
+          {
+            "count": 279,
+            "value": "PDMN"
+          },
+          {
+            "count": 232,
+            "value": "AbN3"
+          },
+          {
+            "count": 208,
+            "value": "AbNT"
+          },
+          {
+            "count": 122,
+            "value": "DMetaN"
+          },
+          {
+            "count": 82,
+            "value": "AbN2"
+          },
+          {
+            "count": 36,
+            "value": "PrN"
+          },
+          {
+            "count": 33,
+            "value": "ProCN"
+          },
+          {
+            "count": 29,
+            "value": "DProN"
+          },
+          {
+            "count": 19,
+            "value": "VProN"
+          },
+          {
+            "count": 10,
+            "value": "ProAN"
+          },
+          {
+            "count": 2,
+            "value": "AbN1"
+          }
+        ],
+        "exitNerve": [],
         "rootSide": [
           {
             "count": 3186,
@@ -10929,12 +11317,16 @@
         "somaSide",
         "somaNeuromere",
         "rootSide",
+        "entryNerve",
+        "exitNerve",
         "status"
       ],
       "sample_rows": [
         {
           "bodyId": 800049,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -10945,6 +11337,8 @@
         {
           "bodyId": 800611,
           "class": "unknown_sensory",
+          "entryNerve": "AbNT",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -10955,6 +11349,8 @@
         {
           "bodyId": 801205,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "DMetaN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -10965,6 +11361,8 @@
         {
           "bodyId": 801379,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -10975,6 +11373,8 @@
         {
           "bodyId": 801533,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -10985,6 +11385,8 @@
         {
           "bodyId": 801680,
           "class": "unknown_sensory",
+          "entryNerve": "AbNT",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -10995,6 +11397,8 @@
         {
           "bodyId": 801695,
           "class": "chemosensory",
+          "entryNerve": "AbN2",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11005,6 +11409,8 @@
         {
           "bodyId": 801756,
           "class": "mechanosensory_tactile",
+          "entryNerve": "PDMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11015,6 +11421,8 @@
         {
           "bodyId": 801906,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11025,6 +11433,8 @@
         {
           "bodyId": 801957,
           "class": "unknown_sensory",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11035,6 +11445,8 @@
         {
           "bodyId": 801960,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11045,6 +11457,8 @@
         {
           "bodyId": 801990,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11055,6 +11469,8 @@
         {
           "bodyId": 802008,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11065,6 +11481,8 @@
         {
           "bodyId": 802125,
           "class": "unknown_sensory",
+          "entryNerve": "MetaLN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11075,6 +11493,8 @@
         {
           "bodyId": 802199,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11085,6 +11505,8 @@
         {
           "bodyId": 802282,
           "class": "unknown_sensory",
+          "entryNerve": "MetaLN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11095,6 +11517,8 @@
         {
           "bodyId": 802287,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ProCN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11105,6 +11529,8 @@
         {
           "bodyId": 802350,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "MetaLN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11115,6 +11541,8 @@
         {
           "bodyId": 802409,
           "class": "mechanosensory_tactile",
+          "entryNerve": "PDMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11125,6 +11553,8 @@
         {
           "bodyId": 802412,
           "class": "unknown_sensory",
+          "entryNerve": "AbNT",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11135,6 +11565,8 @@
         {
           "bodyId": 802424,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11145,6 +11577,8 @@
         {
           "bodyId": 802482,
           "class": "unknown_sensory",
+          "entryNerve": "AbN4",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11155,6 +11589,8 @@
         {
           "bodyId": 802612,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "DMetaN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11165,6 +11601,8 @@
         {
           "bodyId": 802708,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11175,6 +11613,8 @@
         {
           "bodyId": 802759,
           "class": "mechanosensory_tactile",
+          "entryNerve": "PDMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11185,6 +11625,8 @@
         {
           "bodyId": 802939,
           "class": "mechanosensory_tactile",
+          "entryNerve": "PDMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11195,6 +11637,8 @@
         {
           "bodyId": 802956,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11205,6 +11649,8 @@
         {
           "bodyId": 803088,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11215,6 +11661,8 @@
         {
           "bodyId": 803140,
           "class": "unknown_sensory",
+          "entryNerve": "MetaLN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11225,6 +11673,8 @@
         {
           "bodyId": 803150,
           "class": "mechanosensory_tactile",
+          "entryNerve": "PDMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11235,6 +11685,8 @@
         {
           "bodyId": 803161,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "MesoLN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11245,6 +11697,8 @@
         {
           "bodyId": 803247,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11255,6 +11709,8 @@
         {
           "bodyId": 803325,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11265,6 +11721,8 @@
         {
           "bodyId": 803374,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11275,6 +11733,8 @@
         {
           "bodyId": 803457,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "ADMN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11285,6 +11745,8 @@
         {
           "bodyId": 803512,
           "class": "mechanosensory_proprioceptive",
+          "entryNerve": "MesoLN",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11295,6 +11757,8 @@
         {
           "bodyId": 803525,
           "class": "mechanosensory_tactile",
+          "entryNerve": "PDMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11305,6 +11769,8 @@
         {
           "bodyId": 803555,
           "class": "mechanosensory_tactile",
+          "entryNerve": "MesoLN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11315,6 +11781,8 @@
         {
           "bodyId": 803581,
           "class": "unknown_sensory",
+          "entryNerve": "AbN4",
+          "exitNerve": null,
           "rootSide": "L",
           "somaNeuromere": null,
           "somaSide": null,
@@ -11325,6 +11793,8 @@
         {
           "bodyId": 803626,
           "class": "mechanosensory_tactile",
+          "entryNerve": "PDMN",
+          "exitNerve": null,
           "rootSide": "R",
           "somaNeuromere": null,
           "somaSide": null,
