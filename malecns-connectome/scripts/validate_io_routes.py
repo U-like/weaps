@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """Topology-only route validation for the curated MaleCNS runtime graph.
 
-This script answers a deliberately narrow question: does a resolved physical
-sensory body have a directed path through the curated connectome to a resolved
-motor body, and can that path pass through a descending neuron that itself can
-reach motor output?
+This script answers a deliberately narrow question: does a resolved sensory
+body have a directed path through the curated connectome to a resolved motor
+body, and can that path pass through a descending neuron that itself can reach
+motor output?
+
+Multiple sensory and motor mask files can be supplied so body/VNC, head and
+visual interfaces are validated as one virtual-fly boundary without physically
+splitting the connectome.
 
 It does NOT simulate membrane dynamics and it does NOT claim that graph
 reachability implies biological activation or behaviour.
@@ -47,9 +51,6 @@ def read_runtime_edges(path: str, edge_count: int, node_count: int) -> csr_matri
     if edge_count and (int(pre.max()) >= node_count or int(post.max()) >= node_count):
         raise ValueError("edge dense ID outside runtime node range")
 
-    # int32 is intentional: boolean reachability uses counts > 0, and int8 or
-    # uint8 can wrap for high-degree neurons. MaleCNS degrees are safely below
-    # int32 overflow.
     data = np.ones(edge_count, dtype=np.int32)
     graph = csr_matrix((data, (pre, post)), shape=(node_count, node_count), dtype=np.int32)
     graph.sum_duplicates()
@@ -58,11 +59,7 @@ def read_runtime_edges(path: str, edge_count: int, node_count: int) -> csr_matri
 
 
 def reverse_bfs(graph: csr_matrix, targets: np.ndarray, max_hops: int) -> tuple[np.ndarray, dict[str, Any]]:
-    """Shortest directed distance from every node to any target.
-
-    With adjacency rows representing pre -> post, ``graph @ frontier`` marks
-    predecessors that connect into the current frontier.
-    """
+    """Shortest directed distance from every node to any target."""
     n = graph.shape[0]
     dist = np.full(n, -1, dtype=np.int16)
     frontier = np.zeros(n, dtype=bool)
@@ -93,13 +90,16 @@ def reverse_bfs(graph: csr_matrix, targets: np.ndarray, max_hops: int) -> tuple[
     }
 
 
-def rows_by_port(path: str) -> dict[str, list[dict[str, Any]]]:
-    table = feather.read_table(path)
-    if "semantic_port" not in table.column_names:
-        raise KeyError(f"{path} lacks semantic_port")
+def rows_by_port(paths: list[str]) -> dict[str, list[dict[str, Any]]]:
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
-    for row in table.to_pylist():
-        grouped[str(row["semantic_port"])].append(row)
+    for path in paths:
+        table = feather.read_table(path)
+        if "semantic_port" not in table.column_names:
+            raise KeyError(f"{path} lacks semantic_port")
+        for row in table.to_pylist():
+            record = dict(row)
+            record["_mask_file"] = Path(path).name
+            grouped[str(record["semantic_port"])].append(record)
     return dict(grouped)
 
 
@@ -116,14 +116,22 @@ def body_to_dense_map(nodes: pa.Table) -> dict[int, int]:
 def map_rows(rows: list[dict[str, Any]], body_to_dense: dict[int, int]) -> tuple[np.ndarray, list[int]]:
     dense: list[int] = []
     missing: list[int] = []
+    seen: set[int] = set()
     for row in rows:
         body = int(row["body_id"])
+        if body in seen:
+            continue
+        seen.add(body)
         idx = body_to_dense.get(body)
         if idx is None:
             missing.append(body)
         else:
             dense.append(idx)
-    return np.asarray(dense, dtype=np.int64), missing
+    return np.asarray(dense, dtype=np.int64), sorted(missing)
+
+
+def unique_body_count(rows: list[dict[str, Any]]) -> int:
+    return len({int(row["body_id"]) for row in rows})
 
 
 def distance_stats(values: np.ndarray) -> dict[str, Any]:
@@ -147,7 +155,13 @@ def summarize_input_port(
     dist_to_motor: np.ndarray,
     dist_to_productive_desc: np.ndarray,
 ) -> dict[str, Any]:
-    dense, missing = map_rows(rows, body_to_dense)
+    # map_rows de-duplicates bodies. Keep the corresponding body list explicit
+    # for shortest-path examples so the report never relies on row ordering.
+    unique_rows_by_body = {int(row["body_id"]): row for row in rows}
+    unique_rows = [unique_rows_by_body[k] for k in sorted(unique_rows_by_body)]
+    dense, missing = map_rows(unique_rows, body_to_dense)
+    present_rows = [row for row in unique_rows if int(row["body_id"]) not in set(missing)]
+
     motor_dist = dist_to_motor[dense] if dense.size else np.empty(0, dtype=np.int16)
     desc_dist = dist_to_productive_desc[dense] if dense.size else np.empty(0, dtype=np.int16)
     motor_ok = motor_dist >= 0
@@ -156,8 +170,9 @@ def summarize_input_port(
     best_body = None
     best_hops = None
     if dense.size and np.any(motor_ok):
-        best_local = int(np.flatnonzero(motor_ok)[np.argmin(motor_dist[motor_ok])])
-        best_body = int(rows[best_local]["body_id"])
+        valid_indices = np.flatnonzero(motor_ok)
+        best_local = int(valid_indices[np.argmin(motor_dist[motor_ok])])
+        best_body = int(present_rows[best_local]["body_id"])
         best_hops = int(motor_dist[best_local])
 
     runtime_count = int(dense.size)
@@ -165,7 +180,8 @@ def summarize_input_port(
     desc_count = int(desc_ok.sum())
     return {
         "port": name,
-        "body_count": len(rows),
+        "source_mask_files": sorted({str(row.get("_mask_file")) for row in rows}),
+        "body_count": len(unique_rows),
         "runtime_body_count": runtime_count,
         "missing_runtime_body_ids": missing,
         "reachable_any_motor_count": motor_count,
@@ -185,8 +201,8 @@ def main() -> None:
     ap.add_argument("--nodes", required=True)
     ap.add_argument("--edges", required=True)
     ap.add_argument("--metadata", required=True)
-    ap.add_argument("--sensory", required=True)
-    ap.add_argument("--motor", required=True)
+    ap.add_argument("--sensory", required=True, nargs="+")
+    ap.add_argument("--motor", required=True, nargs="+")
     ap.add_argument("--diagnostic", required=True)
     ap.add_argument("--output", required=True)
     ap.add_argument("--max-hops", type=int, default=32)
@@ -242,9 +258,10 @@ def main() -> None:
     for name, rows in sorted(motor_ports.items()):
         dense, missing = map_rows(rows, body_to_dense)
         output_reports[name] = {
-            "body_count": len(rows),
+            "body_count": unique_body_count(rows),
             "runtime_body_count": int(dense.size),
             "missing_runtime_body_ids": missing,
+            "source_mask_files": sorted({str(row.get("_mask_file")) for row in rows}),
         }
 
     confirmed_ports = [name for name, r in input_reports.items() if r["topology_route_confirmed"]]
@@ -254,6 +271,11 @@ def main() -> None:
         "dataset": metadata.get("dataset"),
         "validation_kind": "directed topology reachability only; not neural dynamics or behaviour",
         "max_hops_per_reverse_search": args.max_hops,
+        "source_masks": {
+            "sensory": [Path(p).name for p in args.sensory],
+            "motor": [Path(p).name for p in args.motor],
+            "diagnostic": Path(args.diagnostic).name,
+        },
         "runtime": {
             "nodes": node_count,
             "edges": edge_count,
@@ -262,6 +284,7 @@ def main() -> None:
         },
         "targets": {
             "resolved_motor_bodies": int(len(motor_dense)),
+            "motor_port_count": len(motor_ports),
             "descending_bodies": int(len(descending_dense)),
             "productive_descending_bodies": int(len(productive_desc)),
             "productive_descending_fraction": float(len(productive_desc) / len(descending_dense)) if len(descending_dense) else 0.0,
@@ -272,6 +295,7 @@ def main() -> None:
         },
         "sensory_global": {
             "resolved_sensory_bodies": int(len(all_sensory_dense)),
+            "sensory_port_count": len(sensory_ports),
             "missing_runtime_body_ids": missing_sensory,
             "reachable_any_motor_count": int(np.count_nonzero(sensory_motor >= 0)),
             "reachable_any_motor_fraction": float(np.mean(sensory_motor >= 0)) if sensory_motor.size else 0.0,
@@ -299,9 +323,11 @@ def main() -> None:
         "runtime_nodes": node_count,
         "runtime_edges": edge_count,
         "motor_bodies": len(motor_dense),
+        "motor_ports": len(motor_ports),
         "descending_bodies": len(descending_dense),
         "productive_descending_bodies": len(productive_desc),
         "sensory_bodies": len(all_sensory_dense),
+        "sensory_ports": len(sensory_ports),
         "sensory_reach_motor": int(np.count_nonzero(sensory_motor >= 0)),
         "sensory_reach_productive_desc": int(np.count_nonzero(sensory_desc >= 0)),
         "input_ports_confirmed": len(confirmed_ports),
