@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a small physical-channel summary from generated MaleCNS I/O masks."""
+"""Create compact physical-channel summaries from generated MaleCNS I/O masks."""
 
 from __future__ import annotations
 
@@ -58,12 +58,28 @@ def summarize(path: str) -> dict[str, Any]:
     }
 
 
+def compact(section: dict[str, Any]) -> dict[str, Any]:
+    return {
+        key: section[key]
+        for key in (
+            "rows",
+            "unique_bodies",
+            "nerve_counts",
+            "side_counts",
+            "neuromere_counts",
+            "class_counts",
+            "subclass_counts",
+        )
+    }
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sensory", required=True)
     ap.add_argument("--motor", required=True)
     ap.add_argument("--diagnostic", required=True)
     ap.add_argument("--output", required=True)
+    ap.add_argument("--core-output")
     args = ap.parse_args()
 
     out = {
@@ -74,14 +90,22 @@ def main() -> None:
     target = Path(args.output)
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print(json.dumps({
-        key: {
-            "rows": value["rows"],
-            "unique_bodies": value["unique_bodies"],
-            "nerve_counts": value["nerve_counts"],
-        }
-        for key, value in out.items()
-    }, indent=2, sort_keys=True))
+
+    core = {
+        "sensory": compact(out["sensory"]),
+        "motor": compact(out["motor"]),
+        "diagnostic": {
+            "rows": out["diagnostic"]["rows"],
+            "unique_bodies": out["diagnostic"]["unique_bodies"],
+            "side_counts": out["diagnostic"]["side_counts"],
+            "neuromere_counts": out["diagnostic"]["neuromere_counts"],
+        },
+    }
+    if args.core_output:
+        core_path = Path(args.core_output)
+        core_path.parent.mkdir(parents=True, exist_ok=True)
+        core_path.write_text(json.dumps(core, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(core, indent=2, sort_keys=True))
 
 
 if __name__ == "__main__":
