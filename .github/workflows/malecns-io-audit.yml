@@ -87,11 +87,12 @@ jobs:
             --sensory results/io_candidate/sensory_inputs.candidate.feather \
             --motor results/io_candidate/motor_outputs.candidate.feather \
             --diagnostic results/io_candidate/diagnostic_ports.candidate.feather \
-            --output results/io_candidate/io_physical_summary.json
+            --output results/io_candidate/io_physical_summary.json \
+            --core-output results/io_candidate/io_physical_core.json
           echo '=== CANDIDATE MANIFEST SUMMARY ==='
           cat results/io_candidate/io_manifest_summary.json
-          echo '=== PHYSICAL I/O SUMMARY ==='
-          cat results/io_candidate/io_physical_summary.json
+          echo '=== PHYSICAL I/O CORE ==='
+          cat results/io_candidate/io_physical_core.json
 
       - name: Commit reproducible I/O checkpoint
         run: |
@@ -107,7 +108,8 @@ jobs:
             malecns-connectome/results/io_candidate/diagnostic_ports.candidate.feather \
             malecns-connectome/results/io_candidate/io_unknowns.json \
             malecns-connectome/results/io_candidate/io_manifest_summary.json \
-            malecns-connectome/results/io_candidate/io_physical_summary.json
+            malecns-connectome/results/io_candidate/io_physical_summary.json \
+            malecns-connectome/results/io_candidate/io_physical_core.json
           if git diff --cached --quiet; then
             echo 'No I/O checkpoint changes.'
           else
