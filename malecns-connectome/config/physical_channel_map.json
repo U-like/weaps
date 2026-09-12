@@ -1,0 +1,77 @@
+{
+  "version": "0.1",
+  "side_map": {
+    "L": "left",
+    "R": "right",
+    "M": "midline"
+  },
+  "sensory_class_to_modality": {
+    "mechanosensory_tactile": "touch",
+    "mechanosensory_proprioceptive": "proprioception",
+    "gustatory": "taste",
+    "chemosensory": "chemical",
+    "unknown_sensory": "unknown",
+    "unknown": "unknown"
+  },
+  "sensory_nerve_map": {
+    "ProLN": {
+      "channel": "leg.front",
+      "neuromere": "T1",
+      "official_name": "prothoracic leg nerve",
+      "confidence": "high"
+    },
+    "MesoLN": {
+      "channel": "leg.middle",
+      "neuromere": "T2",
+      "official_name": "mesothoracic leg nerve",
+      "confidence": "high"
+    },
+    "MetaLN": {
+      "channel": "leg.hind",
+      "neuromere": "T3",
+      "official_name": "metathoracic leg nerve",
+      "confidence": "high"
+    },
+    "DMetaN": {
+      "channel": "haltere",
+      "neuromere": "T3",
+      "official_name": "dorsal metathoracic nerve (haltere nerve)",
+      "confidence": "high"
+    },
+    "ADMN": {
+      "channel": "wing",
+      "neuromere": "T2",
+      "official_name": "anterior dorsal mesothoracic nerve",
+      "confidence": "high",
+      "note": "Carries sensory fibers from the wing as well as motor fibers."
+    },
+    "AbN1": {"channel": "abdomen.segment1", "neuromere": "A1", "confidence": "high"},
+    "AbN2": {"channel": "abdomen.segment2", "neuromere": "A2", "confidence": "high"},
+    "AbN3": {"channel": "abdomen.segment3", "neuromere": "A3", "confidence": "high"},
+    "AbN4": {"channel": "abdomen.segment4", "neuromere": "A4", "confidence": "high"},
+    "AbNT": {"channel": "abdomen.trunk", "neuromere": null, "confidence": "high"}
+  },
+  "motor_subclass_map": {
+    "fl": {"channel": "leg.front", "neuromere": "T1", "label": "front leg muscles"},
+    "ml": {"channel": "leg.middle", "neuromere": "T2", "label": "middle leg muscles"},
+    "hl": {"channel": "leg.hind", "neuromere": "T3", "label": "hind leg muscles"},
+    "nm": {"channel": "neck", "neuromere": null, "label": "neck muscles"},
+    "wm": {"channel": "wing", "neuromere": "T2", "label": "wing muscles"},
+    "hm": {"channel": "haltere", "neuromere": "T3", "label": "haltere muscles"},
+    "ad": {"channel": "abdomen", "neuromere": null, "label": "abdominal muscles"},
+    "xm": {"channel": null, "neuromere": null, "label": "unknown muscle target"}
+  },
+  "unresolved_sensory_nerves": [
+    "PDMN",
+    "DProN",
+    "VProN",
+    "ProAN",
+    "ProCN",
+    "PrN"
+  ],
+  "provenance": {
+    "nerve_nomenclature": "Court et al., A Systematic Nomenclature for the Drosophila Ventral Nerve Cord",
+    "motor_subclasses": "Organization of circuits linking descending input to motor output in the Drosophila Male Adult Nerve Cord connectome",
+    "policy": "Only anatomy with explicit published meaning is promoted to a semantic physical channel; ambiguous nerves remain unresolved."
+  }
+}
