@@ -1,0 +1,1468 @@
+{
+  "rejected_rows": [],
+  "unresolved_ports": [
+    {
+      "body_count": 53,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a1.l"
+    },
+    {
+      "body_count": 4,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a10.l"
+    },
+    {
+      "body_count": 26,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a2.l"
+    },
+    {
+      "body_count": 14,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a3.l"
+    },
+    {
+      "body_count": 15,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a4.l"
+    },
+    {
+      "body_count": 16,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a5.l"
+    },
+    {
+      "body_count": 12,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a6.l"
+    },
+    {
+      "body_count": 10,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a7.l"
+    },
+    {
+      "body_count": 10,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a8.l"
+    },
+    {
+      "body_count": 6,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a9.l"
+    },
+    {
+      "body_count": 369,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.t1.l"
+    },
+    {
+      "body_count": 196,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.t2.l"
+    },
+    {
+      "body_count": 199,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.t3.l"
+    },
+    {
+      "body_count": 1,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a1.m"
+    },
+    {
+      "body_count": 1,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a2.m"
+    },
+    {
+      "body_count": 1,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a3.m"
+    },
+    {
+      "body_count": 1,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a4.m"
+    },
+    {
+      "body_count": 4,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.t1.m"
+    },
+    {
+      "body_count": 1,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.t3.m"
+    },
+    {
+      "body_count": 55,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a1.r"
+    },
+    {
+      "body_count": 4,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a10.r"
+    },
+    {
+      "body_count": 27,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a2.r"
+    },
+    {
+      "body_count": 15,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a3.r"
+    },
+    {
+      "body_count": 15,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a4.r"
+    },
+    {
+      "body_count": 17,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a5.r"
+    },
+    {
+      "body_count": 11,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a6.r"
+    },
+    {
+      "body_count": 10,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a7.r"
+    },
+    {
+      "body_count": 10,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a8.r"
+    },
+    {
+      "body_count": 6,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.a9.r"
+    },
+    {
+      "body_count": 349,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.t1.r"
+    },
+    {
+      "body_count": 194,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.t2.r"
+    },
+    {
+      "body_count": 194,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.ascending.unknown.t3.r"
+    },
+    {
+      "body_count": 281,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve",
+        "neuromere"
+      ],
+      "port_name": "diagnostic.descending.unknown.l"
+    },
+    {
+      "body_count": 33,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.cg.l"
+    },
+    {
+      "body_count": 4,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.dc.l"
+    },
+    {
+      "body_count": 8,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.gng.l"
+    },
+    {
+      "body_count": 206,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.lb.l"
+    },
+    {
+      "body_count": 21,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.md.l"
+    },
+    {
+      "body_count": 102,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.mx.l"
+    },
+    {
+      "body_count": 1,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.tc.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve",
+        "neuromere"
+      ],
+      "port_name": "diagnostic.descending.unknown.m"
+    },
+    {
+      "body_count": 7,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.lb.m"
+    },
+    {
+      "body_count": 1,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.md.m"
+    },
+    {
+      "body_count": 276,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve",
+        "neuromere"
+      ],
+      "port_name": "diagnostic.descending.unknown.r"
+    },
+    {
+      "body_count": 33,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.cg.r"
+    },
+    {
+      "body_count": 4,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.dc.r"
+    },
+    {
+      "body_count": 9,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.gng.r"
+    },
+    {
+      "body_count": 205,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.lb.r"
+    },
+    {
+      "body_count": 21,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.md.r"
+    },
+    {
+      "body_count": 99,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.mx.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "diagnostic",
+      "missing": [
+        "nerve"
+      ],
+      "port_name": "diagnostic.descending.unknown.tc.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "output",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "motor.vnc.abnt.ad.r"
+    },
+    {
+      "body_count": 13,
+      "direction": "input",
+      "missing": [
+        "nerve",
+        "side",
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.unknown"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "nerve",
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.unknown.mechanosensory_proprioceptive.campaniform_sensilla.unknown"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "nerve",
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.unknown.unknown_sensory.l"
+    },
+    {
+      "body_count": 193,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.gustatory.wing_bristle.l"
+    },
+    {
+      "body_count": 192,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.gustatory.wing_bristle.r"
+    },
+    {
+      "body_count": 67,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.mechanosensory_proprioceptive.campaniform_sensilla.l"
+    },
+    {
+      "body_count": 68,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.mechanosensory_proprioceptive.campaniform_sensilla.r"
+    },
+    {
+      "body_count": 9,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.mechanosensory_proprioceptive.wing.l"
+    },
+    {
+      "body_count": 10,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.mechanosensory_proprioceptive.wing.r"
+    },
+    {
+      "body_count": 178,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.mechanosensory_tactile.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 173,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.mechanosensory_tactile.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.mechanosensory_tactile.wing.r"
+    },
+    {
+      "body_count": 13,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.unknown_sensory.wing.l"
+    },
+    {
+      "body_count": 13,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.admn.unknown_sensory.wing.r"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn1.unknown_sensory.abdomen.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn2.chemosensory.abdomen.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn2.chemosensory.abdomen.r"
+    },
+    {
+      "body_count": 40,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn2.unknown_sensory.abdomen.l"
+    },
+    {
+      "body_count": 38,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn2.unknown_sensory.abdomen.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn3.chemosensory.abdomen.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn3.chemosensory.abdomen.r"
+    },
+    {
+      "body_count": 33,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn3.mechanosensory_proprioceptive.abdomen.l"
+    },
+    {
+      "body_count": 33,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn3.mechanosensory_proprioceptive.abdomen.r"
+    },
+    {
+      "body_count": 105,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn3.unknown_sensory.abdomen.l"
+    },
+    {
+      "body_count": 58,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn3.unknown_sensory.abdomen.r"
+    },
+    {
+      "body_count": 11,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn4.chemosensory.abdomen.l"
+    },
+    {
+      "body_count": 10,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn4.chemosensory.abdomen.r"
+    },
+    {
+      "body_count": 297,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn4.unknown_sensory.abdomen.l"
+    },
+    {
+      "body_count": 286,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abn4.unknown_sensory.abdomen.r"
+    },
+    {
+      "body_count": 4,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abnt.chemosensory.abdomen.l"
+    },
+    {
+      "body_count": 5,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abnt.chemosensory.abdomen.r"
+    },
+    {
+      "body_count": 95,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abnt.unknown_sensory.abdomen.l"
+    },
+    {
+      "body_count": 104,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.abnt.unknown_sensory.abdomen.r"
+    },
+    {
+      "body_count": 15,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dmetan.mechanosensory_proprioceptive.campaniform_sensilla.l"
+    },
+    {
+      "body_count": 12,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dmetan.mechanosensory_proprioceptive.campaniform_sensilla.r"
+    },
+    {
+      "body_count": 27,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dmetan.mechanosensory_proprioceptive.haltere.l"
+    },
+    {
+      "body_count": 26,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dmetan.mechanosensory_proprioceptive.haltere.r"
+    },
+    {
+      "body_count": 20,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dmetan.mechanosensory_tactile.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 19,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dmetan.mechanosensory_tactile.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dmetan.unknown_sensory.haltere.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dmetan.unknown_sensory.haltere.r"
+    },
+    {
+      "body_count": 3,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dpron.mechanosensory_proprioceptive.hair_plate.l"
+    },
+    {
+      "body_count": 3,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dpron.mechanosensory_proprioceptive.hair_plate.r"
+    },
+    {
+      "body_count": 12,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dpron.mechanosensory_tactile.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 11,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.dpron.mechanosensory_tactile.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.chemosensory.leg.l"
+    },
+    {
+      "body_count": 99,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.gustatory.leg_bristle.l"
+    },
+    {
+      "body_count": 105,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.gustatory.leg_bristle.r"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_proprioceptive.campaniform_sensilla.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_proprioceptive.campaniform_sensilla.r"
+    },
+    {
+      "body_count": 76,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_proprioceptive.chordotonal_organ.l"
+    },
+    {
+      "body_count": 79,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_proprioceptive.chordotonal_organ.r"
+    },
+    {
+      "body_count": 18,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_proprioceptive.hair_plate.l"
+    },
+    {
+      "body_count": 15,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_proprioceptive.hair_plate.r"
+    },
+    {
+      "body_count": 39,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_proprioceptive.leg.l"
+    },
+    {
+      "body_count": 44,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_proprioceptive.leg.r"
+    },
+    {
+      "body_count": 58,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_tactile.leg.l"
+    },
+    {
+      "body_count": 58,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_tactile.leg.r"
+    },
+    {
+      "body_count": 320,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_tactile.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 370,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.mechanosensory_tactile.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 44,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.unknown_sensory.leg.l"
+    },
+    {
+      "body_count": 27,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.unknown_sensory.leg.r"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.unknown_sensory.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.mesoln.unknown_sensory.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 24,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.taste_bristle.l"
+    },
+    {
+      "body_count": 38,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.taste_bristle.r"
+    },
+    {
+      "body_count": 108,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.gustatory.leg_bristle.l"
+    },
+    {
+      "body_count": 106,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.gustatory.leg_bristle.r"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_proprioceptive.campaniform_sensilla.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_proprioceptive.campaniform_sensilla.r"
+    },
+    {
+      "body_count": 89,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_proprioceptive.chordotonal_organ.l"
+    },
+    {
+      "body_count": 96,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_proprioceptive.chordotonal_organ.r"
+    },
+    {
+      "body_count": 12,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_proprioceptive.hair_plate.l"
+    },
+    {
+      "body_count": 14,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_proprioceptive.hair_plate.r"
+    },
+    {
+      "body_count": 35,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_proprioceptive.leg.l"
+    },
+    {
+      "body_count": 39,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_proprioceptive.leg.r"
+    },
+    {
+      "body_count": 39,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_tactile.leg.l"
+    },
+    {
+      "body_count": 15,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_tactile.leg.r"
+    },
+    {
+      "body_count": 355,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_tactile.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 396,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.mechanosensory_tactile.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 51,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.unknown_sensory.leg.l"
+    },
+    {
+      "body_count": 47,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.unknown_sensory.leg.r"
+    },
+    {
+      "body_count": 5,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.unknown_sensory.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.metaln.unknown_sensory.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 5,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.mechanosensory_proprioceptive.notum.l"
+    },
+    {
+      "body_count": 6,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.mechanosensory_proprioceptive.notum.r"
+    },
+    {
+      "body_count": 30,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.mechanosensory_tactile.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 20,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.mechanosensory_tactile.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 101,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.mechanosensory_tactile.notum.l"
+    },
+    {
+      "body_count": 113,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.mechanosensory_tactile.notum.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.unknown_sensory.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.unknown_sensory.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.unknown_sensory.notum.l"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.pdmn.unknown_sensory.notum.r"
+    },
+    {
+      "body_count": 17,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.prn.mechanosensory_proprioceptive.hair_plate.l"
+    },
+    {
+      "body_count": 17,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.prn.mechanosensory_proprioceptive.hair_plate.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.prn.mechanosensory_proprioceptive.neck.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.prn.unknown_sensory.neck.r"
+    },
+    {
+      "body_count": 3,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proan.mechanosensory_proprioceptive.leg.l"
+    },
+    {
+      "body_count": 5,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proan.mechanosensory_proprioceptive.leg.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proan.mechanosensory_tactile.leg.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proan.unknown_sensory.leg.l"
+    },
+    {
+      "body_count": 25,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.procn.mechanosensory_proprioceptive.chordotonal_organ.l"
+    },
+    {
+      "body_count": 8,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.procn.mechanosensory_proprioceptive.chordotonal_organ.r"
+    },
+    {
+      "body_count": 6,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.taste_bristle.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.taste_bristle.r"
+    },
+    {
+      "body_count": 11,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.chemosensory.leg.l"
+    },
+    {
+      "body_count": 8,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.chemosensory.leg.r"
+    },
+    {
+      "body_count": 134,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.gustatory.leg_bristle.l"
+    },
+    {
+      "body_count": 136,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.gustatory.leg_bristle.r"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_proprioceptive.campaniform_sensilla.l"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_proprioceptive.campaniform_sensilla.r"
+    },
+    {
+      "body_count": 20,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_proprioceptive.chordotonal_organ.l"
+    },
+    {
+      "body_count": 10,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_proprioceptive.chordotonal_organ.r"
+    },
+    {
+      "body_count": 1,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_proprioceptive.hair_plate.l"
+    },
+    {
+      "body_count": 18,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_proprioceptive.leg.l"
+    },
+    {
+      "body_count": 5,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_proprioceptive.leg.r"
+    },
+    {
+      "body_count": 27,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_tactile.leg.l"
+    },
+    {
+      "body_count": 15,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_tactile.leg.r"
+    },
+    {
+      "body_count": 124,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_tactile.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 100,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.mechanosensory_tactile.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 117,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.unknown_sensory.leg.l"
+    },
+    {
+      "body_count": 140,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.unknown_sensory.leg.r"
+    },
+    {
+      "body_count": 26,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.unknown_sensory.mechanosensory_bristle.l"
+    },
+    {
+      "body_count": 38,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.proln.unknown_sensory.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 7,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.vpron.mechanosensory_proprioceptive.hair_plate.l"
+    },
+    {
+      "body_count": 5,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.vpron.mechanosensory_proprioceptive.hair_plate.r"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.vpron.mechanosensory_proprioceptive.leg.r"
+    },
+    {
+      "body_count": 2,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.vpron.mechanosensory_tactile.mechanosensory_bristle.r"
+    },
+    {
+      "body_count": 3,
+      "direction": "input",
+      "missing": [
+        "neuromere"
+      ],
+      "port_name": "sensory.vnc.vpron.unknown_sensory.leg.r"
+    }
+  ]
+}

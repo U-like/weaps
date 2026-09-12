@@ -1,0 +1,29 @@
+{
+  "body_memberships": {
+    "diagnostic": 3160,
+    "input": 6365,
+    "output": 708
+  },
+  "candidate_port_count": 250,
+  "dataset": "male-cns:v1.0-minconf-0.5",
+  "eligible_annotation_rows": 10233,
+  "notes": [
+    "This configuration creates conservative candidate ports only from explicit official superclass labels.",
+    "Nerve identity is preferred over soma location when available.",
+    "Candidate ports are not promoted to validated until graph-path and anatomy checks pass.",
+    "No unknown neuron is coerced into a leg, wing or other body channel."
+  ],
+  "port_counts": {
+    "diagnostic": 51,
+    "input": 130,
+    "output": 69
+  },
+  "status_filtered_rows": 5,
+  "unique_body_ids": {
+    "diagnostic": 3160,
+    "input": 6365,
+    "output": 708
+  },
+  "unresolved_port_count": 182,
+  "validated_port_count": 0
+}
