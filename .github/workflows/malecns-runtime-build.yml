@@ -5,7 +5,9 @@ on:
   push:
     branches: [malecns-connectome]
     paths:
+      - 'malecns-connectome/pyproject.toml'
       - 'malecns-connectome/scripts/build_runtime_graph.py'
+      - 'malecns-connectome/scripts/validate_io_routes.py'
       - '.github/workflows/malecns-runtime-build.yml'
 
 concurrency:
@@ -98,16 +100,43 @@ jobs:
           print({'nodes': nodes.num_rows, 'edges': edge_rows})
           PY
 
-      - name: Commit compact runtime metadata checkpoint
+      - name: Validate physical sensory to descending to motor topology
+        working-directory: ${{ env.PROJECT }}
+        run: |
+          python scripts/validate_io_routes.py \
+            --nodes runtime/neurons.feather \
+            --edges runtime/edges.feather \
+            --metadata runtime/metadata.json \
+            --sensory results/io_resolved/sensory_inputs.physical-candidate.feather \
+            --motor results/io_resolved/motor_outputs.physical-candidate.feather \
+            --diagnostic results/io_candidate/diagnostic_ports.candidate.feather \
+            --output results/route_validation.json \
+            --max-hops 32
+          echo '=== ROUTE VALIDATION SUMMARY ==='
+          python - <<'PY'
+          import json
+          r = json.load(open('results/route_validation.json'))
+          print(json.dumps({
+              'targets': r['targets'],
+              'sensory_global': r['sensory_global'],
+              'confirmed_input_ports': len(r['ports']['topology_confirmed_input_ports']),
+              'unconfirmed_input_ports': r['ports']['topology_unconfirmed_input_ports'],
+          }, indent=2))
+          PY
+
+      - name: Commit compact runtime and route checkpoint
         run: |
           cp malecns-connectome/runtime/metadata.json malecns-connectome/results/runtime_metadata.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add malecns-connectome/results/runtime_metadata.json malecns-connectome/results/runtime_sources.sha256
+          git add \
+            malecns-connectome/results/runtime_metadata.json \
+            malecns-connectome/results/runtime_sources.sha256 \
+            malecns-connectome/results/route_validation.json
           if git diff --cached --quiet; then
-            echo 'No runtime metadata changes.'
+            echo 'No runtime metadata or route changes.'
           else
-            git commit -m 'results: refresh curated MaleCNS runtime metadata [skip ci]'
+            git commit -m 'results: refresh curated MaleCNS runtime route validation [skip ci]'
             git push origin HEAD:malecns-connectome
           fi
 
@@ -122,3 +151,4 @@ jobs:
             malecns-connectome/runtime/edges.feather
             malecns-connectome/runtime/metadata.json
             malecns-connectome/results/runtime_sources.sha256
+            malecns-connectome/results/route_validation.json
