@@ -5,7 +5,12 @@ on:
   push:
     branches: [malecns-connectome]
     paths:
-      - 'malecns-connectome/**'
+      - 'malecns-connectome/data/anchors.json'
+      - 'malecns-connectome/src/malecns/limb_decoder.py'
+      - 'malecns-connectome/scripts/build_anchor_features.py'
+      - 'malecns-connectome/scripts/run_limb_decoder_v2.py'
+      - 'malecns-connectome/scripts/extract_anchor_annotations.py'
+      - 'malecns-connectome/pyproject.toml'
       - '.github/workflows/malecns-limb-experiment.yml'
 
 concurrency:
