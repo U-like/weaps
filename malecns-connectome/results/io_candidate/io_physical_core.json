@@ -1,0 +1,145 @@
+{
+  "diagnostic": {
+    "neuromere_counts": {
+      "A1": 109,
+      "A10": 8,
+      "A2": 54,
+      "A3": 30,
+      "A4": 31,
+      "A5": 33,
+      "A6": 23,
+      "A7": 20,
+      "A8": 20,
+      "A9": 12,
+      "CG": 66,
+      "DC": 8,
+      "GNG": 17,
+      "LB": 418,
+      "MD": 43,
+      "MX": 201,
+      "T1": 722,
+      "T2": 390,
+      "T3": 394,
+      "TC": 2,
+      "unknown": 559
+    },
+    "rows": 3160,
+    "side_counts": {
+      "L": 1586,
+      "M": 19,
+      "R": 1555
+    },
+    "unique_bodies": 3160
+  },
+  "motor": {
+    "class_counts": {
+      "unknown": 708
+    },
+    "nerve_counts": {
+      "ADMN": 28,
+      "AbN1": 30,
+      "AbN2": 44,
+      "AbN3": 28,
+      "AbN4": 72,
+      "AbNT": 64,
+      "CvN": 4,
+      "DMetaN": 4,
+      "DProN": 28,
+      "MesoAN": 19,
+      "MesoLN": 116,
+      "MetaLN": 122,
+      "PDMNa": 16,
+      "PDMNp": 6,
+      "ProAN": 24,
+      "ProLN": 81,
+      "VProN": 22
+    },
+    "neuromere_counts": {
+      "A1": 56,
+      "A10": 10,
+      "A2": 28,
+      "A3": 22,
+      "A4": 22,
+      "A5": 16,
+      "A6": 8,
+      "A7": 6,
+      "A8": 18,
+      "A9": 21,
+      "T1": 173,
+      "T2": 175,
+      "T3": 152,
+      "unknown": 1
+    },
+    "rows": 708,
+    "side_counts": {
+      "L": 355,
+      "R": 353
+    },
+    "subclass_counts": {
+      "ad": 214,
+      "fl": 135,
+      "hl": 130,
+      "hm": 16,
+      "ml": 116,
+      "nm": 24,
+      "wm": 67,
+      "xm": 6
+    },
+    "unique_bodies": 708
+  },
+  "sensory": {
+    "class_counts": {
+      "chemosensory": 57,
+      "gustatory": 1073,
+      "mechanosensory_proprioceptive": 1030,
+      "mechanosensory_tactile": 2558,
+      "unknown": 83,
+      "unknown_sensory": 1564
+    },
+    "nerve_counts": {
+      "ADMN": 917,
+      "AbN1": 2,
+      "AbN2": 82,
+      "AbN3": 232,
+      "AbN4": 604,
+      "AbNT": 208,
+      "DMetaN": 122,
+      "DProN": 29,
+      "MesoLN": 1360,
+      "MetaLN": 1475,
+      "PDMN": 279,
+      "PrN": 36,
+      "ProAN": 10,
+      "ProCN": 33,
+      "ProLN": 942,
+      "VProN": 19,
+      "unknown": 15
+    },
+    "neuromere_counts": {
+      "unknown": 6365
+    },
+    "rows": 6365,
+    "side_counts": {
+      "L": 3185,
+      "R": 3166,
+      "unknown": 14
+    },
+    "subclass_counts": {
+      "abdomen": 1128,
+      "campaniform sensilla": 175,
+      "chordotonal organ": 403,
+      "hair plate": 112,
+      "haltere": 56,
+      "leg": 853,
+      "leg bristle": 688,
+      "mechanosensory bristle": 2206,
+      "neck": 2,
+      "notum": 227,
+      "taste bristle": 70,
+      "unknown": 14,
+      "wing": 46,
+      "wing bristle": 385
+    },
+    "unique_bodies": 6365
+  }
+}
