@@ -37,13 +37,22 @@ INTERESTING = {
     "cellTypeExitNerve",
     "v2Nerve",
     "cellTypeV2Nerve",
+    "receptorType",
 }
 
+# Direction here describes how a superclass participates in the virtual-body
+# boundary or in route diagnostics. It does not imply a dynamics/sign model.
 IO_SUPERCLASSES = {
     "vnc_sensory": "input",
+    "ol_sensory": "input",
+    "cb_sensory": "input",
     "vnc_motor": "output",
+    "cb_motor": "output",
     "ascending_neuron": "diagnostic",
     "descending_neuron": "diagnostic",
+    "sensory_ascending": "diagnostic",
+    "visual_projection": "diagnostic",
+    "visual_centrifugal": "diagnostic",
 }
 
 BREAKDOWN_FIELDS = (
@@ -59,6 +68,7 @@ BREAKDOWN_FIELDS = (
     "cellTypeExitNerve",
     "v2Nerve",
     "cellTypeV2Nerve",
+    "receptorType",
     "status",
 )
 
@@ -77,6 +87,7 @@ SAMPLE_FIELDS = (
     "cellTypeExitNerve",
     "v2Nerve",
     "cellTypeV2Nerve",
+    "receptorType",
     "status",
 )
 
@@ -156,6 +167,7 @@ def compact_summary(
         "notes": [
             "Exact counts come directly from official MaleCNS v1.0 annotations.",
             "entryNerve/exitNerve are preferred over soma location for physical body-channel mapping when present.",
+            "Head/optic sensory superclasses are audited separately before any semantic port rules are assigned.",
             "Superclass membership alone remains candidate I/O until port grouping and route validation are complete.",
         ],
     }
