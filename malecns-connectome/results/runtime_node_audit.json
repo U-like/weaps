@@ -1,0 +1,324 @@
+{
+  "source_file": "body-annotations-male-cns-v1.0-minconf-0.5.feather",
+  "rows": 211577,
+  "unique_body_ids": 211577,
+  "missing_body_id_rows": 0,
+  "status_counts": {
+    "Traced": 165122,
+    "Orphan": 15925,
+    "Glia": 11864,
+    "Unimportant": 10751,
+    "<null>": 5472,
+    "Assign": 1832,
+    "Anchor": 611
+  },
+  "superclass_counts": {
+    "ol_intrinsic": 89403,
+    "<null>": 44877,
+    "cb_intrinsic": 32164,
+    "vnc_intrinsic": 13161,
+    "visual_projection": 9201,
+    "vnc_sensory": 6370,
+    "ol_sensory": 6098,
+    "cb_sensory": 4868,
+    "ascending_neuron": 1846,
+    "descending_neuron": 1314,
+    "vnc_motor": 708,
+    "visual_centrifugal": 563,
+    "sensory_ascending": 537,
+    "cb_motor": 107,
+    "vnc_efferent": 94,
+    "cb_endocrine": 72,
+    "ENS": 50,
+    "vnc_tbc": 38,
+    "vnc_sensory_tbc": 36,
+    "vnc_endocrine": 22,
+    "cb_sensory_tbc": 14,
+    "sensory_descending": 12,
+    "efferent_ascending": 8,
+    "cb_efferent": 4,
+    "efferent_descending": 4,
+    "descending_neuron_tbc": 2,
+    "sensory_ascending_tbc": 2,
+    "visual_projection_tbc": 2
+  },
+  "status_superclass_counts": [
+    {
+      "status": "Traced",
+      "superclass": "ol_intrinsic",
+      "count": 89390
+    },
+    {
+      "status": "Traced",
+      "superclass": "cb_intrinsic",
+      "count": 32160
+    },
+    {
+      "status": "Orphan",
+      "superclass": "<null>",
+      "count": 15893
+    },
+    {
+      "status": "Traced",
+      "superclass": "vnc_intrinsic",
+      "count": 13151
+    },
+    {
+      "status": "Glia",
+      "superclass": "<null>",
+      "count": 11864
+    },
+    {
+      "status": "Unimportant",
+      "superclass": "<null>",
+      "count": 10751
+    },
+    {
+      "status": "Traced",
+      "superclass": "visual_projection",
+      "count": 9201
+    },
+    {
+      "status": "Traced",
+      "superclass": "vnc_sensory",
+      "count": 6365
+    },
+    {
+      "status": "Traced",
+      "superclass": "cb_sensory",
+      "count": 4868
+    },
+    {
+      "status": "Traced",
+      "superclass": "ol_sensory",
+      "count": 4114
+    },
+    {
+      "status": "<null>",
+      "superclass": "<null>",
+      "count": 3470
+    },
+    {
+      "status": "<null>",
+      "superclass": "ol_sensory",
+      "count": 1983
+    },
+    {
+      "status": "Traced",
+      "superclass": "ascending_neuron",
+      "count": 1846
+    },
+    {
+      "status": "Assign",
+      "superclass": "<null>",
+      "count": 1832
+    },
+    {
+      "status": "Traced",
+      "superclass": "descending_neuron",
+      "count": 1314
+    },
+    {
+      "status": "Traced",
+      "superclass": "vnc_motor",
+      "count": 708
+    },
+    {
+      "status": "Traced",
+      "superclass": "visual_centrifugal",
+      "count": 563
+    },
+    {
+      "status": "Anchor",
+      "superclass": "<null>",
+      "count": 551
+    },
+    {
+      "status": "Traced",
+      "superclass": "sensory_ascending",
+      "count": 537
+    },
+    {
+      "status": "Traced",
+      "superclass": "<null>",
+      "count": 516
+    },
+    {
+      "status": "Traced",
+      "superclass": "cb_motor",
+      "count": 107
+    },
+    {
+      "status": "Traced",
+      "superclass": "vnc_efferent",
+      "count": 94
+    },
+    {
+      "status": "Traced",
+      "superclass": "cb_endocrine",
+      "count": 72
+    },
+    {
+      "status": "Traced",
+      "superclass": "ENS",
+      "count": 47
+    },
+    {
+      "status": "Anchor",
+      "superclass": "vnc_sensory_tbc",
+      "count": 25
+    },
+    {
+      "status": "Orphan",
+      "superclass": "vnc_tbc",
+      "count": 25
+    },
+    {
+      "status": "Traced",
+      "superclass": "vnc_endocrine",
+      "count": 22
+    },
+    {
+      "status": "Traced",
+      "superclass": "sensory_descending",
+      "count": 12
+    },
+    {
+      "status": "Anchor",
+      "superclass": "vnc_tbc",
+      "count": 10
+    },
+    {
+      "status": "<null>",
+      "superclass": "ol_intrinsic",
+      "count": 9
+    },
+    {
+      "status": "Traced",
+      "superclass": "vnc_sensory_tbc",
+      "count": 9
+    },
+    {
+      "status": "Anchor",
+      "superclass": "cb_sensory_tbc",
+      "count": 8
+    },
+    {
+      "status": "Traced",
+      "superclass": "efferent_ascending",
+      "count": 8
+    },
+    {
+      "status": "Anchor",
+      "superclass": "vnc_intrinsic",
+      "count": 7
+    },
+    {
+      "status": "Traced",
+      "superclass": "cb_sensory_tbc",
+      "count": 5
+    },
+    {
+      "status": "<null>",
+      "superclass": "vnc_sensory",
+      "count": 4
+    },
+    {
+      "status": "Anchor",
+      "superclass": "cb_intrinsic",
+      "count": 4
+    },
+    {
+      "status": "Traced",
+      "superclass": "cb_efferent",
+      "count": 4
+    },
+    {
+      "status": "Traced",
+      "superclass": "efferent_descending",
+      "count": 4
+    },
+    {
+      "status": "<null>",
+      "superclass": "ENS",
+      "count": 3
+    },
+    {
+      "status": "<null>",
+      "superclass": "vnc_tbc",
+      "count": 2
+    },
+    {
+      "status": "Anchor",
+      "superclass": "descending_neuron_tbc",
+      "count": 2
+    },
+    {
+      "status": "Anchor",
+      "superclass": "ol_intrinsic",
+      "count": 2
+    },
+    {
+      "status": "Orphan",
+      "superclass": "ol_intrinsic",
+      "count": 2
+    },
+    {
+      "status": "Orphan",
+      "superclass": "vnc_intrinsic",
+      "count": 2
+    },
+    {
+      "status": "Orphan",
+      "superclass": "vnc_sensory_tbc",
+      "count": 2
+    },
+    {
+      "status": "Traced",
+      "superclass": "sensory_ascending_tbc",
+      "count": 2
+    },
+    {
+      "status": "Traced",
+      "superclass": "visual_projection_tbc",
+      "count": 2
+    },
+    {
+      "status": "<null>",
+      "superclass": "vnc_intrinsic",
+      "count": 1
+    },
+    {
+      "status": "Anchor",
+      "superclass": "ol_sensory",
+      "count": 1
+    },
+    {
+      "status": "Anchor",
+      "superclass": "vnc_sensory",
+      "count": 1
+    },
+    {
+      "status": "Orphan",
+      "superclass": "cb_sensory_tbc",
+      "count": 1
+    },
+    {
+      "status": "Traced",
+      "superclass": "vnc_tbc",
+      "count": 1
+    }
+  ],
+  "policy_counts": {
+    "all_annotated_with_body_id": 211577,
+    "status_traced": 165122,
+    "assigned_superclass": 166700,
+    "status_traced_and_assigned_superclass": 164606,
+    "assigned_superclass_excluding_explicit_glia": 166700
+  },
+  "policy_notes": {
+    "conservative_initial_runtime": "status == Traced AND superclass is assigned",
+    "broader_candidate": "superclass is assigned and explicit glia are excluded",
+    "decision_rule": "Do not finalize node policy until counts and excluded categories are reviewed; raw segmentation objects are never stateful neurons by default."
+  }
+}
