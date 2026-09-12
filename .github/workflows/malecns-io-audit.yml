@@ -12,7 +12,9 @@ on:
       - 'malecns-connectome/scripts/audit_runtime_nodes.py'
       - 'malecns-connectome/scripts/build_io_manifest.py'
       - 'malecns-connectome/scripts/summarize_io_masks.py'
+      - 'malecns-connectome/scripts/resolve_physical_ports.py'
       - 'malecns-connectome/config/io_port_rules.json'
+      - 'malecns-connectome/config/physical_channel_map.json'
       - 'malecns-connectome/tests/test_runtime_interface.py'
       - '.github/workflows/malecns-io-audit.yml'
 
@@ -57,7 +59,7 @@ jobs:
       - name: Download official Janelia annotations
         working-directory: ${{ env.PROJECT }}
         run: |
-          mkdir -p data/raw results/io_candidate
+          mkdir -p data/raw results/io_candidate results/io_resolved
           curl -L --fail --retry 3 --retry-delay 5 \
             "$DATA_BASE/$ANNOTATIONS" -o "data/raw/$ANNOTATIONS"
           sha256sum "data/raw/$ANNOTATIONS" | tee results/annotations.sha256
@@ -98,6 +100,22 @@ jobs:
           echo '=== PHYSICAL I/O CORE ==='
           cat results/io_candidate/io_physical_core.json
 
+      - name: Resolve conservative physical body channels
+        working-directory: ${{ env.PROJECT }}
+        run: |
+          python scripts/resolve_physical_ports.py \
+            --sensory results/io_candidate/sensory_inputs.candidate.feather \
+            --motor results/io_candidate/motor_outputs.candidate.feather \
+            --diagnostic results/io_candidate/diagnostic_ports.candidate.feather \
+            --map config/physical_channel_map.json \
+            --manifest results/io_resolved/io_manifest.physical-candidate.json \
+            --resolved-sensory results/io_resolved/sensory_inputs.physical-candidate.feather \
+            --resolved-motor results/io_resolved/motor_outputs.physical-candidate.feather \
+            --unresolved results/io_resolved/io_unresolved.json \
+            --summary results/io_resolved/io_physical_resolution_summary.json
+          echo '=== PHYSICAL CHANNEL RESOLUTION ==='
+          cat results/io_resolved/io_physical_resolution_summary.json
+
       - name: Commit reproducible I/O checkpoint
         run: |
           git config user.name 'github-actions[bot]'
@@ -107,18 +125,12 @@ jobs:
             malecns-connectome/results/annotation_io_summary.json \
             malecns-connectome/results/runtime_node_audit.json \
             malecns-connectome/results/annotations.sha256 \
-            malecns-connectome/results/io_candidate/io_manifest.candidate.json \
-            malecns-connectome/results/io_candidate/sensory_inputs.candidate.feather \
-            malecns-connectome/results/io_candidate/motor_outputs.candidate.feather \
-            malecns-connectome/results/io_candidate/diagnostic_ports.candidate.feather \
-            malecns-connectome/results/io_candidate/io_unknowns.json \
-            malecns-connectome/results/io_candidate/io_manifest_summary.json \
-            malecns-connectome/results/io_candidate/io_physical_summary.json \
-            malecns-connectome/results/io_candidate/io_physical_core.json
+            malecns-connectome/results/io_candidate/ \
+            malecns-connectome/results/io_resolved/
           if git diff --cached --quiet; then
             echo 'No I/O checkpoint changes.'
           else
-            git commit -m 'results: refresh MaleCNS candidate I/O masks [skip ci]'
+            git commit -m 'results: refresh MaleCNS physical I/O checkpoint [skip ci]'
             git push origin HEAD:malecns-connectome
           fi
 
@@ -126,7 +138,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: malecns-io-candidate-${{ github.sha }}
+          name: malecns-io-physical-${{ github.sha }}
           retention-days: 30
           path: |
             malecns-connectome/results/annotation_io_audit.json
@@ -134,3 +146,4 @@ jobs:
             malecns-connectome/results/runtime_node_audit.json
             malecns-connectome/results/annotations.sha256
             malecns-connectome/results/io_candidate/
+            malecns-connectome/results/io_resolved/
