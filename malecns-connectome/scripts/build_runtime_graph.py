@@ -56,10 +56,11 @@ def neuron_mask(table: pa.Table) -> pa.Array | pa.ChunkedArray:
     superclass = table["superclass"]
     assigned = pc.and_(pc.is_valid(superclass), pc.not_equal(superclass, pa.scalar("")))
     if "status" in table.column_names:
-        # Belt-and-suspenders exclusion. In v1.0 explicit Glia rows have no
-        # superclass, but never rely on that coincidence silently.
+        # Only explicit Glia is excluded. Missing status is a valid annotation
+        # state and must not erase otherwise classified neurons (notably many
+        # olfactory/sensory entries in MaleCNS v1.0).
         status = table["status"]
-        not_glia_status = pc.or_(pc.is_null(status), pc.not_equal(status, pa.scalar("Glia")))
+        not_glia_status = pc.fill_null(pc.not_equal(status, pa.scalar("Glia")), True)
         assigned = pc.and_(assigned, not_glia_status)
     return assigned
 
@@ -127,7 +128,9 @@ def build_nodes(annotations_path: str, nt_path: str | None, output_path: str) ->
     feather.write_feather(nodes, target, compression="lz4")
 
     status_counts: dict[str, int] = {}
+    status_null_count = 0
     if "status" in nodes.column_names:
+        status_null_count = int(nodes["status"].null_count)
         for item in pc.value_counts(pc.drop_null(nodes["status"])).to_pylist():
             status_counts[str(item["values"])] = int(item["counts"])
 
@@ -135,8 +138,9 @@ def build_nodes(annotations_path: str, nt_path: str | None, output_path: str) ->
         "node_count": nodes.num_rows,
         "body_id_min": int(ids_np.min()),
         "body_id_max": int(ids_np.max()),
-        "node_policy": "official superclass assigned; explicit Glia excluded",
+        "node_policy": "official superclass assigned; only explicit Glia excluded; null status retained",
         "status_counts": status_counts,
+        "status_null_count": status_null_count,
         "annotations_sha256": sha256(annotations_path),
         "neurotransmitters": nt_meta,
         "nodes_sha256": sha256(target),
@@ -280,6 +284,7 @@ def main() -> None:
         "retained_fraction": edge_meta["retained_fraction"],
         "nt_matched": node_meta["neurotransmitters"].get("matched_nodes"),
         "empty_source_batches": edge_meta["record_batches_without_curated_edges"],
+        "status_null_count": node_meta["status_null_count"],
     }, indent=2))
 
 
