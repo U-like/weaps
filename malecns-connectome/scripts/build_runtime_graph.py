@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the compact stateful MaleCNS neuron graph from official flat files.
 
-Raw MaleCNS weights contain every synaptic segment, not just neurons.  The
+Raw MaleCNS weights contain every synaptic segment, not just neurons. The
 runtime node set is induced by bodies with an assigned official ``superclass``.
 This reproduces the 166,700 annotated neuronal entries while excluding raw
 segmentation fragments and explicit glia/unclassified objects.
@@ -44,6 +44,12 @@ def body_column(names: list[str]) -> str:
     raise KeyError(f"no body ID column in {names}")
 
 
+def sum_int(array: pa.Array | pa.ChunkedArray) -> int:
+    """Return an integer sum and treat Arrow's empty/all-null sum as zero."""
+    value = pc.sum(array).as_py()
+    return 0 if value is None else int(value)
+
+
 def neuron_mask(table: pa.Table) -> pa.Array | pa.ChunkedArray:
     if "superclass" not in table.column_names:
         raise KeyError("annotations lack superclass")
@@ -73,7 +79,7 @@ def attach_neurotransmitters(nodes: pa.Table, nt_path: str | None) -> tuple[pa.T
     node_ids = nodes["body_id"].combine_chunks()
     index = pc.index_in(node_ids, value_set=nt[nt_body_col].combine_chunks())
     matched = pc.greater_equal(index, pa.scalar(0, index.type))
-    matched_count = int(pc.sum(pc.cast(matched, pa.int64())).as_py())
+    matched_count = sum_int(pc.cast(matched, pa.int64()))
 
     # ``take`` cannot use -1 as a null sentinel, so replace unmatched indexes
     # with 0, take, then apply the validity mask to every joined column.
@@ -167,6 +173,7 @@ def build_edges(weights_path: str, nodes: pa.Table, output_path: str) -> dict[st
     weight_min: int | None = None
     weight_max = 0
     batches_written = 0
+    batches_without_curated_edges = 0
 
     try:
         for i in range(reader.num_record_batches):
@@ -182,24 +189,32 @@ def build_edges(weights_path: str, nodes: pa.Table, output_path: str) -> dict[st
                 pc.greater_equal(pre_idx, pa.scalar(0, pre_idx.type)),
                 pc.greater_equal(post_idx, pa.scalar(0, post_idx.type)),
             )
-            if int(pc.sum(pc.cast(valid, pa.int64())).as_py()) == 0:
+            kept_count = sum_int(pc.cast(valid, pa.int64()))
+            if kept_count == 0:
+                batches_without_curated_edges += 1
                 continue
 
             dense_pre = pc.cast(pc.filter(pre_idx, valid), pa.uint32())
             dense_post = pc.cast(pc.filter(post_idx, valid), pa.uint32())
             kept_weight_i64 = pc.filter(weight, valid)
-            batch_min = int(pc.min(kept_weight_i64).as_py())
-            batch_max = int(pc.max(kept_weight_i64).as_py())
+            batch_min_scalar = pc.min(kept_weight_i64).as_py()
+            batch_max_scalar = pc.max(kept_weight_i64).as_py()
+            if batch_min_scalar is None or batch_max_scalar is None:
+                raise RuntimeError(f"non-empty retained batch {i} produced empty weight statistics")
+            batch_min = int(batch_min_scalar)
+            batch_max = int(batch_max_scalar)
             if batch_min < 0 or batch_max > np.iinfo(np.uint16).max:
                 raise ValueError(f"weight outside uint16 range: {batch_min}..{batch_max}")
             kept_weight = pc.cast(kept_weight_i64, pa.uint16())
 
             out = pa.record_batch([dense_pre, dense_post, kept_weight], schema=out_schema)
+            if out.num_rows != kept_count:
+                raise RuntimeError(f"filtered row mismatch in batch {i}: {out.num_rows} != {kept_count}")
             writer.write_batch(out)
             batches_written += 1
             edge_count += out.num_rows
-            self_edges += int(pc.sum(pc.cast(pc.equal(dense_pre, dense_post), pa.int64())).as_py())
-            weight_sum += int(pc.sum(pc.cast(kept_weight, pa.int64())).as_py())
+            self_edges += sum_int(pc.cast(pc.equal(dense_pre, dense_post), pa.int64()))
+            weight_sum += sum_int(pc.cast(kept_weight, pa.int64()))
             weight_min = batch_min if weight_min is None else min(weight_min, batch_min)
             weight_max = max(weight_max, batch_max)
     finally:
@@ -218,7 +233,9 @@ def build_edges(weights_path: str, nodes: pa.Table, output_path: str) -> dict[st
         "source_rows": source_rows,
         "edge_count": edge_count,
         "retained_fraction": edge_count / source_rows if source_rows else 0.0,
+        "source_record_batches": reader.num_record_batches,
         "record_batches_written": batches_written,
+        "record_batches_without_curated_edges": batches_without_curated_edges,
         "self_edges": self_edges,
         "weight_sum": weight_sum,
         "weight_min": weight_min,
@@ -262,6 +279,7 @@ def main() -> None:
         "edges": edge_meta["edge_count"],
         "retained_fraction": edge_meta["retained_fraction"],
         "nt_matched": node_meta["neurotransmitters"].get("matched_nodes"),
+        "empty_source_batches": edge_meta["record_batches_without_curated_edges"],
     }, indent=2))
 
 
