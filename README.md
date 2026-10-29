@@ -1,32 +1,14 @@
-# VideoMosaic Android
+# DirectP2P LAB (separate GitHub build branch)
 
-Portable Android project scaffold for the automatic video-sample music generator.
+This branch contains the Android + Python direct UDP P2P project as a versioned compressed source snapshot `directp2p-project.tar.xz`.
 
-## Restore in a fresh Linux x86_64 sandbox
-
-```bash
-tar -xzf videomosaic-android-portable.tar.gz
-cd videomosaic-android
-bash scripts/bootstrap_android.sh
-bash scripts/build_debug.sh
-```
-
-The bootstrap installs the Android SDK into `$HOME/.android-sdk` by default. The SDK, Gradle caches, and build outputs are intentionally excluded from the portable archive.
-
-## Important commands
+Extract the complete sources:
 
 ```bash
-bash scripts/bootstrap_android.sh          # install/repair Android CLI + SDK
-bash scripts/check_environment.sh          # verify pinned SDK packages
-bash scripts/build_debug.sh                # build app-debug.apk
-bash scripts/install_native_toolchain.sh   # optional NDK + CMake for FFmpeg/DSP
-bash scripts/package_project.sh            # portable archive without SDK/cache/build junk
+tar -xJf directp2p-project.tar.xz
+cd directp2p-lab
+python3 -m unittest discover -s tests -v
+python3 python/rendezvous.py --bind 0.0.0.0 --port 34781
 ```
 
-## Verified build
-
-GitHub Actions run `33809759072` successfully built the project from commit `43b283efcc927a0787e6ac62166d4dfac538e95d` using Android API 36, Build Tools 36.0.0, AGP 9.4.0 and Gradle 9.6.0.
-
-Debug APK: 873210 bytes, SHA-256 `7a1e0b84b09e7fd22883dcee56722ce05414d7a7980ab99f09baea80cbb15fcc`.
-
-See `docs/ENVIRONMENT.md`, `docs/HANDOFF.md`, and `PROJECT_STATE.json`.
+The `DirectP2P Android APK` GitHub Actions workflow runs both Python tests and a native Android APK build. The real game traffic travels directly between peers, never through the rendezvous server. Players do not need public IPv4, but the discovery server must be publicly UDP-reachable for cross-network matchmaking. This first prototype only supports IPv4 and cannot bypass every carrier NAT.

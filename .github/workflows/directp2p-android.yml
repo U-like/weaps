@@ -1,0 +1,43 @@
+name: DirectP2P Android APK
+on:
+  push:
+    branches: [direct-p2p-lab]
+  workflow_dispatch:
+
+jobs:
+  android:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract DirectP2P project
+        run: |
+          tar -xJf directp2p-project.tar.xz
+          test -f directp2p-lab/android/app/src/main/java/dev/directp2p/lab/P2PEngine.kt
+      - name: Python integration tests
+        run: python3 -m unittest discover -s directp2p-lab/tests -v
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - name: Install Android API 36
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager --install 'platforms;android-36' 'build-tools;36.0.0' 'platform-tools'
+      - name: Generate checked Gradle Wrapper
+        working-directory: directp2p-lab/android
+        run: bash scripts/ensure_gradle_wrapper.sh
+      - name: Build Android Debug APK
+        working-directory: directp2p-lab/android
+        run: bash gradlew --no-daemon :app:assembleDebug
+      - name: Verify APK
+        run: |
+          test -s directp2p-lab/android/app/build/outputs/apk/debug/app-debug.apk
+          sha256sum directp2p-lab/android/app/build/outputs/apk/debug/app-debug.apk
+      - name: Upload DirectP2P Android APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: DirectP2P-Android-debug
+          path: directp2p-lab/android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
